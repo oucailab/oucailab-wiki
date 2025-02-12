@@ -29,7 +29,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 ## ✨ News
-* 2025.01 金学鹏的论文被 IEEE TGRS 录用
+* 2025.01 一篇论文被 IEEE TGRS 录用
 * 2024.11 一篇论文被 IEEE GRSL 录用
 * 2024.09 一篇论文被 IEEE TGRS 录用
 * 2024.09 两篇论文被中国图象图形学报录用
