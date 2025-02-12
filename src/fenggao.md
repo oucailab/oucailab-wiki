@@ -10,7 +10,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 [微博](https://www.weibo.com/summitgao) / [谷歌学术](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/summitgao) / [知乎](https://www.zhihu.com/people/gaopursuit) / [学院主页](http://it.ouc.edu.cn/gf/main.htm) / [英文主页](https://summitgao.github.io)
 
 
-***[2024年12月更新]***
+***[2025年2月更新]***
 
 
 ## 🚩 基本信息
