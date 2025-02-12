@@ -32,7 +32,7 @@
 * 2024.07 本科生解江葳的论文被IEEE GRSL录用
 * 2024.07 一篇论文被IEEE TGRS录用
 
-
+![20250213073815](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250213073815.jpg)
 
 
 ​
