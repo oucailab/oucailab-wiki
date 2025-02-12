@@ -36,6 +36,7 @@ export default defineConfig({
   lang: "zh-CN",
   srcDir: "src",
   lastUpdated: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -43,9 +44,7 @@ export default defineConfig({
     siteTitle: "OUCAILAB",
 
     // Navbar
-    nav: [
-      { text: "Home", link: "/" },
-    ],
+    nav: [{ text: "Home", link: "/" }],
 
     // Sidebar
     sidebarMenuLabel: "菜单",
