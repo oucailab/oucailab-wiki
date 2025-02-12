@@ -1,85 +1,42 @@
-# Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
-## Syntax Highlighting
+🎯AI前沿理论组是[中国海洋大学人工智能研究院](https://ai-ouc.cn/)的一个多学科交叉研究小组，董军宇教授为总负责人。🚀课题组主要针对视觉数据（多媒体数据、自然纹理、遥感图像）进行研究，实现视觉数据高精度、高效解译及分析。
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
-**Input**
+🌈 课题组长期招收学有余力的三年级本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复⏰
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
 
-**Output**
 
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
 
-## Custom Containers
+### 🏛️ 团队成员
 
-**Input**
 
-```md
-::: info
-This is an info box.
-:::
+* 教师： [董军宇](http://it.ouc.edu.cn/djy) 教授 、 [高峰](fenggao.md) 副教授 、 [亓林](http://it.ouc.edu.cn/ql2) 博士、[甘言海]() 博士
+* 博士： 王展梁、陈万坤、张马群
+* 22级硕士：姬志豪、林俊彦、王嘉毅、程陆瑶、吴文敏、王玉芳、房召敏、冯涌帆、龙港澳
+* 23级硕士：谭力玮、李相潭、吴瑶、刘梓洋、曾怿理、董硕、刘文力、刘晟、付淼、花如壮、金学鹏、张家亮、吴淳桐、李金鑫、刘兴国
+* 24级硕士：宫传政、黄博斌、钟骋、刘召、金知霖、潘子哲、弓政、苏雪莹、田圆、李政志、杨文彬、施小雨、孔杨杨、仇靖骁
 
-::: tip
-This is a tip.
-:::
 
-::: warning
-This is a warning.
-:::
 
-::: danger
-This is a dangerous warning.
-:::
 
-::: details
-This is a details block.
-:::
-```
+### 🚩 小组动态
+* 2025.02 一篇论文被《计算机学报》录用
+* 2025.01 一篇论文被 IEEE TGRS 录用
+* 2024.11 一篇论文被 IEEE GRSL 录用
+* 2024.09 一篇论文被 IEEE TGRS 录用
+* 2024.09 两篇论文被中国图象图形学报录用
+* 2024.09 三篇论文被北航学报录用
+* 2024.08 本科生罗梒的论文被 IEEE GRSL 录用
+* 2024.07 [刘文力获得ChinaMM2024最佳学生论文奖](<https://it.ouc.edu.cn/2024/0806/c21607a480911/page.htm>)
+* 2024.07 本科生解江葳的论文被IEEE GRSL录用
+* 2024.07 一篇论文被IEEE TGRS录用
 
-**Output**
 
-::: info
-This is an info box.
-:::
 
-::: tip
-This is a tip.
-:::
 
-::: warning
-This is a warning.
-:::
+​
 
-::: danger
-This is a dangerous warning.
-:::
 
-::: details
-This is a details block.
-:::
 
-## More
 
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
