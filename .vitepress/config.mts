@@ -53,8 +53,9 @@ export default defineConfig({
       {
         text: "Welcome",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "OUC AI Lab简介", link: "/index" },
+          { text: "董军宇 教授", link: "/dongjy" },
+          { text: "高峰 副教授", link: "/fenggao" },
         ],
       },
     ],
