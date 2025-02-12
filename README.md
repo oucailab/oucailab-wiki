@@ -1,69 +1,12 @@
 # oucailab-wiki
 
+中国海洋大学人工智能研究院 AI前沿理论研究组主页（https://www.oucai.club）
+
+- 中国海洋大学信息科学与工程学部
+- 人工智能研究院（负责人：董军宇教授）
 
 
-OUCAILAB，基于 VitePress 构建的现代化文档网站。
 
-
-## 快速开始
-
-### 环境要求
-
-- [Node.js](https://nodejs.org/) >= 18
-- [npm](https://www.npmjs.com/)
-
-### 安装步骤
-
-1. 克隆仓库：
-```bash
-git clone https://github.com/oucailab/oucailab-wiki.git
-cd oucailab-wiki
-```
-
-2. 安装依赖：
-```bash
-npm install
-```
-
-### 开发与部署
-
-开发模式：
-```bash
-npm run dev
-```
-
-构建生产版本：
-```bash
-npm run build
-```
-
-预览构建结果：
-```bash
-npm run preview
-```
-
-## 项目结构
-
-```
-ITStudio-Wiki/
-├── .vitepress/          # VitePress 配置
-│   ├── config.mts       # 站点配置文件
-│   └── theme/           # 主题相关文件
-├── src/                 # 文档源文件
-│   ├── public/          # 静态资源文件
-│   └── index.md        # 首页
-└── package.json        # 项目配置文件
-```
-
-## 参与贡献
-
-我们欢迎所有形式的贡献，无论是新功能、文档改进还是问题反馈。
-
-1. Fork 本仓库
-2. 创建你的特性分支：`git checkout -b feature/YourFeature`
-3. 提交你的改动：`git commit -m 'Add some feature'`
-4. 推送到分支：`git push origin feature/YourFeature`
-5. 提交 Pull Request
 
 ## 文档编写指南
 
@@ -75,4 +18,4 @@ ITStudio-Wiki/
 
 ## 许可证
 
-本项目采用 Apache2 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+本文档采用 [CC BY-NC 4.0][] 许可协议。
