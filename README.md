@@ -1,6 +1,6 @@
 # oucailab-wiki
 
-中国海洋大学人工智能研究院 AI前沿理论研究组主页（https://www.oucai.club）
+中国海洋大学人工智能研究院 AI前沿理论研究组主页：https://www.oucai.club 
 
 - 中国海洋大学信息科学与工程学部
 - 人工智能研究院（负责人：董军宇教授）
