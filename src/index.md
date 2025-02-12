@@ -3,7 +3,7 @@
 # layout: home
 
 hero:
-  name: "OUCAILAB-WIKI"
+  name: "OUCAILAB"
   text: "OUCAILAB"
   tagline: My great project tagline
   actions:
@@ -14,12 +14,5 @@ hero:
       text: API Examples
       link: /api-examples
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+
 
