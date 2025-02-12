@@ -58,6 +58,8 @@ export default defineConfig({
           { text: "亓林 副教授", link: "/linqi" },
           { text: "甘言海 博士", link: "/ganyh" },
         ],
+      },
+      {  
         text: "课程学习",
         items: [
           { text: "软件工程原理与实践", link: "/index" },
