@@ -31,7 +31,7 @@ function getMarkdownFiles(dirPath: string): { text: string; link: string }[] {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "OUCAILAB-WIKI",
+  title: "OUC AI Lab",
   description: "MAKE OUCAILAB GREAT AGAIN",
   lang: "zh-CN",
   srcDir: "src",
@@ -40,19 +40,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     logo: "/logo.png",
-    siteTitle: "OUCAILAB-WIKI",
+    siteTitle: "OUCAILAB",
 
     // Navbar
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
     ],
 
     // Sidebar
     sidebarMenuLabel: "菜单",
     sidebar: [
       {
-        text: "Examples",
+        text: "Welcome",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
           { text: "Runtime API Examples", link: "/api-examples" },
@@ -67,7 +66,7 @@ export default defineConfig({
 
     // Footer
     footer: {
-      copyright: "Copyright © 2024  OUCAILAB",
+      copyright: "Copyright © 2024  OUC AI Lab",
     },
 
     // Last updated
