@@ -55,6 +55,13 @@ export default defineConfig({
           { text: "OUC AI Lab简介", link: "/index" },
           { text: "董军宇 教授", link: "/dongjy" },
           { text: "高峰 副教授", link: "/fenggao" },
+          { text: "亓林 副教授", link: "/linqi" },
+          { text: "甘言海 博士", link: "/ganyh" },
+        ],
+        text: "课程学习",
+        items: [
+          { text: "软件工程原理与实践", link: "/index" },
+          { text: "移动软件开发", link: "/index" },
         ],
       },
     ],
