@@ -60,17 +60,26 @@ export default defineConfig({
         ],
       },
       {  
-        text: "课程学习",
+        text: "📕 课程学习",
         items: [
           { text: "软件工程原理与实践", link: "https://gitee.com/gaopursuit/software-ouc" },
           { text: "移动软件开发", link: "https://gitee.com/gaopursuit/mobile_software" },
         ],
       },
+      {  
+        text: "🎯 科研经验",
+        items: [
+          { text: "准备开题报告", link: "/index" },
+          { text: "硕士学位论文指导", link: "/index" },
+          { text: "科研做图指导", link: "/index" },
+        ],
+      },
+
     ],
 
     // Social links
     socialLinks: [
-      { icon: "github", link: "https://github.com/oucailab/oucailab-wiki" },
+      { icon: "github", link: "https://github.com/oucailab" },
     ],
 
     // Footer
