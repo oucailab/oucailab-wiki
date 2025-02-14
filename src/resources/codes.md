@@ -6,7 +6,7 @@
 
 - **多源分类：** MSFMamba: Multi-Scale Feature Fusion State Space Model for Multi-Source Remote Sensing Image Classification  [[Code@Github](https://github.com/oucailab/MSFMamba)]
 - **变化检测：** Global and Local Attention-Based Transformer for Hyperspectral Image Change Detection [[Code@Github](https://github.com/summitgao/GLAFormer)]
-- **变化检测：** SSLChange: A Self-supervised Change Detection Framework Based on Domain Adaptation 【[Code@Github](https://github.com/MarsZhaoYT/SSLChange)】
+- **变化检测：** SSLChange: A Self-supervised Change Detection Framework Based on Domain Adaptation [[Code@Github](https://github.com/MarsZhaoYT/SSLChange)]
 
 
 
