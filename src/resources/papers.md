@@ -1,6 +1,6 @@
 # 学术论文与专利
 
-## 代表性学术论文
+## 📚 代表性学术论文
 
 ### **2025**
 1. **F. Gao**, X. Jin, X. Zhou*, J. Dong and Q. Du, "MSFMamba: Multi-Scale Feature Fusion State Space Model for Multi-Source Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10856240/>)][[Code@Github](<https://github.com/oucailab/MSFMamba>)]
@@ -54,7 +54,7 @@
 1. Y. Gao, **F. Gao\***, J. Dong and H. -C. Li, "SAR Image Change Detection Based on Multiscale Capsule Network," *IEEE Geoscience and Remote Sensing Letters*, vol. 18, no. 3, pp. 484-488, March 2021. \[[PDF](https://gaopursuit.oss-cn-beijing.aliyuncs.com/pub/grsl20%5C_SAR%5C_change%5C_detection%5C_capusule%5C_network.pdf)] \[[Code@github](https://github.com/summitgao/SAR%5C_CD%5C_MS%5C_CapsNet)] 
 1. Y. Gao, **F. Gao\***, J. Dong, Q. Du and H. -C. Li, "Synthetic Aperture Radar Image Change Detection via Siamese Adaptive Fusion Network," *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 14, pp. 10748-10760, 2021. \[[PDF](https://ieeexplore.ieee.org/document/9576639)]\[[Code@Github](https://github.com/summitgao/SAR%5C_CD%5C_SAFNet)]
 
-## 代表性专利
+## 🖼️ 代表性专利
 
 - ZL 202411424937.1 一种可用于海洋目标分析的多视角高光谱图像处理方法，亓林  吴文敏  高峰  董军宇 `【审中】`
 - ZL 202411124234.7 基于全局注意力生成对抗网络的海洋数据扩充方法，甘言海  刘兴国  陶盛恩  董军宇  高峰  周小伟  `【审中】`
@@ -69,7 +69,29 @@
 - ZL 202010056677.2 基于Gabor卷积网络的SAR图像变化检测方法，高峰  张珊  董军宇  吕越  王俊杰   `【授权】`
 - ZL 201910845085.6 基于孪生网络的SAR图像变化检测方法，高峰  高云浩  董军宇  王群   `【授权】`
 
+## 🎉 代表性奖励
 
+* 2024年，大湾区杯粤港澳AI4Science竞赛二等奖
+* 2024年，全国成像光谱对地观测学术研讨会优秀论文奖
+* 2024年，全国成像光谱对地观测学术研讨会优秀报告奖
+* 2024年，遥感青年科学家沙龙优秀报告奖
+* 2024年，中国多媒体大会（ChinaMM）最佳学生论文奖
+* 2024年，中国海洋大学本科毕设优秀指导教师
+* 2023年，硕士生林俊彦获得第七届全国成像光谱对地观测学术研讨会优秀报告奖
+* 2023年，硕士生林俊彦获得第三届中国图象图形学报研究生学术论坛突出报告奖
+* 2023年，硕士生曲晓帆获得山东省计算机学会优秀硕士学位论文奖
+* 2021年，中国海洋大学本科毕设优秀指导教师
+* 2021年，第十六届图像图形技术与应用学术会议（IGTA）论文竞赛二等奖
+* 2021年，全国水下机器人大赛（线上赛）水下光学目标智能检测赛题TOP8% （39/500）
+* 2020年，全国人工智能大赛“华为昇腾杯”AI+遥感影像赛题TOP4% （88/1732）
+* 2020年，高分遥感图像解译软件大赛“全极化SAR图像中地物要素自动分类”赛题第6名（TOP 6 / 100）
+* 2019年，ChinaMM2019“水下图像增强”技术竞赛三等奖
+* 2019年，第五届百度&西安交大大数据竞赛“遥感影像区域功能分类”赛题三等奖2项（TOP 11 / 2312）
+* 2019年，第九届“华为杯”中国大学生智能设计竞赛二等奖2项，三等奖1项
+* 2018年，第八届“华为杯”中国大学生智能设计竞赛优秀指导教师奖
+* 2018年，第八届“华为杯”中国大学生智能设计竞赛二等奖2项，三等奖2项
+* 2017年，CCF大数据与计算智能大赛（BDCI）“复杂海情和气象条件下的船只识别”赛题TOP2%
+* 2017年，CCF大数据与计算智能大赛（BDCI）“卫星影像的AI分类与识别”赛题TOP5%
 
 
 
