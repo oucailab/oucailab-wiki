@@ -45,7 +45,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 
-## 🎯 近期代表论文 【[更多论文](group/papers.md)】
+## 🎯 近期代表论文 【[更多论文](https://scholar.google.com.hk/citations?user=k91CLXQAAAAJ)】
 
 
 ### **2025**
