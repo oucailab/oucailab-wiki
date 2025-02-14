@@ -69,9 +69,9 @@ export default defineConfig({
       {  
         text: "🎯 科研经验",
         items: [
-          { text: "准备开题报告", link: "/index" },
-          { text: "硕士学位论文指导", link: "/index" },
-          { text: "科研做图指导", link: "/index" },
+          { text: "准备开题报告", link: "/research/propsal" },
+          { text: "硕士学位论文指导", link: "/research/thesis_writing" },
+          { text: "科研做图指导", link: "/research/picture" },
         ],
       },
 
