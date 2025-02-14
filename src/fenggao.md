@@ -7,7 +7,7 @@
 E-mail: <gaofeng@ouc.edu.cn>
 
 
-[微博](https://www.weibo.com/summitgao) / [谷歌学术](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/summitgao) / [知乎](https://www.zhihu.com/people/gaopursuit) / [学院主页](http://it.ouc.edu.cn/gf/main.htm) / [英文主页](https://summitgao.github.io)
+[微博](https://www.weibo.com/summitgao) / [谷歌学术](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/gaofront) / [知乎](https://www.zhihu.com/people/gaopursuit) / [学院主页](http://it.ouc.edu.cn/gf) / [英文主页](https://gaofront.github.io)
 
 
 ***[2025年2月更新]***
@@ -52,8 +52,9 @@ E-mail: <gaofeng@ouc.edu.cn>
 1. **F. Gao**, X. Jin, X. Zhou*, J. Dong and Q. Du, "MSFMamba: Multi-Scale Feature Fusion State Space Model for Multi-Source Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10856240/>)][[Code@Github](<https://github.com/oucailab/MSFMamba>)]
 1. Z. Wang, **F. Gao***, J. Dong and Q. Du, "Global and Local Attention-Based Transformer for Hyperspectral Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10766648>)][[Code@Github](<https://github.com/summitgao/GLAFormer>)]
 1. H. Dong, X. Du, Z. Li, X. Li, Z. Ma, **Feng Gao**, "Dynamic Bilinear Fusion Network for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10848167>)]
-1. 金学鹏, **高峰\***, 石晓晨, 董军宇，"针对多源遥感图像分类的门控跨模态聚合网络", *中国图象图形学报*，2024. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240359/>)]
-1. 李相潭, **高峰\***, 孙悦, 董军宇, "针对高光谱遥感图像变化检测的混合注意力和双向门控网络"， *中国图象图形学报*，2024. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240360/>)]
+1. 刘文力, **高峰\***, 张浩鹏, 董军宇, 吴淳桐，"基于通道变换和Transformer的高光谱图像变化检测方法", *计算机学报*，2025.
+1. 金学鹏, **高峰\***, 石晓晨, 董军宇，"针对多源遥感图像分类的门控跨模态聚合网络", *中国图象图形学报*，2025. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240359/>)]
+1. 李相潭, **高峰\***, 孙悦, 董军宇, "针对高光谱遥感图像变化检测的混合注意力和双向门控网络"， *中国图象图形学报*，2025. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240360/>)]
 
 
 ### **2024**
