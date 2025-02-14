@@ -62,8 +62,8 @@ export default defineConfig({
       {  
         text: "课程学习",
         items: [
-          { text: "软件工程原理与实践", link: "/index" },
-          { text: "移动软件开发", link: "/index" },
+          { text: "软件工程原理与实践", link: "https://gitee.com/gaopursuit/software-ouc" },
+          { text: "移动软件开发", link: "https://gitee.com/gaopursuit/mobile_software" },
         ],
       },
     ],
