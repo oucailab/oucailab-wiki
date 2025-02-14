@@ -60,6 +60,14 @@ export default defineConfig({
         ],
       },
       {  
+        text: "📚 成果资源",
+        items: [
+          { text: "论文&专利", link: "/resources/papers" },
+          { text: "项目&基金", link: "/resources/grants" },
+          { text: "开源成果", link: "/resources/codes" },
+        ],
+      },
+      {  
         text: "📕 课程学习",
         items: [
           { text: "软件工程原理与实践", link: "https://gitee.com/gaopursuit/software-ouc" },
