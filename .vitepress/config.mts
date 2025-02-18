@@ -68,6 +68,13 @@ export default defineConfig({
         ],
       },
       {  
+        text: "🔥 新闻与通知",
+        items: [
+          { text: "小组新闻", link: "/news/newslist" },
+          { text: "最新通知", link: "/news/notice" },
+        ],
+      },
+      {  
         text: "📕 课程学习",
         items: [
           { text: "软件工程原理与实践", link: "https://gitee.com/gaopursuit/software-ouc" },
