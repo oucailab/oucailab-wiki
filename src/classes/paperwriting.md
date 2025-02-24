@@ -14,8 +14,8 @@
 
 ## 目录
 
-- [前言](./writing/01-Intro)
-- [云端上的深度学习](./writing/02-cloud-dl)
+- [01 前言](./writing/01-Intro)
+- [02 云端上的深度学习](./writing/02-cloud-dl)
 
 
 
