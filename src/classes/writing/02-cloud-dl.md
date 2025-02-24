@@ -327,7 +327,7 @@ notebook文件通过的代码块来执行代码，同时支持通过"!<command>"
 
 
 
-```python3
+```python
 # 加载云端硬盘
 from google.colab import drive
 drive.mount('/content/drive')
