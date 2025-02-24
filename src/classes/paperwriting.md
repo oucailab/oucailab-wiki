@@ -17,3 +17,8 @@
 ## 目录
 
 [前言](./writing/01-Intro)
+
+
+## 联系我们
+
+EMAIL（gaofeng@ouc.edu.cn），通常会在12小时内回复
