@@ -79,6 +79,7 @@ export default defineConfig({
         items: [
           { text: "软件工程原理与实践", link: "https://gitee.com/gaopursuit/software-ouc" },
           { text: "移动软件开发", link: "https://gitee.com/gaopursuit/mobile_software" },
+          { text: "学术论文写作", link: "/classes/paperwriting"}
         ],
       },
       {  
