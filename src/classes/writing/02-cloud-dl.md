@@ -273,7 +273,7 @@ Colab一般配合Google Drive使用（下文会提到这一点）。因此如有
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225012654.jpg)
 
 
-直接在浏览器中输入 （https://colab.research.google.com），进入Colab的页面后点击新建笔记本即可。使用这种方法新建的笔记本时，会在云端硬盘的根目录自动创建一个叫Colab Notebook的文件夹，新创建的笔记本就保存在这个文件夹中。
+直接打开 Colab 主页，进入Colab的页面后点击新建笔记本即可。使用这种方法新建的笔记本时，会在云端硬盘的根目录自动创建一个叫Colab Notebook的文件夹，新创建的笔记本就保存在这个文件夹中。
 
 ![20250225012750](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225012750.jpg)
 
