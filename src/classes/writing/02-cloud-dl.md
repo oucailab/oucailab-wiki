@@ -320,5 +320,44 @@ Colab一般配合Google Drive使用（下文会提到这一点）。因此如有
 
 **2.2.4 执行代码块**
 
+notebook文件通过的代码块来执行代码，同时支持通过`"! <command> "`的方式来执行UNIX终端命令（比如"!ls"可以查看当前目录下的文件）。Colab已经预装了大多数常见的深度学习库，比如pytorch，tensorflow等等，如果有需要额外安装的库可以通过`"! pip3 install <package>"`命令来安装。下面是一些常见的命令。
+
+```
+# 加载云端硬盘
+from google.colab import drive
+drive.mount('/content/drive')
+
+# 查看分配到的GPU
+gpu_info = !nvidia-smi
+gpu_info = '\n'.join(gpu_info)
+if gpu_info.find('failed') >= 0:
+  print('Not connected to a GPU')
+else:
+  print(gpu_info)
+
+# 安装python包
+!pip3 install <package>
+```
+
+
+
+点击“播放”按钮执行代码块。代码块开始执行后，按钮就会进入转圈的状态，表示“正在执行”，外部的圆圈是实线。如果在有代码块执行的情况下继续点击其他代码块的“播放”按钮，则这些代码块进入“等待执行”的状态，按钮也会进入转圈的状态，但外部的圆圈是虚线。在当前代码块结束后，会之前按照点击的顺序依次执行这些代码块。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013415.jpg)
+
+** 2.2.5 设置笔记本的运行时类型**
+
+笔记本在打开时的默认硬件加速器是None，运行规格是标准。在深度学习中，我们希望使用GPU来训练模型，同时如果购买了pro，我们希望使用高内存模式。点击代码执行程序，然后点击“更改运行时类型即可”。由于免费的用户所能使用的GPU运行时有限，因此建议在模型训练结束后调回None模式或直接结束会话。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013452.jpg)
+
+如果希望主动断开代码执行程序，则点击代码执行程序后选择“断开连接并删除运行时”即可。
+
+** 2.2.6 管理会话Session**
+
+当前连接到代码执行程序的笔记本会成为一个会话，通过点击“管理会话”即可查看当前的所有会话，点击“终止”即可断开代码执行程序。用户所能连接的会话数量是有限的，因此到达上限时再开启新会话需要主动断开之前的会话。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013556.jpg)
+
 
 
