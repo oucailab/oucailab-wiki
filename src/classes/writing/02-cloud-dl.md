@@ -273,9 +273,53 @@ Colab一般配合Google Drive使用（下文会提到这一点）。因此如有
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225012654.jpg)
 
 
-直接打开 Colab 主页，进入Colab的页面后点击新建笔记本即可。使用这种方法新建的笔记本时，会在云端硬盘的根目录自动创建一个叫Colab Notebook的文件夹，新创建的笔记本就保存在这个文件夹中。
+直接在浏览器中输入 （https://colab.research.google.com），进入Colab的页面后点击新建笔记本即可。使用这种方法新建的笔记本时，会在云端硬盘的根目录自动创建一个叫Colab Notebook的文件夹，新创建的笔记本就保存在这个文件夹中。
 
 ![20250225012750](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225012750.jpg)
 
+**2.2.2 载入笔记本**
 
+可以打开云端硬盘中的已经存在的笔记本，还可以从Github中导入笔记本。如果关联了Github账户，可以选择一个账户中的Project，如果其中有ipynb文件就可以在Colab中打开。注意：关联Github不是把Github中的项目文件夹加载到实例空间！
+
+![20250225012919](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225012919.jpg)
+
+![20250225012937](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225012937.jpg)
+
+**2.2.3 笔记本界面**
+
+![20250225013144](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013144.jpg)
+
+
+
+**标题**：笔记本的名称
+
+**代码块**：分块执行的代码
+
+**文件浏览**：Colab为笔记本分配的实例空间
+
+**代码执行程序**：用于执行笔记本程序的服务器
+
+**代码段**：常用的代码段，比如装载云端硬盘
+
+**命令面板**：常用的命令，比如查找/替换
+
+**终端**：文件浏览下的终端（非常卡，不建议使用）
+
+连接代码执行程序
+
+点击连接按钮即可在5s左右的时间内连接到代码执行程序并分配实例空间，此时可以看到消耗的RAM和磁盘
+
+**RAM**：虚拟机运行内存，更大内存意味着更大的算力（之后会在Colab Pro中介绍）
+
+**磁盘**：虚拟机文件的储存空间，要注意的是购买GoogleDrive的存储空间不能增加实例空间内可用的磁盘空间
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013225.jpg)
+
+在打开笔记本后，我们默认的文件路径是*"/content"*，这个路径也是执行笔记本时的路径，同时我们一般把用到的各种文件也保存在这个路径下。在点击*".."*后即可返回查看根目录*"/"*（如下图），可以看到根目录中保存的是一些虚拟机的环境变量和预装的库等等。不要随意修改根目录中的内容，以避免运行出错，我们所有的操作都应在*"/content"*中进行。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013301.jpg)
+
+**2.2.4 执行代码块**
+
+notebook文件通过的代码块来执行代码，同时支持通过"!<command>"的方式来执行UNIX终端命令（比如"!ls"可以查看当前目录下的文件）。Colab已经预装了大多数常见的深度学习库，比如pytorch，tensorflow等等，如果有需要额外安装的库可以通过"!pip3 install <package>"命令来安装。下面是一些常见的命令。
 
