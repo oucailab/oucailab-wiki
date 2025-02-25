@@ -162,6 +162,38 @@ else:
 model = Net().to(device)
 ```
 
+在处理训练和测试函数的循环时，可以将训练和测试数据移动到设备上。我们还需要更新函数以接收设备作为输入，并在主函数的循环中调用函数时包含设备。
+
+```
+def train(args, model, train_loader, optimizer, epoch, device):
+    model.train()
+    for batch_idx, (data, target) in enumerate(train_loader):
+        data, target = data.to(device), target.to(device)
+        ……
+def test(model, test_loader, device):
+    model.eval()
+    test_loss = 0
+    correct = 0
+    with torch.no_grad():
+        for data, target in test_loader:
+            data, target = data.to(device), target.to(device)
+            ……
+def main():
+    ……
+    for epoch in range(1, args.epochs + 1):
+        t0 = time.time()
+        train(args, model, train_loader, optimizer, epoch, device)
+        t_diff = time.time() - t0
+        print(f"Elapsed time is {t_diff}")
+        test_loss, test_acc = test(model, test_loader, device)
+        scheduler.step()
+        wandb.log({"test_loss": test_loss, "test_acc": test_acc, "time_taken": t_diff}, step=epoch)
+    ……
+```
+
+
+
+现在我们使用了GPU，代码运行速度比以前快得多，每个epoch应该大约需要10秒钟来运行。
 
 
 
