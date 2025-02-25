@@ -320,5 +320,5 @@ Colab一般配合Google Drive使用（下文会提到这一点）。因此如有
 
 **2.2.4 执行代码块**
 
-notebook文件通过的代码块来执行代码，同时支持通过"! <command> "的方式来执行UNIX终端命令（比如"!ls"可以查看当前目录下的文件）。Colab已经预装了大多数常见的深度学习库，比如pytorch，tensorflow等等，如果有需要额外安装的库可以通过"! pip3 install <package>"命令来安装。下面是一些常见的命令。
+
 
