@@ -171,7 +171,7 @@ def train(args, model, train_loader, optimizer, epoch, device):
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.to(device), target.to(device)
-        ...
+        ……
 def test(model, test_loader, device):
     model.eval()
     test_loss = 0
@@ -179,9 +179,9 @@ def test(model, test_loader, device):
     with torch.no_grad():
         for data, target in test_loader:
             data, target = data.to(device), target.to(device)
-            ...
+            ……
 def main():
-    ...
+    ……
     for epoch in range(1, args.epochs + 1):
         t0 = time.time()
         train(args, model, train_loader, optimizer, epoch, device)
@@ -190,7 +190,7 @@ def main():
         test_loss, test_acc = test(model, test_loader, device)
         scheduler.step()
         wandb.log({"test_loss": test_loss, "test_acc": test_acc, "time_taken": t_diff}, step=epoch)
-    ...
+    ……
 ```
 
 
