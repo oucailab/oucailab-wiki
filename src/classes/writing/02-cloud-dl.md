@@ -360,4 +360,281 @@ else:
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013556.jpg)
 
 
+### 2.3 Colab的重要特性
 
+我们需要进一步了解Colab平台的一些重要特性和使用Colab训练模型时的一些策略。
+
+** 2.3.1 资源使用的限制**
+
+Google Colab为用户提供免费的GPU，因此资源的使用必然会受到限制，这一点即使是Colab Pro+用户也不例外，而且这种限制无处不在。
+
+**有限的实例空间：** 实例空间的内存和磁盘都是有限制的，如果模型训练的过程中超过了内存或磁盘的限制，那么程序运行就会中断并报错。实例空间内的文件保存不是永久的，当代码执行程序被断开时，实例空间内的所有资源都会被释放（我们在*"/content"*目录下上传的文件也会全部消失）。
+
+**有限的连接时间**：笔记本连接到代码执行程序的时长是有限制的，这体现在三个方面：如果关闭浏览器，代码执行程序会在短时间内断开而不是在后台继续执行（这个“短时间”大概在几分钟左右，如果只是切换一下wifi之类的操作不会产生任何影响）；如果空闲状态过长（无互动操作或正在执行的代码块），则会立即断开连接；如果连接时长到达上限（免费用户最长连接12小时），也会立刻断开连接。
+
+**有限的GPU运行时**：无论是免费用户还是colab pro用户，每天所能使用的GPU运行时间都是有限的。到达时间上限后，使用GPU的代码执行程序将被立刻断开且用户将被限制在当天继续使用任何形式的GPU。在这种情况下我们只能等待第二天重置。
+
+**频繁的互动检测**：当一段时间没有检测到活动时，Colab就会进行互动检测，如果长时间不点击人机身份验证，代码执行程序就会断开。此外，如果频繁地断开和连接代码执行程序，也会出现人机身份验证。
+
+**有限的会话数量**：用户所能开启的会话数量都是有限的，免费用户只能开启1个会话，Pro用户则可以开启多个会话。不同的用户可以在一个笔记本上可以进行多个会话，但只能有一个会话执行代码块。如果某个代码块已经开始执行，另一个用户连接到笔记本的会话会显示“忙碌状态”，需要等待代码块执行完后才能执行其他的代码块。注意：掉线重连、切换网络、刷新页面等操作也会使笔记本进入“忙碌状态”。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013740.png)
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225013813.jpg)
+
+**2.3.2 如何合理使用资源**
+
+1. 将训练过后的模型日志和其他重要的文件保存到谷歌云盘，而不是本地的实例空间
+2. 运行的代码必须支持“断点续传”能力，简单来说就是必须定义checkpoint相关功能的函数；假设训练完第n个epoch后掉线，模型能够从第n+1个epoch继续训练而不必从头开始
+3. 仅在模型训练时开启GPU模式，在构建模型或其他非必要情况下一律使用None模式
+4. 尽量在网络稳定的情况下开始训练，每隔一段时间查看一下训练的情况
+5. 注册多个免费的谷歌账号；如果本地的显卡也可以训练，交替使用本地电脑和Colab
+
+
+
+### 2.4 Colab的项目组织
+
+**加载数据集**
+
+在深度学习中，我们常常需要加载超大量的数据集，如何在Colab上快速加载这些数据？
+
+1. 将整个数据集从本地上传到实例空间：理论可行但实际不可取。经过作者实测，无论是上传压缩包还是文件夹，这种方法都非常的浪费时间，对于较大的数据集不具备可操作性。
+
+2. 将整个数据集上传到谷歌云盘，挂载谷歌云盘的之后直接读取云盘内的数据集。理论可行但风险较大。根据谷歌的说明，Colab读取云盘的I/O次数也是有限制的，太琐碎的I/O会导致出现“配额限制”。而且云盘的读取效率也低于直接读取实例空间中的数据的效率。
+
+3. 将数据集以压缩包形式上传到谷歌云盘，然后解压到Colab实例空间。实测可行。挂载云盘不消耗时间，解压所需的时间远远小于上传数据集的时间。此外，由于实例空间会定期释放，因此模型训练完成后的日志也应该储存在谷歌云盘上。综上所述，谷歌云盘是使用Colab必不可少的一环，由于免费的云盘只有15个G，因此建议至少拓展到基本版。
+
+
+
+**运行简单的项目**
+
+如果项目中只有几个轻量的模块，也不打算使用git进行版本管理，则直接将这些模块上传到实例空间即可
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225014328.jpg)
+
+**运行Github项目**
+
+Colab的基本运行单位是Jupyter Notebook，如何在一个notebook上运行一整个复杂的Github项目呢？
+
+首先创建多个笔记本来对应多个py模块是不行的，因为不同的笔记本会对应不同实例空间，而同一个项目的不同模块应放在同一个实例空间中。为解决这个问题，可以考虑以下几种方法。
+
+1. 克隆git仓库到实例空间或云盘，通过脚本的方式直接执行项目的主程序。
+
+```python
+# 克隆仓库到/content/my-repo目录下
+!git clone https://github.com/my-github-username/my-git-repo.git 
+%cd my-git-repo
+!./train.py --logdir /my/log/path --data_root /my/data/root --resume
+```
+
+2. 克隆git仓库到实例空间或云盘，把主程序中的代码用函数封装，然后在notebook中调用这些函数
+
+```
+from train import my_training_method
+my_training_method(arg1, arg2, ...)
+```
+
+3. 克隆git仓库到实例空间或云盘，把原来的主程序模块直接复制到笔记本中。类似于第二种方法，需要将git仓库路径添加到系统路径，否则会找不到导入的模块。
+
+
+### 2.5 Colab Pro / Pro+
+
+由于谷歌只给出了不同会员的大致功能区别而没有给出详细参数的区别，我把我个人测试的结果放在下方供大家参考。三种配置下的标准RAM都是12GB，因此没有列出。
+
+**RAM - 磁盘**
+
+| 高RAM | 磁盘 | 后台运行 |      |
+| ----- | ---- | -------- | ---- |
+| 免费  | ❌    | 66GB?    | ❌    |
+| Pro   | 25GB | 166GB    | ❌    |
+| Pro+  | 52GB | 225GB    | ✅    |
+
+把所有账号都升级成PRO以后，现在反而不知道免费版的磁盘大小是多少了……
+
+
+
+**GPU模式下会话数量**
+
+| 标准RAM | 高RAM | 后台运行 |                    |
+| ------- | ----- | -------- | ------------------ |
+| 免费    | 1     | ❌        | ❌                  |
+| Pro     | 2     | 1        | ❌                  |
+| Pro+    | 3     | 3        | 1-2（与高RAM无关） |
+
+注意：高RAM会话的计算速度大致是标准RAM会话的 **两倍**
+
+
+
+**使用Pro/Pro+的个人感受**
+
+免费版没有高RAM，且需要频繁地互动否则会掉线，我用了很少的时间就升级了，因此个人的体验不是很多
+
+Pro增加了一个高RAM会话和标准会话，和免费版比相当于算力翻了4倍，效率有了飞跃式提升，而且最大连接时长到了24小时，最大闲置时长也增加了不少，磁盘空间的拓展倒是基本用不上
+
+Pro+增加到了3个高RAM会话和3个标准会话，在Pro基础上又翻了2.5倍，相当于免费版算力的9倍，Pro+的52GB的高RAM和Pro的25GB的高RAM相比也略有提升（10分钟左右的epoch能快2分钟）。此外还多了后台运行功能，但是在后台运行的笔记本最多只能存在1-2个。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225014716.jpg)
+
+即使是Pro/Pro+也要受到连接时长的限制，如果多个会话从早上开始不间断地进行训练，到了第二天凌晨Colab就会提示使用限额，这时一般需要等到下午1点左右才会重置。
+
+我们再对比一下不同方案的价格。
+
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250225014746.jpg)
+
+可以看到Pro+比起Pro贵了4倍但是算力却只提升了2.5倍左右，也就是说如果不怕麻烦，也不依赖后台功能的话多，多买几个Pro性价比是高于Pro+的。如果不想在多个账号间来回切换或者比较喜欢能够在关闭浏览器情况下后台运行的话，Pro+也是不错的选择。
+
+最后说几个支付相关的细节，首先只要在谷歌账户绑定银行卡就能付款，留学生一般有国外银行卡比如MasterCard等。如果买了Pro之后再买Pro+，中间的差价会退还，不用担心重复购买的问题。
+
+综上，我个人认为性价比较高的组合是：**每月2欧的谷歌云盘 + 每月9欧的ColabPro。**
+
+
+
+### 2.5 补充内容
+
+**如何让代码有“断点续传”的能力**
+
+由于Colab随时有可能断开连接，在Colab上训练模型的代码必须要有可恢复性（能载入上一次训练的结果）。我把两个分别实现保存和加载checkpoint的函数附在下方，给大家作参考（基于pytorch）。
+
+```python
+def save_checkpoint(path: Text,
+                    epoch: int,
+                    modules: Union[nn.Module, Sequence[nn.Module]],
+                    optimizers: Union[opt.Optimizer, Sequence[opt.Optimizer]],
+                    safe_replacement: bool = True):
+    """
+    Save a checkpoint of the current state of the training, so it can be resumed.
+    This checkpointing function assumes that there are no learning rate schedulers or gradient scalers for automatic
+    mixed precision.
+    :param path:
+        Path for your checkpoint file
+    :param epoch:
+        Current (completed) epoch
+    :param modules:
+        nn.Module containing the model or a list of nn.Module objects
+    :param optimizers:
+        Optimizer or list of optimizers
+    :param safe_replacement:
+        Keep old checkpoint until the new one has been completed
+    :return:
+    """
+
+    # This function can be called both as
+    # save_checkpoint('/my/checkpoint/path.pth', my_epoch, my_module, my_opt)
+    # or
+    # save_checkpoint('/my/checkpoint/path.pth', my_epoch, [my_module1, my_module2], [my_opt1, my_opt2])
+    if isinstance(modules, nn.Module):
+        modules = [modules]
+    if isinstance(optimizers, opt.Optimizer):
+        optimizers = [optimizers]
+ 
+    # Data dictionary to be saved
+    data = {
+        'epoch': epoch,
+        # Current time (UNIX timestamp)
+        'time': time.time(),
+        # State dict for all the modules
+        'modules': [m.state_dict() for m in modules],
+        # State dict for all the optimizers
+        'optimizers': [o.state_dict() for o in optimizers]
+    }
+
+    # Safe replacement of old checkpoint
+    temp_file = None
+    if os.path.exists(path) and safe_replacement:
+        # There's an old checkpoint. Rename it!
+        temp_file = path + '.old'
+        os.rename(path, temp_file)
+
+    # Save the new checkpoint
+    with open(path, 'wb') as fp:
+        torch.save(data, fp)
+        # Flush and sync the FS
+        fp.flush()
+        os.fsync(fp.fileno())
+
+    # Remove the old checkpoint
+    if temp_file is not None:
+        os.unlink(path + '.old')
+
+
+def load_checkpoint(path: Text,
+                    default_epoch: int,
+                    modules: Union[nn.Module, Sequence[nn.Module]],
+                    optimizers: Union[opt.Optimizer, Sequence[opt.Optimizer]],
+                    verbose: bool = True):
+    """
+    Try to load a checkpoint to resume the training.
+    :param path:
+        Path for your checkpoint file
+    :param default_epoch:
+        Initial value for "epoch" (in case there are not snapshots)
+    :param modules:
+        nn.Module containing the model or a list of nn.Module objects. They are assumed to stay on the same device
+    :param optimizers:
+        Optimizer or list of optimizers
+    :param verbose:
+        Verbose mode
+    :return:
+        Next epoch
+    """
+    if isinstance(modules, nn.Module):
+        modules = [modules]
+    if isinstance(optimizers, opt.Optimizer):
+        optimizers = [optimizers]
+
+    # If there's a checkpoint
+    if os.path.exists(path):
+        # Load data
+        data = torch.load(path, map_location=next(modules[0].parameters()).device)
+
+        # Inform the user that we are loading the checkpoint
+        if verbose:
+            print(f"Loaded checkpoint saved at {datetime.fromtimestamp(data['time']).strftime('%Y-%m-%d %H:%M:%S')}. "
+                  f"Resuming from epoch {data['epoch']}")
+
+        # Load state for all the modules
+        for i, m in enumerate(modules):
+            modules[i].load_state_dict(data['modules'][i])
+
+        # Load state for all the optimizers
+        for i, o in enumerate(optimizers):
+            optimizers[i].load_state_dict(data['optimizers'][i])
+
+        # Next epoch
+        return data['epoch'] + 1
+    else:
+        return default_epoch
+```
+
+在主程序train.py正式开始训练前，添加下面的语句：
+
+```python
+if args.resume: # args.resume是命令行输入的参数，用于指示要不要加载上次训练的结果
+    first_epoch = load_checkpoint(checkpoint_path, first_epoch, net_list, optims_list)
+```
+
+在每个epoch训练结束后，保存checkpoint：
+
+```python
+ # Save checkpoint
+ save_checkpoint(checkpoint_path, epoch, net_list, optims_list)
+```
+
+net_list是需要保存的网络列表，optims_list是需要保存的优化器列表
+
+这里没有记录scheduler的列表，如果代码里用到了scheduler，那也要保存scheduler的列表。
+
+**如果分到了Tesla T4怎么办**
+
+开启了Pro/Pro+的会员，大概率会分到P100，如果不幸分到了Tesla T4而且马上要进行高强度的训练，那只能选择反复地刷显卡。具体方法为断开运行时后再连接，不断重复直到刷出P100为止。常用的玄学方案是先切到标准RAM刷几次，刷出P100后切回高RAM。
+
+这个过程可能很无聊，但是因为P100的训练速度是Tesla T4的2倍多，多花三十分钟刷一个P100出来可能会节省之后的十几个小时（实际上要不了三十分钟，一般五六分钟就刷出来了）。
+
+**如何使用Tensorboard**
+
+Tensorboard是一种数据可视化的工具，在Notebook中可以使用下述代码来启动。
+
+```python
+%reload_ext tensorboard
+%tensorboard --logdir "pathoflogfile"
+```
