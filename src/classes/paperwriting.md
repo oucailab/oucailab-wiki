@@ -17,6 +17,7 @@
 - [01 前言](./writing/01-Intro)
 - [02 云端上的深度学习](./writing/02-cloud-dl)
 - [03 如何阅读人工智能研究论文](./writing/03-howtoread)
+- [04 使用豆包高效的阅读论文](./writing/04-aireading)
 
 
 ## 联系我们
