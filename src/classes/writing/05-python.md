@@ -19,7 +19,7 @@
 
 3.安装Conda https://blog.csdn.net/Q_fairy/article/details/129158178
 
-4.[换源下载库](./conda-pip换源.txt)
+4.[换源下载库](https://raw.githubusercontent.com/WengLean/hands-on-research-tutorial/refs/heads/main/chapters/chapter2/conda-pip%E6%8D%A2%E6%BA%90.txt)
 
 ### 1.识别手部关节
 
@@ -27,11 +27,11 @@
 
 step1: 打开conda
 
-<img src="img/open_anaconda_prompt.png" style="zoom:60%;" />
+![20250226113836](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226113836.jpg)
 
 step2:新建环境
 
-<img src="img/create_new_env.png" style="zoom:60%;" />
+![20250226113854](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226113854.jpg)
 
 `conda create -n demo3.8 python=3.8`
 
@@ -49,11 +49,11 @@ step4:运行程序
 
 确保当前目录下demo.py
 
-<img src="img/run_demo.png" style="zoom:60%;" />
+![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226113912.jpg)
 
 运行结果
 
-<img src="img/opencv_demo_result.png" style="zoom:40%;" />
+![20250226113930](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226113930.jpg)
 
 接下来你可以根据代码内容，逐一去理解每一行代码有什么用。记住，善于借助AI分析代码，大大提高效率。
 
@@ -61,25 +61,21 @@ step4:运行程序
 
 好的，接下来，在 VSCode 上打开一个新项目。
 
-![](img/1_vscode.png)
+![20250226113953](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226113953.jpg)
 
 
 
 我们将使用选项"Clone Git Repository"，克隆 git 存储库。输入https://gitee.com/wenglean/python-practice.git
 
-![image-20240520135502650](img/1_vscode_2.png)
+![20250226114012](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226114012.jpg)
 
 选择某个文件夹地址进行保存，并点击Open.
 
-![](img/1_vscode_3.png)
-
-就能看到以下代码。
-
-![](img/1_vscode_4.png)
+![20250226114025](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226114025.jpg)
 
 点击运行代码
 
-![](img/1_vscode_run.png)
+![20250226114046](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226114046.jpg)
 
 **总结：**
 
@@ -119,7 +115,7 @@ if __name__ == "__main__":
 
 打开[通义 (aliyun.com)](https://tongyi.aliyun.com/qianwen/) ， 复制上面的代码块，到聊天框，并加一些指令，比如"逐行解释这段代码"，结果如下图所示。
 
-![](img/2_debug_search.png)
+![20250226115025](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226115025.jpg)
 
 我们根据他的回答，可以知道这是一段要计算一个列表元素和的代码。
 
@@ -153,19 +149,20 @@ IndexError: list index out of range
 
 首先添加断点
 
-![](img/2_debug_7.png)
+![20250226115039](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226115039.jpg)
 
 接下来，选择debug模式启动代码，步骤如下。
 
-![](img/2_debug_4.png)
+![20250226115054](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226115054.jpg)
 
-![](img/2_debug_5.png)
+![20250226115105](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226115105.jpg)
 
-![](img/2_debug_6.png)
+![20250226115122](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226115122.jpg)
+
 
 选择一个python.exe，便成功启动debug模式。
 
-![](img/2_debug_8.png)
+![20250226115134](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226115134.jpg)
 
 我们注意主要关注这三个区域。首先是变量区域，其实是代码中黄色区域的提示，最后是上方的控制代码执行按钮。到目前为止，我们已经做了什么？可以参考下面这张图，能更好的理解我们做了什么。假设目前代码是由多个代码块组成，并且正常执行，即简单的顺序从左到右执行，直接输出最终结果。那么我们在这里的操作是断点执行，我们添加了一个断点，并且启动，代码就执行到我们的断点位置，就停止不动了。我们能通过左侧的变量区域查看中间的结果，比如，a变量存储了一个list：[0, 1, 2, 3, 4, 5, 6]，i此刻为0，sum此刻为0
 
