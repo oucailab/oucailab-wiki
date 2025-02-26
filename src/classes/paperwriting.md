@@ -18,6 +18,7 @@
 - [02 云端上的深度学习](./writing/02-cloud-dl)
 - [03 如何阅读人工智能研究论文](./writing/03-howtoread)
 - [04 使用AI工具高效的阅读论文](./writing/04-aireading)
+- [05 掌握python的工作流程](./writing/05-python)
 
 
 ## 联系我们
