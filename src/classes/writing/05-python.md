@@ -166,11 +166,12 @@ IndexError: list index out of range
 
 我们注意主要关注这三个区域。首先是变量区域，其实是代码中黄色区域的提示，最后是上方的控制代码执行按钮。到目前为止，我们已经做了什么？可以参考下面这张图，能更好的理解我们做了什么。假设目前代码是由多个代码块组成，并且正常执行，即简单的顺序从左到右执行，直接输出最终结果。那么我们在这里的操作是断点执行，我们添加了一个断点，并且启动，代码就执行到我们的断点位置，就停止不动了。我们能通过左侧的变量区域查看中间的结果，比如，a变量存储了一个list：[0, 1, 2, 3, 4, 5, 6]，i此刻为0，sum此刻为0
 
-![](img/2_debug_3.png)
+
+![20250226125135](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125135.jpg)
 
 接下来就是需要通过上方点击特定按钮，人为地控制代码执行。有多种不同的选择。鼠标放上去会有提示，具体功能如下表。
 
-![](img/2_debug_9.png)
+![20250226125154](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125154.jpg)
 
 | 继续 / 暂停 Continue F5    | 继续：恢复程序/脚本的正常执行（直到下一个断点）。 暂停：检查当前行的代码并逐行调试。 |
 | -------------------------- | ------------------------------------------------------------ |
@@ -202,27 +203,27 @@ IndexError: list index out of range
 
    1. 按 F10，可以看到，程序执行了第5五行，并且继续执行，由于是一个循环，并且循环还没结束，代码回到了第四行，准备执行第四行。我们此刻观察左边变量值，发现，sum还是0，原因在图中解释了。
 
-   ![](img/2_debug_11.png)
+![20250226125337](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125337.jpg)
 
-   2. 继续按F10，结果如下，此刻i = 1, sum = 0。记住目前这个变量值，下一步就用到了。
+      2. 继续按F10，结果如下，此刻i = 1, sum = 0。记住目前这个变量值，下一步就用到了。
 
-   ![](img/2_debug_12.png)
+![20250226125346](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125346.jpg)
 
    3.继续按F10，我们会发现如下的结果。sum 的值更新了，为1。为什么？因为代码执行了第5行，并且此刻停在了第4行。执行的第5行代码是，sum = sum + a[i]。关注等号右边的计算过程，根据第2步可以，可以发现i = 1， sum=0。所以此刻a[1] = 1（注意下标是从0开始的，即a[0]代表第一个元素0），因此sum +a[1] = 1，代码并将右边计算出的结果1，赋值给左边sum，因此发生了更新。
 
-![](img/2_debug_13.png)
+![20250226125356](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125356.jpg)
 
 看样子第5行也没有问题，能正常执行，但是为什么还是会报错呢？别着急，请继续点击F10让其继续执行。中间步骤我就不写了，直到运行到如下变量值。i = 7, 此时，sum=21，并且代码即将执行第五行。
 
-![](img/2_debug_14.png)
+![20250226125407](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125407.jpg)
 
 我们继续点击F10，看看会发生什么？
 
-![](img/2_debug_15.png)
+![20250226125418](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125418.jpg)
 
 我们发现报错了，这里的错误就是我们一开始在输出结果时看到的错误。直到这里，我们终于能够更加清楚的直到为什么代码会出错了。是由于i = 7，在计算机查询a[7]的值时发生了错误。错误类型为IndexError：list index out of range.如果看不懂这个意思，可以再通过百度或者大模型去询问这个问题应该怎么解决。其实在这里，他就给出了一个解决方案，就是将循环的语句改为：`for i in range(len(a))`
 
-![](img/2_debug_search.png)
+![20250226125431](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125431.jpg)
 
 我们根据提示修改代码如下：
 
@@ -236,7 +237,7 @@ if __name__ == "__main__":
 
 将这个代码复制到VScode上，执行，发现现在代码就没有bug，顺利的执行了这个求和的功能。
 
-![](img/2_debug_16.png)
+![20250226125447](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125447.jpg)
 
 #### step4 Print/log调试(可选调试方法之一)
 
@@ -256,7 +257,7 @@ if __name__ == "__main__":
 
 执行代码会输出下面这些结果：
 
-![](img/2_debug_17.png)
+![20250226125501](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125501.jpg)
 
 这回我们不用自己一次一次的点击鼠标，我们看到当i=7的时候，出现了这个问题，也是能够告诉我们，实际上就是index大于了数组的长度，使得报错了。
 
@@ -266,7 +267,7 @@ if __name__ == "__main__":
 
 至此，我们回顾一下我们完成了什么事？我们把远程的代码拉了下来，经过代码调试，我们终于把代码改好跑通了。但是，这难道就结束了吗？并不是，如果是自己一个人的代码当然没问题，因为代码永远只有自己一个人看。但是假如这个代码是一起协作完成的，该怎么将自己的修改提交到远程的，让别人也能同步你的修改呢？这个时候，就需要用到git了。所以git和gitee（github）三者之间有什么区别呢？我们可以问问大模型。
 
-![](img/3_git_1.png)
+![20250226125516](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125516.jpg)
 
 可以先阅读此页面（https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F）。特别强调文件可以处于的三种主要状态：已修改(**modified**)、暂存(**staged**)和已提交(**committed**)。
 
@@ -288,12 +289,12 @@ Git 是一个强大的工具，值得花一些时间来了解它的基础知识�
 
 我们的远程推送成功了。在这里我们可以看到修复分支中的新提交。
 
-![](img/3_git_3.png)
+![20250226130445](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226130445.jpg)
 
 ### 5.Codespace(推荐)
 
 一个更快的体验conda环境和vscode环境方法，免去了繁琐的安装步骤。推荐用这种方法快速验证上述流程。
 
-![image-20240812163821939](img/4_codespace_1.png)
+![20250226125555](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250226125555.jpg)
 
 [Create new codespace (github.com)](https://github.com/codespaces/new)
