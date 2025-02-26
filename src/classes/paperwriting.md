@@ -19,7 +19,7 @@
 - [03 如何阅读人工智能研究论文](./writing/03-howtoread)
 - [04 使用AI工具高效的阅读论文](./writing/04-aireading)
 - [05 掌握python的工作流程](./writing/05-python)
-- [05 开展和记录实验](./wrting/06-experiment)
+- [06 开展和记录实验](./wrting/06-experiment)
 
 
 ## 联系我们
