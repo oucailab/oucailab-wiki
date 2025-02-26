@@ -20,6 +20,7 @@
 - [04 使用AI工具高效的阅读论文](./writing/04-aireading)
 - [05 掌握python的工作流程](./writing/05-python)
 - [06 开展和记录实验](./wrting/06-experiment)
+- [07 产生新的想法](./writing/07-idea)
 
 
 ## 联系我们
