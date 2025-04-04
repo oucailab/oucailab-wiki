@@ -31,6 +31,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 ## ✨ News
+* 2025.03 两篇论文被 IEEE TGRS 录用
 * 2025.02 一篇论文被《计算机学报》录用
 * 2025.01 一篇论文被 IEEE TGRS 录用
 * 2024.11 一篇论文被 IEEE GRSL 录用
