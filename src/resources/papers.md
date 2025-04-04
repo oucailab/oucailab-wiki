@@ -3,8 +3,9 @@
 ## 📚 代表性学术论文
 
 ### **2025**
-1. J. Lin, **F. Gao***, L. Qi, J. Dong, Q. Du and X. Gao, "Dynamic Cross-Modal Feature Interaction Network for Hyperspectral and LiDAR Data Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF]](https://ieeexplore.ieee.org/document/10924653)[[Code@Github]](https://github.com/oucailab/DCMNet)
+1. **F. Gao**, M. Fu, J. Cao*, J. Dong and Q. Du, "Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF]()][[Code@Github](<https://github.com/oucailab/AFENet>)]
 1. **F. Gao**, X. Jin, X. Zhou*, J. Dong and Q. Du, "MSFMamba: Multi-Scale Feature Fusion State Space Model for Multi-Source Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10856240/>)][[Code@Github](<https://github.com/oucailab/MSFMamba>)]
+1. J. Lin, **F. Gao***, L. Qi, J. Dong, Q. Du and X. Gao, "Dynamic Cross-Modal Feature Interaction Network for Hyperspectral and LiDAR Data Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF]](https://ieeexplore.ieee.org/document/10924653)[[Code@Github]](https://github.com/oucailab/DCMNet)
 1. Z. Wang, **F. Gao***, J. Dong and Q. Du, "Global and Local Attention-Based Transformer for Hyperspectral Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10766648>)][[Code@Github](<https://github.com/summitgao/GLAFormer>)]
 1. H. Dong, X. Du, Z. Li, X. Li, Z. Ma, **Feng Gao**, "Dynamic Bilinear Fusion Network for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10848167>)]
 1. 刘文力, **高峰\***, 张浩鹏, 董军宇, 吴淳桐，"基于通道变换和Transformer的高光谱图像变化检测方法", *计算机学报*，2025.
