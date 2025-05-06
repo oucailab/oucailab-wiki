@@ -31,6 +31,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 ## ✨ News
+* 2025.05 两篇论文被 IEEE TGRS 录用
 * 2025.03 两篇论文被 IEEE TGRS 录用
 * 2025.02 一篇论文被《计算机学报》录用
 * 2025.01 一篇论文被 IEEE TGRS 录用
@@ -52,6 +53,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 ### **2025**
+1. J. Zhang, **F. Gao***, Y. Gan, J. Dong and Q. Du, "Frequency-Compensated Network for Daily Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](https://ieeexplore.ieee.org/document/10976656)] [[Code@Github](https://github.com/oucailab/FCNet)]
 1. **F. Gao**, X. Jin, X. Zhou*, J. Dong and Q. Du, "MSFMamba: Multi-Scale Feature Fusion State Space Model for Multi-Source Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10856240/>)][[Code@Github](<https://github.com/oucailab/MSFMamba>)]
 1. **F. Gao**, M. Fu, J. Cao*, J. Dong and Q. Du, "Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF]()][[Code@Github](<https://github.com/oucailab/AFENet>)]
 1. J. Lin, **F. Gao***, L. Qi, J. Dong, Q. Du and X. Gao, "Dynamic Cross-Modal Feature Interaction Network for Hyperspectral and LiDAR Data Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF]](https://ieeexplore.ieee.org/document/10924653)[[Code@Github]](https://github.com/oucailab/DCMNet)
