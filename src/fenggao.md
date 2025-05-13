@@ -12,7 +12,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 [微博](https://www.weibo.com/summitgao) / [谷歌学术](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/gaofront) / [知乎](https://www.zhihu.com/people/gaopursuit) / [学院主页](http://it.ouc.edu.cn/gf) / [英文主页](https://gaofront.github.io)
 
 
-***[2025年2月更新]***
+***[2025年5月更新]***
 
 
 ## 🚩 基本信息
@@ -31,10 +31,12 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 ## ✨ News
-* 2025.05 两篇论文被 IEEE TGRS 录用
-* 2025.03 两篇论文被 IEEE TGRS 录用
+* 2025.05 多源遥感图像融合网络 PICNet 被 IEEE TGRS 录用
+* 2025.04 北极海冰预测网络 FCNet 被 IEEE TGRS 录用
+* 2025.03 遥感图像语义分割网络 AFENet 被 IEEE TGRS 录用
+* 2025.03 多源遥感图像融合网络 DCMNet 被 IEEE TGRS 录用
 * 2025.02 一篇论文被《计算机学报》录用
-* 2025.01 一篇论文被 IEEE TGRS 录用
+* 2025.01 多源遥感图像融合网络 MSFMamba 被 IEEE TGRS 录用
 * 2024.11 一篇论文被 IEEE GRSL 录用
 * 2024.09 一篇论文被 IEEE TGRS 录用
 * 2024.09 两篇论文被中国图象图形学报录用
