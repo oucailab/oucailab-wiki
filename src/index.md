@@ -24,9 +24,12 @@
 
 
 ## 🚩 小组动态
-* 2025.03 一篇论文被 IEEE TGRS 录用
+* 2025.05 多源遥感图像融合网络 PICNet 被 IEEE TGRS 录用
+* 2025.04 北极海冰预测网络 FCNet 被 IEEE TGRS 录用
+* 2025.03 遥感图像语义分割网络 AFENet 被 IEEE TGRS 录用
+* 2025.03 多源遥感图像融合网络 DCMNet 被 IEEE TGRS 录用
 * 2025.02 一篇论文被《计算机学报》录用
-* 2025.01 一篇论文被 IEEE TGRS 录用
+* 2025.01 多源遥感图像融合网络 MSFMamba 被 IEEE TGRS 录用
 * 2024.11 一篇论文被 IEEE GRSL 录用
 * 2024.09 一篇论文被 IEEE TGRS 录用
 * 2024.09 两篇论文被中国图象图形学报录用
