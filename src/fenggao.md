@@ -55,16 +55,18 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 
 ### **2025**
+1. Y. Liu, Y. Ju, Y. Rao, H. Fan, J. Dong*, **F. Gao***, Q. Du, "Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](https://ieeexplore.ieee.org/document/11029045)]
 1. **F. Gao**, S. Liu, C. Gong, X. Zhou*, J. Wang, J. Dong, Qian Du, "Prototype-Based Information Compensation Network for Multi-Source Remote Sensing Data Classification"， *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](https://ieeexplore.ieee.org/document/11002550/)] [[Code@Github](https://github.com/oucailab/PICNet)]
 1. J. Zhang, **F. Gao***, Y. Gan, J. Dong and Q. Du, "Frequency-Compensated Network for Daily Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](https://ieeexplore.ieee.org/document/10976656)] [[Code@Github](https://github.com/oucailab/FCNet)]
 1. **F. Gao**, X. Jin, X. Zhou*, J. Dong and Q. Du, "MSFMamba: Multi-Scale Feature Fusion State Space Model for Multi-Source Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10856240/>)][[Code@Github](<https://github.com/oucailab/MSFMamba>)]
 1. **F. Gao**, M. Fu, J. Cao*, J. Dong and Q. Du, "Adaptive Frequency Enhancement Network for Remote Sensing Image Semantic Segmentation," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](https://ieeexplore.ieee.org/document/10955240)][[Code@Github](<https://github.com/oucailab/AFENet>)]
 1. J. Lin, **F. Gao***, L. Qi, J. Dong, Q. Du and X. Gao, "Dynamic Cross-Modal Feature Interaction Network for Hyperspectral and LiDAR Data Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF]](https://ieeexplore.ieee.org/document/10924653)[[Code@Github]](https://github.com/oucailab/DCMNet)
 1. Z. Wang, **F. Gao***, J. Dong and Q. Du, "Global and Local Attention-Based Transformer for Hyperspectral Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10766648>)][[Code@Github](<https://github.com/summitgao/GLAFormer>)]
-1. H. Dong, X. Du, Z. Li, X. Li, Z. Ma, **Feng Gao**, "Dynamic Bilinear Fusion Network for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10848167>)]
+1. H. Dong, X. Du, Z. Li, X. Li, Z. Ma, **F. Gao**, "Dynamic Bilinear Fusion Network for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10848167>)]
 1. 刘文力, **高峰\***, 张浩鹏, 董军宇, 吴淳桐，"基于通道变换和Transformer的高光谱图像变化检测方法", *计算机学报*，2025.
 1. 金学鹏, **高峰\***, 石晓晨, 董军宇，"针对多源遥感图像分类的门控跨模态聚合网络", *中国图象图形学报*，2025. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240359/>)]
 1. 李相潭, **高峰\***, 孙悦, 董军宇, "针对高光谱遥感图像变化检测的混合注意力和双向门控网络"， *中国图象图形学报*，2025. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240360/>)]
+1. 王嘉毅，**高峰**，张天戈，甘言海，"基于小波变换平行注意力的多源遥感图像分类"，*北京航空航天大学学报*，2025. [[Code@Github](<https://github.com/summitgao/WPANet>)]
 
 
 ### **2024**
@@ -72,7 +74,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 1. Y. Meng, **F. Gao\***, E. Rigall, J. Dong* and Q. Du, "Physical Knowledge Analytic Framework for Sea Surface Temperature Prediction,"  *IEEE Transactions on Geoscience and Remote Sensing*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10699380>)]
 1. L. Hu, S. Li, J. Ruan, **F. Gao\***, "SemiPSENet: A Novel Semi-supervised Change Detection Network for Remote Sensing Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10613832>)]
 1. T. Zhang, Q. Cai*, **F. Gao**, L. Qi, J. Dong*, "Exploring Cross-Domain Few-Shot Classification via Frequency-Aware Prompting," *International Joint Conference on Artificial Intelligence (IJCAI)*, 2024. [[PDF](<https://arxiv.org/abs/2406.16422>)][[Code@Github](<https://github.com/tinkez/FAP_CDFSC>)]
-1. H. Luo, **F. Gao\***, J. Dong, L. Qi, "Hierarchical Attention and Parallel Filter Fusion Network for Multi-Source Data Classification," *IEEE Geoscience and Remote Sensing Letters*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10643609>)]
+1. H. Luo, **F. Gao\***, J. Dong, L. Qi, "Hierarchical Attention and Parallel Filter Fusion Network for Multi-Source Data Classification," *IEEE Geoscience and Remote Sensing Letters*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10643609>)][[Code@Github](<https://github.com/summitgao/HAPNet>)]
 1. J. Xie, **F. Gao**, X. Zhou*, J. Dong, "Wavelet-based Bi-dimensional Aggregation Network for SAR Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10605827>)][[Code@Github](<https://github.com/xuwayyy/WBANet>)]
 1. S. Hu, **F. Gao**, X. Zhou*, J. Dong, Q. Du, "Hybrid Convolutional and Attention Network for Hyperspectral Image Denoising," *IEEE Geoscience and Remote Sensing Letters*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10445289>)] [[Code@Github](<https://github.com/summitgao/HCANet>)]
 1. S. Tao, Y. Li, **F. Gao**, H. Fan, J. Dong*, Y. Gan*, "Multi-Scale Spatial Features and Temporal Attention Mechanisms: Advancing the Accuracy of ENSO Prediction," *Intelligent Marine Technology and Systems*, 2024. [[PDF](<https://link.springer.com/article/10.1007/s44295-023-00017-w>)]
@@ -92,7 +94,6 @@ E-mail: <gaofeng@ouc.edu.cn>
 1. L. Qi, X. Qin, **F. Gao***, J. Dong and X. Gao, "SAWU-Net: Spatial Attention Weighted Unmixing Network for Hyperspectral Images," *IEEE Geoscience and Remote Sensing Letters*, vol. 20, pp. 1-5, 2023. [[PDF](<https://ieeexplore.ieee.org/abstract/document/10113313>)]
 1. H. Pan, **F. Gao***, J. Dong and Q. Du, "Multiscale Adaptive Fusion Network for Hyperspectral Image Denoising,"  *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 16, pp. 3045-3059, 2023. [[PDF](<https://ieeexplore.ieee.org/document/10078381>)][[Code@Github](<https://github.com/summitgao/MAFNet>)]
 1. H. Zhang, Z. Lin, **F. Gao***, J. Dong, Q. Du, H. -C. Li, "Convolution and Attention Mixer for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, vol. 20, pp. 1-5, 2023. [[PDF](<https://ieeexplore.ieee.org/document/10262014>)] [[Code@Github](<https://github.com/summitgao/CAMixer>)]
-1. 王嘉毅，**高峰**，张天戈，甘言海，"基于小波变换平行注意力的多源遥感图像分类"，*北京航空航天大学学报*，2023. [[Code@Github](<https://github.com/summitgao/WPANet>)]
 1. 王梓懿，尹嘉豪，黄博斌，**高峰**，"基于旋转目标感知网络的SAR船舶检测方法"，*北京航空航天大学学报*，2023. 
 
 
