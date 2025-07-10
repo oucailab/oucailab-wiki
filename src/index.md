@@ -14,7 +14,7 @@
 ## 🏛️ Members
 
 
-*  [Junyu Dong](https://it.ouc.edu.cn/djy)  &nbsp&nbsp&nbsp  [Feng Gao](fenggao.md)  &nbsp&nbsp&nbsp [Lin Qi](https://it.ouc.edu.cn/ql2) &nbsp&nbsp&nbsp  [Yanhai Gan](https://it.ouc.edu.cn/gyh) 
+*  [Junyu Dong](https://it.ouc.edu.cn/djy)  　　  [Feng Gao](fenggao.md)  　　 [Lin Qi](https://it.ouc.edu.cn/ql2) 　　  [Yanhai Gan](https://it.ouc.edu.cn/gyh) 
 * 博士： 王展梁、陈万坤、张马群
 * 22级硕士：姬志豪、林俊彦、王嘉毅、程陆瑶、吴文敏、王玉芳、房召敏、冯涌帆、龙港澳
 * 23级硕士：谭力玮、李相潭、吴瑶、刘梓洋、曾怿理、董硕、刘文力、刘晟、付淼、花如壮、金学鹏、张家亮、吴淳桐、李云熠、焦涵、李金鑫、刘兴国
