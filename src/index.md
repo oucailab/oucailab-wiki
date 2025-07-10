@@ -1,20 +1,20 @@
-# OUC AI Lab 简介
+# OUC AI Lab
 
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ouc_campus.jpg)
 
-**_【2025年5月更新】_**
+** Updated by 202505**
 
-🎯AI前沿理论组是[中国海洋大学人工智能研究院](https://ai-ouc.cn/)的一个多学科交叉研究小组，董军宇教授为总负责人。🚀课题组主要针对海洋大数据、多源遥感图像进行研究，实现海洋多源数据高精度、高效解译及分析。研究小组现有教授1人，副教授2人。目前在读全日制博士、硕士研究生30余人。实验室近年来先后主持和参与了科技部、工信部、国家自然科学基金等多项科研项目，发表国内外学术期刊论文及国际学术会议论文100多篇，获得山东省自然科学二等奖1项，青岛市科技进步二等奖1项。
+🎯 The AI Lab is a multidisciplinary research team under the School of Artificial Intelligence, Ocean University of China, with Professor Junyu Dong as the chief director. 🚀 The research group mainly focuses on marine big data and multi-source remote sensing images, aiming to achieve high-precision and efficient interpretation and analysis of marine multi-source data. In recent years, our lab has published over 100 academic papers in domestic and foreign journals as well as international conferences, and has been awarded 1 Second Prize of Shandong Provincial Natural Science Award and 1 Second Prize of Qingdao Municipal Science and Technology Progress Award.
 
 🌈 课题组长期招收学有余力的三年级本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复⏰
 
 
 
 
-## 🏛️ 团队成员
+## 🏛️ Members
 
 
-* 教师： [董军宇](https://it.ouc.edu.cn/djy) 教授 、 [高峰](fenggao.md) 副教授 、 [亓林](https://it.ouc.edu.cn/ql2) 副教授、[甘言海](https://it.ouc.edu.cn/gyh) 博士
+*  [Junyu Dong](https://it.ouc.edu.cn/djy)  ~~~   [Feng Gao](fenggao.md)  ~~~ [Lin Qi](https://it.ouc.edu.cn/ql2)   [Yanhai Gan](https://it.ouc.edu.cn/gyh) 
 * 博士： 王展梁、陈万坤、张马群
 * 22级硕士：姬志豪、林俊彦、王嘉毅、程陆瑶、吴文敏、王玉芳、房召敏、冯涌帆、龙港澳
 * 23级硕士：谭力玮、李相潭、吴瑶、刘梓洋、曾怿理、董硕、刘文力、刘晟、付淼、花如壮、金学鹏、张家亮、吴淳桐、李云熠、焦涵、李金鑫、刘兴国
