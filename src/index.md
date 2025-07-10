@@ -15,15 +15,12 @@
 
 
 *  [Junyu Dong](https://it.ouc.edu.cn/djy)  　　  [Feng Gao](fenggao.md)  　　 [Lin Qi](https://it.ouc.edu.cn/ql2) 　　  [Yanhai Gan](https://it.ouc.edu.cn/gyh) 
-* 博士： 王展梁、陈万坤、张马群
-* 22级硕士：姬志豪、林俊彦、王嘉毅、程陆瑶、吴文敏、王玉芳、房召敏、冯涌帆、龙港澳
-* 23级硕士：谭力玮、李相潭、吴瑶、刘梓洋、曾怿理、董硕、刘文力、刘晟、付淼、花如壮、金学鹏、张家亮、吴淳桐、李云熠、焦涵、李金鑫、刘兴国
-* 24级硕士：宫传政、黄博斌、钟骋、刘召、金知霖、潘子哲、弓政、苏雪莹、田圆、李政志、杨文彬、施小雨、孔杨杨、王明强、仇靖骁
+* Zhanliang Wang, Wankun Chen, Maqun Zhang
+* Liwei Tan, Xiangtan Li, Yao Wu, Ziyang Liu, Yili Zeng, Shuo Dong, Wenli Liu, Sheng Liu, Ruzhuang Hua, Xuepeng Jin, Jialiang Zhang, Chuntong Wu, Yunyi Li, Han Jiao, Jinxi Li, Xingguo Liu
+* Chuanzheng Gong, Bobin Huang, Cheng Zhong, Zhao Liu, Zhilin Jin, Zheng Gong, Xueying Su, Yuan Tian, Zhengzhi Li, Wenbin Yang, Xiaoyu Shi, Yangyang Kong, Mingqiang Wang, Jingxiao Qiu
 
 
-
-
-## 🚩 小组动态
+## 🚩 News
 * 2025.05 多源遥感图像融合网络 PICNet 被 IEEE TGRS 录用
 * 2025.04 北极海冰预测网络 FCNet 被 IEEE TGRS 录用
 * 2025.03 遥感图像语义分割网络 AFENet 被 IEEE TGRS 录用
@@ -38,14 +35,6 @@
 * 2024.07 刘文力获得ChinaMM2024最佳学生论文奖
 * 2024.07 本科生解江葳的论文被IEEE GRSL录用
 * 2024.07 一篇论文被IEEE TGRS录用
-
-## 🔥 你能得到什么？
-
-如果你认为自己编程能力过硬，如果你想在人工智能海洋学领域披荆斩棘，如果你对AI的海洋应用感到着迷，不要犹豫，这里最适合你！平台提供给你，剩下就看你的努力！说到做到的同学将有机会得到以下奖励：
-* 独当一面的大厂实习经历
-* AI for Science最前沿的学术与技术
-* 天才少年？技术大咖？或是Special Offer
-* 面对困难勇往直前的自信和勇气
 
 
 
