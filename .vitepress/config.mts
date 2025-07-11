@@ -52,18 +52,11 @@ export default defineConfig({
       {
         text: "Welcome",
         items: [
-          { text: "OUC AI Lab简介", link: "/index" },
-          { text: "董军宇 教授", link: "/dongjy" },
-          { text: "高峰 副教授", link: "/fenggao" },
-          { text: "亓林 副教授", link: "/linqi" },
-          { text: "甘言海 博士", link: "/ganyh" },
-        ],
-      },
-      {  
-        text: "🔥 新闻与通知",
-        items: [
-          { text: "小组新闻", link: "/news/newslist" },
-          { text: "最新通知", link: "/news/notice" },
+          { text: "OUC AI Lab", link: "/index" },
+          { text: "Junyu Dong", link: "/dongjy" },
+          { text: "Feng Gao", link: "/fenggao" },
+          { text: "Lin Qi", link: "/linqi" },
+          { text: "Yanhai Gan", link: "/ganyh" },
         ],
       },
       {  
@@ -74,23 +67,6 @@ export default defineConfig({
           { text: "开源成果", link: "/resources/codes" },
         ],
       },
-      {  
-        text: "📕 课程学习",
-        items: [
-          { text: "软件工程原理与实践", link: "https://gitee.com/gaopursuit/software-ouc" },
-          { text: "移动软件开发", link: "https://gitee.com/gaopursuit/mobile_software" },
-          { text: "学术论文写作", link: "/classes/paperwriting"}
-        ],
-      },
-      {  
-        text: "🎯 科研经验",
-        items: [
-          { text: "准备开题报告", link: "/research/proposal" },
-          { text: "硕士学位论文指导", link: "/research/thesis_writing" },
-          { text: "科研做图指导", link: "/research/picture" },
-        ],
-      },
-
     ],
 
     // Social links
@@ -100,7 +76,7 @@ export default defineConfig({
 
     // Footer
     footer: {
-      copyright: "Copyright © 2024  OUC AI Lab",
+      copyright: "Copyright © 2025  OUC AI Lab",
     },
 
     // Last updated
