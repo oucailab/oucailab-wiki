@@ -2,7 +2,7 @@
 
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ouc_campus.jpg)
 
-** Updated by 202505**
+**Updated by 202507**
 
 🎯 The AI Lab is a multidisciplinary research team under the School of Artificial Intelligence, Ocean University of China, with Professor Junyu Dong as the chief director. 🚀 The research group mainly focuses on marine big data and multi-source remote sensing images, aiming to achieve high-precision and efficient interpretation and analysis of marine multi-source data. In recent years, our lab has published over 100 academic papers in domestic and foreign journals as well as international conferences, and has been awarded 1 Second Prize of Shandong Provincial Natural Science Award and 1 Second Prize of Qingdao Municipal Science and Technology Progress Award.
 
@@ -21,20 +21,12 @@
 
 
 ## 🚩 News
-* 2025.05 多源遥感图像融合网络 PICNet 被 IEEE TGRS 录用
-* 2025.04 北极海冰预测网络 FCNet 被 IEEE TGRS 录用
-* 2025.03 遥感图像语义分割网络 AFENet 被 IEEE TGRS 录用
-* 2025.03 多源遥感图像融合网络 DCMNet 被 IEEE TGRS 录用
-* 2025.02 一篇论文被《计算机学报》录用
-* 2025.01 多源遥感图像融合网络 MSFMamba 被 IEEE TGRS 录用
-* 2024.11 一篇论文被 IEEE GRSL 录用
-* 2024.09 一篇论文被 IEEE TGRS 录用
-* 2024.09 两篇论文被中国图象图形学报录用
-* 2024.09 三篇论文被北航学报录用
-* 2024.08 本科生罗梒的论文被 IEEE GRSL 录用
-* 2024.07 刘文力获得ChinaMM2024最佳学生论文奖
-* 2024.07 本科生解江葳的论文被IEEE GRSL录用
-* 2024.07 一篇论文被IEEE TGRS录用
+* 2025.06 DFFNet has been accepted by IEEE GRSL
+* 2025.06 ADR-MVS has been accepted by IEEE TGRS
+* 2025.05 PICNet has been accepted by IEEE TGRS
+* 2025.04 FCNet has been accepted by IEEE TGRS
+* 2025.03 AFENet and DCMNet have been accepted by IEEE TGRS
+* 2025.01 MSFMamba has been accepted by IEEE TGRS
 
 
 
