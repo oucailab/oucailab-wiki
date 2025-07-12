@@ -1,13 +1,9 @@
 
-# 董军宇
+# Junyu Dong
 
-- 中国海洋大学计算机科学与工程学院，教授，博导
-- 研究兴趣：海洋大数据挖掘和水下视觉信息处理 
+- Professor with School of Computer Science, Ocean University of China. His current research interests include Underwater image processing and Artificial Intelligence Oceanography. 
 - E-mail: dongjunyu@ouc.edu.cn
 
+**【Updated by July, 2025. 中文主页：https://it.ouc.edu.cn/djy 】**
 
-**【 2025年2月更新，内容和信息学部主页保持一致：https://it.ouc.edu.cn/djy 】**
-
-入选国家高层次人才计划科技创新领军人才，现任信息科学与工程学部部长。长期从事海洋大数据与人工智能的交叉学科研究，主要研究方向为海洋大数据挖掘和水下视觉信息处理。 在海洋大数据挖掘领域，是国际上最早提出采用深度学习方法预测海表温度的学者之一，提出了基于机器学习的水动力环境建模及海洋锋面检测方法，推动了深度学习用于海表温度预测的研究，多次被作为数据驱动的海表温度预报基准对比方法。在水下视觉信息处理领域，提出了低约束条件下的水下图像增强和三维重建方法，主持研发出了国内外分辨率最高（毫米级）的座底式海底高分辨率获取设备，以及国内首个大型坐底式水下激光扫描三维成像仪，在国家深海基地管理中心应用。目前在国家自然科学基金重大科研仪器项目资助下，正在研制搭载国产深潜器上的移动式高分辨率三维成像仪，成像精度将超过国外产品。 
-
-近五年先后主持国家自然科学基金重大仪器、NSFC联合基金、科技部国际科技合作计划项目等5个国家级项目，已在SCI期刊上发表论文100余篇，其中第一或通讯作者50余篇，相关海洋大数据研究成果已在自然资源部北海分局、国家深海基地管理中心等单位成功部署并开展示范应用。获得授权专利六项，并获山东省自然科学二等奖（排名首位）。
+He was selected into the National High-Level Talents Program as a leading talent in technological innovation and currently serves as the Dean of the Faculty of Information Science and Engineering. He has long been engaged in interdisciplinary research on marine big data and artificial intelligence, with main research directions in marine big data mining and underwater visual information processing.
