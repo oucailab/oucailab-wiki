@@ -1,7 +1,10 @@
-# 亓林
+# Lin Qi
 
-- 中国海洋大学计算机科学与工程学院，副教授，硕士生导师
-- 研究兴趣：计算机视觉，机器学习，高光谱图像处理
+- Associate Professor with School of Computer Science, Ocean University of China. His current research interests include computer vision and hyperspectral image processing.
 - E-mail: qilin2020@ouc.edu.cn
 
-2015年获得哈尔滨工业大学工学学士学位，2020年获得西安电子科技大学工学博士学位，2020年任职中国海洋大学。主要研究方向为计算机视觉、机器学习和高光谱图像处理，在IEEE TGRS、GRSL、JSTARS，SIGNAL PROCESSING，NEUROCOMPUTING和IGARSS等国际期刊和会议上发表学术论文20余篇。获得国家自然科学基金青年科学基金项目资助，获得中国博士后科学基金面上资助项目、特别资助项目，获得山东省博士后创新项目资助，获得2020年中国电子教育学会优秀博士学位论文优秀奖。 欢迎加入 AI前沿理论研究小组：(https://www.oucai.club) ，一起探索未知的世界，享受快乐！
+【Updated by July, 2025. 中文主页：https://it.ouc.edu.cn/ql2/】
+
+He received a Bachelor of Engineering degree from Harbin Institute of Technology in 2015 and a Doctor of Engineering degree from Xidian University in 2020. Since 2020, he has been working at Ocean University of China. His main research directions include computer vision, machine learning, and hyperspectral image processing. He has published more than 20 academic papers in international journals and conferences such as IEEE TGRS, GRSL, JSTARS, SIGNAL PROCESSING, NEUROCOMPUTING, and IGARSS.
+
+He has been funded by the National Natural Science Foundation of China Youth Science Fund Project, the China Postdoctoral Science Foundation General Program and Special Funding Program, and the Shandong Provincial Postdoctoral Innovation Project. He also won the Excellent Doctoral Dissertation Award from the China Electronics Education Society in 2020.
