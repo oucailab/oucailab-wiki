@@ -47,7 +47,7 @@ export default defineConfig({
     nav: [{ text: "Home", link: "/" }],
 
     // Sidebar
-    sidebarMenuLabel: "菜单",
+    sidebarMenuLabel: "Menu",
     sidebar: [
       {
         text: "Welcome", link: "/index",
@@ -73,7 +73,7 @@ export default defineConfig({
 
     // Last updated
     lastUpdated: {
-      text: "上次更新",
+      text: "Last updated",
     },
 
     // Enable search
@@ -82,16 +82,16 @@ export default defineConfig({
       options: {
         translations: {
           button: {
-            buttonText: "搜索文档",
-            buttonAriaLabel: "搜索文档",
+            buttonText: "Search",
+            buttonAriaLabel: "Search",
           },
           modal: {
-            noResultsText: "无法找到相关结果",
-            resetButtonTitle: "清除查询条件",
+            noResultsText: "Can not find",
+            resetButtonTitle: "Clean search",
             footer: {
-              selectText: "选择",
-              navigateText: "切换",
-              closeText: "关闭",
+              selectText: "Select",
+              navigateText: "Change",
+              closeText: "Close",
             },
           },
         },
@@ -101,23 +101,23 @@ export default defineConfig({
     // Edit link
     editLink: {
       pattern: "https://github.com/oucailab/oucailab-wiki/edit/main/src/:path",
-      text: "在 GitHub 上编辑此页",
+      text: "Edit this page in GitHub",
     },
 
     // Doc footer
     docFooter: {
-      prev: "上一页",
-      next: "下一页",
+      prev: "Previous page",
+      next: "Next page",
     },
 
     // Light and dark mode
-    darkModeSwitchLabel: "切换主题",
+    darkModeSwitchLabel: "Change theme",
 
-    lightModeSwitchTitle: "切换到浅色主题",
-    darkModeSwitchTitle: "切换到深色主题",
+    lightModeSwitchTitle: "Change to light mode",
+    darkModeSwitchTitle: "Change to dark mode",
 
     // Return to top
-    returnToTopLabel: "返回顶部",
+    returnToTopLabel: "Return to Top",
 
     // Show external link icon in markdown links(only external)
     externalLinkIcon: true,
@@ -125,7 +125,7 @@ export default defineConfig({
     // Outline
     outline: {
       level: [2, 3],
-      label: "目录",
+      label: "Menu",
     },
   },
 });
