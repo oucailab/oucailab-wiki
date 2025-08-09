@@ -59,14 +59,7 @@ export default defineConfig({
           { text: "Yanhai Gan", link: "/ganyh" },
         ],
       },
-      {  
-        text: "📚 成果资源",
-        items: [
-          { text: "论文&专利", link: "/resources/papers" },
-          { text: "项目&基金", link: "/resources/projects" },
-          { text: "开源成果", link: "/resources/codes" },
-        ],
-      },
+      {  text: "📚 Publications", link: "/resources/papers"},
     ],
 
     // Social links
