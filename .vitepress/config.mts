@@ -50,9 +50,8 @@ export default defineConfig({
     sidebarMenuLabel: "菜单",
     sidebar: [
       {
-        text: "Welcome",
+        text: "Welcome", link: "/index",
         items: [
-          { text: "OUC AI Lab", link: "/index" },
           { text: "Junyu Dong", link: "/dongjy" },
           { text: "Feng Gao", link: "/fenggao" },
           { text: "Lin Qi", link: "/linqi" },
