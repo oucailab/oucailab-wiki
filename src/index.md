@@ -6,7 +6,7 @@
 
 🎯 The AI Lab is a multidisciplinary research team under the School of Artificial Intelligence, Ocean University of China, with Professor Junyu Dong as the chief director. 🚀 The research group mainly focuses on marine big data and multi-source remote sensing images, aiming to achieve high-precision and efficient interpretation and analysis of marine multi-source data. In recent years, our lab has published over 100 academic papers in domestic and foreign journals as well as international conferences, and has been awarded 1 Second Prize of Shandong Provincial Natural Science Award and 1 Second Prize of Qingdao Municipal Science and Technology Progress Award.
 
-🌈 课题组长期招收学有余力的三年级本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复⏰
+🌈 课题组长期招收学有余力的本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复⏰
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-![20250213073815](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/20250213073815.jpg)
+
 
 
 ​
