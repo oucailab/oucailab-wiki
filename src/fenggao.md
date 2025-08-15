@@ -11,7 +11,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 ***[Updated by 2025/08]***
 
-🎈 欢迎优秀的同学加入 [AI前沿理论研究小组](https://oucai.club) 😁 课题组长期招收学有余力的三年级本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复。 🚀 其它快速联系方式：📩微博私信（[ 高峰是我啦 ](https://weibo.com/summitgao)） 🐶知乎私信（[ 高峰OUC ](http://zhihu.com/people/gaopursuit)） 欢迎随时交流
+🎈 欢迎优秀的同学加入 [AI前沿理论研究小组](https://oucai.club) 😁 课题组长期招收学有余力的本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复。 🚀 其它快速联系方式：📩微博私信（[ 高峰是我啦 ](https://weibo.com/summitgao)） 🐶知乎私信（[ 高峰OUC ](http://zhihu.com/people/gaopursuit)） 欢迎随时交流
 
 
 ## 🎯 Selected Publications 【[More](https://scholar.google.com.hk/citations?user=k91CLXQAAAAJ)】
