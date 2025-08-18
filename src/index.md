@@ -4,29 +4,32 @@
 
 **Updated by 202508**
 
-🎯 The AI Lab is a multidisciplinary research team under the School of Artificial Intelligence, Ocean University of China, with Professor Junyu Dong as the chief director. 🚀 The research group mainly focuses on marine big data and multi-source remote sensing images, aiming to achieve high-precision and efficient interpretation and analysis of marine multi-source data. In recent years, our lab has published over 100 academic papers in domestic and foreign journals as well as international conferences, and has been awarded 1 Second Prize of Shandong Provincial Natural Science Award and 1 Second Prize of Qingdao Municipal Science and Technology Progress Award.
+🎯 OUC AI Lab 隶属于中国海洋大学海洋动力-物理环境与智能感知全国重点实验室，计算机学院 和 人工智能学院，是一个跨学科研究团队，由 董军宇教授 担任主任。🚀 研究团队主要聚焦于海洋大数据、人工智能海洋学、多源数据融合，致力于实现对海洋多源数据的高精度、高效率解译与分析。近年来，实验室在国内外期刊及国际会议上已发表学术论文100余篇，主持了多项国家级项目，获得多项专利授权和省部级科研奖项，在国内外具有一定的影响力。
 
 🌈 课题组长期招收学有余力的本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复⏰
 
 
 
 
-## 🏛️ Members
+## 🏛️ 小组成员
+
+*  [董军宇 教授](https://it.ouc.edu.cn/djy)  　　  [高峰 副教授](https://gaofront.github.io)  　　 [亓林 副教授](https://it.ouc.edu.cn/ql2) 　　  [甘言海 博士](https://it.ouc.edu.cn/gyh) 
+* 王展梁, 陈万坤, 张马群
+* 谭力玮, 李相潭, 吴瑶, 刘梓洋, 曾怿理, 董硕, 刘文力, 刘晟, 花如壮, 金学鹏, 张家亮, 吴淳桐, 李云熠, 焦涵, 李金鑫, 刘兴国
+* 宫传政，黄博斌，钟骋，刘召，金知霖，弓政，苏雪莹，田圆，李政志，杨文彬，施小雨，孔洋洋，王明强，仇靖骁
 
 
-*  [Junyu Dong](https://it.ouc.edu.cn/djy)  　　  [Feng Gao](fenggao.md)  　　 [Lin Qi](https://it.ouc.edu.cn/ql2) 　　  [Yanhai Gan](https://it.ouc.edu.cn/gyh) 
-* Zhanliang Wang, Wankun Chen, Maqun Zhang
-* Liwei Tan, Xiangtan Li, Yao Wu, Ziyang Liu, Yili Zeng, Shuo Dong, Wenli Liu, Sheng Liu, Ruzhuang Hua, Xuepeng Jin, Jialiang Zhang, Chuntong Wu, Yunyi Li, Han Jiao, Jinxi Li, Xingguo Liu
-* Chuanzheng Gong, Bobin Huang, Cheng Zhong, Zhao Liu, Zhilin Jin, Zheng Gong, Xueying Su, Yuan Tian, Zhengzhi Li, Wenbin Yang, Xiaoyu Shi, Yangyang Kong, Mingqiang Wang, Jingxiao Qiu
 
 
-## 🚩 News
-* 2025.06 DFFNet has been accepted by IEEE GRSL
-* 2025.06 ADR-MVS has been accepted by IEEE TGRS
-* 2025.05 PICNet has been accepted by IEEE TGRS
-* 2025.04 FCNet has been accepted by IEEE TGRS
-* 2025.03 AFENet and DCMNet have been accepted by IEEE TGRS
-* 2025.01 MSFMamba has been accepted by IEEE TGRS
+## 🚩 小组新闻
+
+* 2025.06 多源分类方法 DFFNet 被IEEE GRSL录用
+* 2025.06 ADR-MVS 被IEEE TGRS录用
+* 2025.05 多源分类方法 PICNet 被 IEEE TGRS 录用
+* 2025.04 北极海冰预测方法 FCNet 被 IEEE TGRS 录用
+* 2025.03 遥感图像分割方法 AFENet 被 IEEE TGRS 录用
+* 2025.03 多源分类方法 DCMNet 被 IEEE TGRS 录用
+* 2025.01 多源分类方法 MSFMamba 被 IEEE TGRS 录用
 
 
 
