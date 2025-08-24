@@ -40,7 +40,7 @@
 
 **评分说明：** 实验满分为10分，提交完整的实验报告得6分；课上完成任务得2分；实验报告发布在博客、代码发布在gitee加1分；出色完成加1分；延迟提交实验报告扣1分。
 
-**特别提示：** 实验1中出现的【[问题汇总](https://gitee.com/gaopursuit/mobile_software/blob/master/lab/problem1.md)】
+**特别提示：** 往年实验中出现的【[问题汇总](https://gaopursuit.oss-cn-beijing.aliyuncs.com/2025/mobileDev-pro1.pdf)】
 
 <br>
 
