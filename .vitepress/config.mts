@@ -59,6 +59,12 @@ export default defineConfig({
           {text:"25夏移动软件开发", link: "/classes/MobileDev"},
         ]
       },
+      { 
+        text: "🎁 其他资料",  
+        items: [  
+          {text:"如何动手科研", link: "/classes/paperwriting"},
+        ]
+      },
     ],
 
     // Social links
