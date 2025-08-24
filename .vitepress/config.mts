@@ -60,7 +60,7 @@ export default defineConfig({
         ]
       },
       { 
-        text: "🎁 其他资料",  
+        text: "❇️ 其他资料",  
         items: [  
           {text:"如何动手科研", link: "/classes/paperwriting"},
         ]
