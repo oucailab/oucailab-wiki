@@ -51,14 +51,8 @@ export default defineConfig({
     sidebar: [
       {
         text: "Welcome", link: "/index",
-        items: [
-          { text: "Junyu Dong", link: "/dongjy" },
-          { text: "Feng Gao", link: "/fenggao" },
-          { text: "Lin Qi", link: "/linqi" },
-          { text: "Yanhai Gan", link: "/ganyh" },
-        ],
-      },
-      {  text: "📚 Publications", link: "/resources/papers"},
+        text: "🧑‍💻 成员", link: "/member",
+        text: "📚 论文发表", link: "/resources/papers",
     ],
 
     // Social links
