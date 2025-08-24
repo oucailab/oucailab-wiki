@@ -53,9 +53,9 @@ export default defineConfig({
       { text: "🧑‍💻 成员", link: "/member"},
       { text: "📚 论文发表", link: "/resources/papers"},
       { 
-        text: "课程学习",  
+        text: "🎁 课程学习",  
         items: [  
-          {text:"移动软件开发", link: "/classes/MobileDev"},
+          {text:"25夏移动软件开发", link: "/classes/MobileDev"},
         ]
       },
     ],
