@@ -49,18 +49,12 @@ export default defineConfig({
     // Sidebar
     sidebarMenuLabel: "Menu",
     sidebar: [
-      {
-        text: "Welcome",
-        link: "/index"
-      },
-      {
-        text: "🧑‍💻 成员",
-        link: "/member"
-      },
-      {
-        text: "📚 论文发表",
-        link: "/resources/papers"
-      }
+      { text: "Welcome", link: "/index"},
+      { text: "🧑‍💻 成员", link: "/member"},
+      { text: "📚 论文发表", link: "/resources/papers"},
+      "课程学习": [
+          {text:"移动软件开发", link: "/classes/MobileDev"},
+      ],
     ],
 
     // Social links
