@@ -61,7 +61,7 @@ export default defineConfig({
         text: "📚 论文发表",
         link: "/resources/papers"
       }
-    ]
+    ],
 
     // Social links
     socialLinks: [
