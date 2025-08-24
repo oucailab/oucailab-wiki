@@ -1,3 +1,5 @@
+![ChatGPTImage20250825-01_56_50](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ChatGPTImage20250825-01_56_50.jpg)
+
 # 中国海洋大学《移动软件开发》课程
 
 ## 🎉 1、介绍
