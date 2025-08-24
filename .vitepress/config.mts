@@ -53,6 +53,7 @@ export default defineConfig({
         text: "Welcome", link: "/index",
         text: "🧑‍💻 成员", link: "/member",
         text: "📚 论文发表", link: "/resources/papers",
+      }
     ],
 
     // Social links
