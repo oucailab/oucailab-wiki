@@ -50,8 +50,9 @@ export default defineConfig({
     sidebarMenuLabel: "Menu",
     sidebar: [
       { text: "Welcome", link: "/index"},
-      { text: "🧑‍💻 成员", link: "/member"},
+      { text: "🧑‍💻 小组成员", link: "/member"},
       { text: "📚 论文发表", link: "/resources/papers"},
+      { text: "🏆 荣誉奖励", link: "/awards"},
       { 
         text: "🎁 课程学习",  
         items: [  
