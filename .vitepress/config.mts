@@ -57,6 +57,7 @@ export default defineConfig({
         text: "🎁 课程学习",  
         items: [  
           {text:"25夏移动软件开发", link: "/classes/MobileDev"},
+          {text:"25秋计算机学术英语", link:"/classes/AcademicEnglish"},
         ]
       },
       { 
