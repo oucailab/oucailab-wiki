@@ -76,7 +76,7 @@
 
 <br>
 
-### 🚩实验5：第一个 HarmonyOS 应用 【[实验文档](https://raw.gitcode.com/gaopursuit/gaofront/blobs/181e66eee94fc5be6afb57df3f595e58766cd3bd/lab5.pdf)】
+### 🚩实验5：第一个 HarmonyOS 应用 【[实验文档](https://gaopursuit.oss-cn-beijing.aliyuncs.com/2025/mobileDev-lab5.pdf)】
 
 **截止时间：** 9月8日（周一）22：00
 
