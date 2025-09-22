@@ -58,6 +58,7 @@ export default defineConfig({
         items: [  
           {text:"25夏移动软件开发", link: "/classes/MobileDev"},
           {text:"25秋计算机学术英语", link:"/classes/AcademicEnglish"},
+          {text:"25秋软件工程原理与实践", link:"/classes/Software"},
         ]
       },
       { 
