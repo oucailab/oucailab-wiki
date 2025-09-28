@@ -5,7 +5,7 @@
 <br>
 
 要求：10月11日（周六）22：00完成小组项目的选题，填写于在线文档里：
-https://www.kdocs.cn/l/cqqDF5PFQ3Nl。
+https://www.kdocs.cn/l/cqqDF5PFQ3Nl 
 
 
 
