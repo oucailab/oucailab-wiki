@@ -14,7 +14,7 @@
 
 
 ## 🚩 小组新闻
-
+* 2025.09 陈万坤的SST超分辨率的工作被 IEEE TGRS 录用
 * 2025.06 本科生赵一伉的工作被 IEEE GRSL 录用
 * 2025.06 ADR-MVS 被IEEE TGRS录用
 * 2025.05 多源分类方法 PICNet 被 IEEE TGRS 录用
