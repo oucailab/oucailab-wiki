@@ -13,6 +13,6 @@
 3.  选题动机：阐明为何选择这个题目，突出研究的必要性和价值。一般是发现研究空白、归纳方法、提出未来研究方向和展望。
 4.  汇报PPT内容建议为英文，也可以加一些中文，用中文介绍即可。各小组安排一个同学汇报即可
 
-上课前将汇报PPT上传到坚果云网盘：https://www.jianguoyun.com/p/DXCNmVYQrKKIBhjqj4wGIAA ，文命命名为“组号+选题”，比如“01级-Social Relationship Inference.pptx”，网盘只可上传不可下载，请大家按时提交。
+上课前将汇报PPT上传到坚果云网盘：https://www.jianguoyun.com/p/DXCNmVYQrKKIBhjqj4wGIAA ，文命命名为“组号+选题”，比如“01组-Social Relationship Inference.pptx”，网盘只可上传不可下载，请大家按时提交。
 
 
