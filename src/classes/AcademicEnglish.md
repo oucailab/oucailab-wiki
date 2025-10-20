@@ -37,9 +37,9 @@
 | 周次   | 教学内容                                                     |
 | ------ | ------------------------------------------------------------ |
 | week01 | 第1章：课程简介以及如何避免学术不端-part1，任务：【[task01-热身运动](https://oucai.club/classes/ae/task01)  】 |
-| week02 | 国庆假期                                                     |
-| week03 | 第1章：课程简介以及如何避免学术不端-part2。扩展学习：(NeurIPS2012) ImageNet Classification with Deep Convolutional Neural Networks ，任务：【[task02-选题与思考](https://oucai.club/classes/ae/task02)  】 |
-| week04 | 第2章：论文选题，文献检索，写作准备，结构组织。              |
+| week02 | 第1章：课程简介以及如何避免学术不端-part2。扩展学习：(NeurIPS2012) ImageNet Classification with Deep Convolutional Neural Networks ，任务：【[task02-选题与思考](https://oucai.club/classes/ae/task02)  】 |
+| week03 | 国庆假期                                                     |
+| week04 | 第2章：写作准备，结构组织。任务：【[小组汇报任务1](https://oucai.club/classes/ae/grouptask01)】 |
 | week05 | 小组汇报与案例学习                                           |
 | week06 | 第3章：写作技巧：摘要、简介、相关工作、 总体介绍、实现细节   |
 | week07 | 扩展学习：论文立意和标题                                     |
