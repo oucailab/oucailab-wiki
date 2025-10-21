@@ -54,12 +54,38 @@
 | week16 | 小组汇报与课程总结                                           |
 
 
-
 ## 🏆 4、团队作业说明
 
 4~6名同学自由结成小组，组内选定研究方向。首先进行团队调研，检索方向上过去一年的代表性文献，要求能够从作者、论文引用率以及发表出处等三个维度评判一篇论文的质量好坏。在此基础上能够总结归纳并撰写出初步的**综述论文**，期末时进行提交，并进行汇报。
 
 期末结束时，各个小组进行打分互评，同时由组长提交小组成员贡献得分，确定个人团队作业得分。
+
+## 🔥 5、小组选题
+
+| 序号 | 组长   | 组员                                 | 选题                                                         |
+| ---- | ------ | ------------------------------------ | ------------------------------------------------------------ |
+| 1    | 陈亮锟 | 赵冠嘟 戚好好 闫昱筱 周子翔          | Social Relationship Inference from Human Mobility Data       |
+| 2    | 赵禹惟 | 刘昱翔 张翼林 张开元 张可钦          | Underwater Survey and 3D Terrain Modeling for Marine Environmental Analysis |
+| 3    | 罗诗佳 | 刘鑫泽 孙迎芮                        | The application of AI in the intelligent recognition of ocean features |
+| 4    | 李浩翔 | 李东泽 李加儒 康士涌 梁子浩          | Embodied Navigation                                          |
+| 5    | 张婧文 | 曹佳 贾梦泽 李芳桢 王婧 谢庆语       | Intelligent in-situ stress dynamic simulation and early warning system |
+| 6    | 王佳昊 | 常博为 李兆文 唐以恒                 | Underwater Colour Image Quality Evaluation                   |
+| 7    | 王妍珊 | 肖雯心 阮玉荣 李闻天 陈冠宏          | All-in-One Image Restoration                                 |
+| 8    | 江恩泽 | 丁子恒 朱衍润泽 李仁杰 李佳豪 由悦珂 | Deep Learning for Small Marine Organism Detection            |
+| 9    | 毛学斌 | 付博源 姜禹辰 訾圣博                 | Enhancement of AI-Generated Underwater Images                |
+| 10   | 王啸镝 | 任宇瑄 刘奕飞 吕佳怡 李伦旭          | Optimization of multi-scale target detection algorithm       |
+| 11   | 李林蔓 | 李明怡 刘玉希 王晓雅 沈靖雯          | The combination of LLM and image analysis                    |
+| 12   | 陈祺新 | 陈灏 成思通 刘晨曦 陈卓瑞            | Research on Oil Spill Detection and Recognition in the Ocean Based on Deep Learning |
+| 13   | 刘景泽 | 陈诏群 付靖饶 刘春霖 李宇沫 何洲林   | Attention Mechanism-Based Optimization for Small Underwater Biological Target Recognition |
+| 14   | 马坤霖 | 李泽宇 张颢琰 刘远洋                 | Ocean big data and intelligent analysis                      |
+| 15   | 徐子正 | 唐天翀 屈树芃 宋延志 孙宇航 王昊恺   | The underwater image enhancement schemes based on AI         |
+| 16   | 王以恒 | 吴子畅 谢家洛 王奕博 蔡槟璟          | Path Planning Research Based on GAIL Algorithm               |
+| 17   | 崔郅翔 | 郭耘 林昆 林忱樵                     | Meta-Learning under the LLM Paradigm                         |
+| 18   | 孙安琪 | 左夏澍 张嘉芮 王颀涵 姚爱佳 梁紫涵   | The application of machine learning in predicting red tides in coastal waters |
+| 19   | 蔡志恒 | 张峻豪 许寒冰 许言磊 靳涵            | Multi-Modal Information Fusion and Intelligent Retrieval for Urban Geo-Localization |
+
+
+
 
 ## 📧 联系方式
 
