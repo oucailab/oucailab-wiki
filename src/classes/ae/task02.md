@@ -14,6 +14,7 @@
 - 掌握 LaTeX 基本排版（结构、列表、表格、引用、字体）。
 - 产出一份学术/工程取向清晰、信息准确、版面专业的个人简历（1–2 页）。
 - 在 Texpage / Overleaf 里编译完成。
+- 模板下载地址：https://gaopursuit.oss-cn-beijing.aliyuncs.com/course/CV-Template.zip
 
 <br>
 
