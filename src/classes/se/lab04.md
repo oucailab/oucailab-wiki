@@ -1,4 +1,4 @@
-# 实验3：MobileNet & ShuffleNet
+# 实验4：MobileNet & ShuffleNet
 
 > 学习要求：
 >
