@@ -56,7 +56,7 @@
 | 实验1  | 热身运动                   | 【 [链接](https://oucai.club/classes/se/lab01) 】|
 | 实验2  | 深度学习基础               | 【 [链接](https://oucai.club/classes/se/lab02) 】|
 | 实验3  | 卷积神经网络               | 【 [链接](https://oucai.club/classes/se/lab03) 】|
-| 实验4  | MobileNet & ShuffleNet     |  |
+| 实验4  | MobileNet & ShuffleNet    | 【 [链接](https://oucai.club/classes/se/lab04) 】|
 
 
 <br>
