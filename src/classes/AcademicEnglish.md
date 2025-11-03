@@ -83,6 +83,7 @@
 |17| **崔郅翔** 郭耘 林昆 林忱樵                 | Meta-Learning under the LLM Paradigm                         |
 |18| **孙安琪** 左夏澍 张嘉芮 王颀涵 姚爱佳 梁紫涵 | The application of machine learning in predicting red tides in coastal waters |
 |19| **蔡志恒** 张峻豪 许寒冰 许言磊 靳涵        | Multi-Modal Information Fusion and Intelligent Retrieval for Urban Geo-Localization |
+|20| **李嘉欣** 刘沛君 | Vision-Guided Obstacle Avoidance for Underwater Robots Using Deep Learning |
 
 
 
