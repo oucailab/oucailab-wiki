@@ -15,17 +15,17 @@
 
 ### 1.1 Vision Transformer (ViT) 
 
-- ViT 网络详解，包括 Embedding, Transformer Encoder, MLP head 【视频链接】
-- 使用 pytorch 实现 ViT 【视频链接】
+- ViT 网络详解，包括 Embedding, Transformer Encoder, MLP head 【[视频链接](https://www.bilibili.com/video/BV1Jh411Y7WQ)】
+- 使用 pytorch 实现 ViT 【[视频链接](https://www.bilibili.com/video/BV1AL411W7dT)】
 
 ### 1.2 Swin Transformer 
 
-- Swin Transformer网络详解【视频链接】
-- 使用 pytorch 实现 Swin Transformer，了解即可，不需要掌握【视频链接】
+- Swin Transformer网络详解【[视频链接](https://www.bilibili.com/video/BV1pL4y1v7jC)】
+- 使用 pytorch 实现 Swin Transformer，了解即可，不需要掌握【[视频链接](https://www.bilibili.com/video/BV1yg411K7Yc)】
 
 ### 1.3 视觉Transformer综述
 
-华为韩凯的综述，内容非常好，了解即可【视频链接】
+华为韩凯的综述，内容非常好，了解即可【[视频链接](https://www.bilibili.com/video/BV1cr4y1m7tS)】
 
 ## 2、思考题
 
