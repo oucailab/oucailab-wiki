@@ -65,6 +65,13 @@
 
 # ✈️ 4、项目实践说明以及最新通知
 
+## 20251105 项目选题通知
+
+11月9日完成项目选题，选题信息填写在在线文档：https://www.kdocs.cn/l/conP3SSSGFZv
+
+项目选题参考文档：https://oucai.club/classes/se/project
+
+
 
 ## 【项目实践说明】
 
