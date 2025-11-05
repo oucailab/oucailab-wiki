@@ -57,7 +57,7 @@
 | 实验2  | 深度学习基础               | 【 [链接](https://oucai.club/classes/se/lab02) 】|
 | 实验3  | 卷积神经网络               | 【 [链接](https://oucai.club/classes/se/lab03) 】|
 | 实验4  | MobileNet & ShuffleNet    | 【 [链接](https://oucai.club/classes/se/lab04) 】|
-| 实验5  | ViT & Swin Transformer | 【 [链接](https://oucai.club/classes/se/lab0t) 】|
+| 实验5  | ViT & Swin Transformer | 【 [链接](https://oucai.club/classes/se/lab05) 】|
 
 <br>
 
