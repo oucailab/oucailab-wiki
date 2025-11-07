@@ -65,6 +65,9 @@ export default defineConfig({
         text: "❇️ 其他资料",  
         items: [  
           {text:"如何动手科研", link: "/classes/paperwriting"},
+          {text:"科研作图指导", link:"/research/picture"},
+          {text:"准备开题报告", link:"/research/proposal"},
+          {text:"学位论文写作指导", link:"/research/thesis_writing"},
         ]
       },
     ],
