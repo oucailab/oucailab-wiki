@@ -42,16 +42,15 @@
 | week04 | 第2章：写作准备，结构组织。任务：【[小组汇报任务1](https://oucai.club/classes/ae/grouptask01)】 |
 | week05 | 小组汇报与案例学习                                           |
 | week06 | 第3章：科研写作工具。任务：【[task02-个人简历](https://oucai.club/classes/ae/task02)】|
-| week07 | 扩展学习：论文立意和标题 任务：【[小组讨论1](https://oucai.club/classes/ae/grouptask02)】【[综述写作模板](https://www.overleaf.com/read/mjyvgyxphrpz#c1224a)】|
-| week08 | 扩展学习：摘要和引言写作                                     |
-| week09 | 第4章：写作技巧：理论说明、算法、实验结果、结论、致谢、参考文献 |
-| week10 | 扩展学习：相关工作和方法写作                                 |
-| week11 | 扩展学习：研究动机图绘制                                     |
-| week12 | 小组阶段汇报与讨论                                           |
-| week13 | 第六章：写作技巧：附录、插图、表格、数学公式、术语           |
-| week14 | 第七章：读者群定位、重要的分析、精确描述、简洁表达、内容均衡、论证完整 |
-| week15 | 第八章：论文投稿检查、评审表格填写、审稿意见回复             |
-| week16 | 小组汇报与课程总结                                           |
+| week07 | 小组讨论 |
+| week08 | 扩展学习：论文立意和标题 任务：【[小组讨论1](https://oucai.club/classes/ae/grouptask02)】【[综述写作模板](https://www.overleaf.com/read/mjyvgyxphrpz#c1224a)】|
+| week09 | 扩展学习：摘要和引言写作，扩展学习：(CVPR2016)ResNet |
+| week10 | 小组讨论 |
+| week11 | 扩展学习：相关工作和方法写作 |
+| week12 | 第六章：写作技巧：附录、插图、表格、数学公式、术语 |
+| week13 | 第七章：读者群定位、重要的分析、精确描述、简洁表达、内容均衡、论证完整 |
+| week14 | 第八章：论文投稿检查、评审表格填写、审稿意见回复 |
+| week15-16 | 小组汇报与课程总结 |
 
 
 ## 🏆 4、团队作业说明
