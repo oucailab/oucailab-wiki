@@ -59,6 +59,7 @@ export default defineConfig({
           {text:"25夏移动软件开发", link: "/classes/MobileDev"},
           {text:"25秋计算机学术英语", link:"/classes/AcademicEnglish"},
           {text:"25秋软件工程原理与实践", link:"/classes/Software"},
+          {text:"25秋深度学习训练营", link:"/research/deeplearning"},
         ]
       },
       { 
@@ -68,7 +69,6 @@ export default defineConfig({
           {text:"科研作图指导", link:"/research/picture"},
           {text:"准备开题报告", link:"/research/proposal"},
           {text:"学位论文写作指导", link:"/research/thesis_writing"},
-          {text:"深度学习训练营", link:"/research/deeplearning"},
         ]
       },
     ],
