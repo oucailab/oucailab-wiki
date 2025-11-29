@@ -68,6 +68,7 @@ export default defineConfig({
           {text:"科研作图指导", link:"/research/picture"},
           {text:"准备开题报告", link:"/research/proposal"},
           {text:"学位论文写作指导", link:"/research/thesis_writing"},
+          {text:"深度学习训练营", link:"/research/deeplearning"},
         ]
       },
     ],
