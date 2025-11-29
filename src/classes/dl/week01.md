@@ -1,0 +1,77 @@
+# 第1周：深度学习基础
+
+> 学习要求：
+>
+> - 深度学习的入门知识
+> - pytorch 基础练习，螺旋数据分类代码练习 
+>
+
+<br>
+
+## 引言
+
+我们会有4~5周的时间学习深度学习的入门知识，为后面的小组项目打好基础。
+
+本周学习视频为“深度学习概述”，下载链接为：https://www.jianguoyun.com/p/Da26fK0QrKKIBhi_0okGIAA
+
+
+
+<br>
+
+
+## 1、视频学习
+
+学习视频：深度学习基础，主要内容包括：
+
+- 浅层神经⽹络：⽣物神经元到单层感知器，多层感知器，反向传播和梯度消失
+- 神经⽹络到深度学习：逐层预训练，⾃编码器和受限玻尔兹曼机
+
+<br>
+
+## 2、代码练习
+
+学习完成以后进行代码练习，代码练习需要使⽤⾕歌的 Colab，它是⼀个 Jupyter 笔记本环境，已经默认安装好 pytorch，不需要进⾏任何设置就可以使⽤，并且完全在云端运⾏。使⽤⽅法可以参考 Rogan 的博客：https://www.cnblogs.com/lfri/p/10471852.html 
+
+国内⽬前⽆法访问 colab，可以安装 Ghelper: http://googlehelper.net/
+
+### **2.1 pytorch 基础练习**
+
+基础练习部分包括 pytorch 基础操作，[实验指导链接](https://oucaigroup.feishu.cn/wiki/Pnpaw9OUoiahoQkI89xcfwfLnWc)
+
+**要求：** 把代码输⼊ colab，在线运⾏观察效果。
+
+### **2.2 螺旋数据分类**
+
+⽤神经⽹络实现简单数据分类，[实验指导链接](https://oucaigroup.feishu.cn/wiki/Nbddwe54fiolLFkoslfcdYcAnZe)
+
+运行代码会发现少了一个图片，原作者移动位置了，新的位置在： https://raw.githubusercontent.com/Atcold/pytorch-Deep-Learning/master/res/ziegler.png
+
+**要求：** 把代码输⼊ colab，在线运⾏观察效果
+
+<br>
+
+
+
+## 3、雨课堂提交实验报告：
+
+完成⼀个实验报告，内容包括两部分：
+
+【第⼀部分：代码练习】在⾕歌 Colab 上完成 pytorch 代码练习中的 3.1 pytorch基础练习、3.2螺旋数据分类，关键步骤截图，并附⼀些自己的想法和解读。
+
+【第⼆部分：问题总结】思考下⾯的问题：
+
+1、AlexNet有哪些特点？为什么可以比LeNet取得更好的性能？ 
+
+2、激活函数有哪些作⽤？ 
+
+3、梯度消失现象是什么？
+
+4、神经网络是更宽好还是更深好？
+
+5、为什么要使⽤Softmax? 
+
+6、SGD 和 Adam 哪个更有效？
+
+如果还有其它问题，可以总结⼀下，写在文档里，下周⼀起讨论。
+
+
