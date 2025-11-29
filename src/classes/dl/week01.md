@@ -36,13 +36,13 @@
 
 ### **2.1 pytorch 基础练习**
 
-基础练习部分包括 pytorch 基础操作，[实验指导链接](https://oucaigroup.feishu.cn/wiki/Pnpaw9OUoiahoQkI89xcfwfLnWc)
+基础练习部分包括 pytorch 基础操作，实验指导在第4.1节
 
 **要求：** 把代码输⼊ colab，在线运⾏观察效果。
 
 ### **2.2 螺旋数据分类**
 
-⽤神经⽹络实现简单数据分类，[实验指导链接](https://oucaigroup.feishu.cn/wiki/Nbddwe54fiolLFkoslfcdYcAnZe)
+⽤神经⽹络实现简单数据分类，实验指导在第4.2节。
 
 运行代码会发现少了一个图片，原作者移动位置了，新的位置在： https://raw.githubusercontent.com/Atcold/pytorch-Deep-Learning/master/res/ziegler.png
 
