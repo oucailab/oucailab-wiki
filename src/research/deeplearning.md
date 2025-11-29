@@ -31,13 +31,14 @@
 
 强烈安利大家学习 https://space.bilibili.com/527467660 这位南开学长的大白话系列视频，学习一下高水平的 PPT 和讲解是怎么样的，建议像素级模仿。
 
+<br>
 
 
-# 🔥 3、课程大纲
+# 🔥 3、课程大纲（后面内容随时调整）
 
 | 周次  | 教学内容                   | 资料                                              |
 | ----- | -------------------------- | ------------------------------------------------- |
 | 第一周 | 深度学习基础               | 【 [链接](https://oucai.club/classes/dl/week01) 】 |
-| 第二周 | 卷积神经网络               | 【 [链接](https://oucai.club/classes/dl/week02) 】 |
-| 第三周 | MobileNet & ShuffleNet     | 【 [链接](https://oucai.club/classes/dl/week03) 】 |
-| 第四周 | ViT & Swin Transformer     | 【 [链接](https://oucai.club/classes/dl/week04) 】 |
+| 第二周 | 卷积神经网络               | 【 [链接]() 】 |
+| 第三周 | MobileNet & ShuffleNet     | 【 [链接]() 】 |
+| 第四周 | ViT & Swin Transformer     | 【 [链接]() 】 |
