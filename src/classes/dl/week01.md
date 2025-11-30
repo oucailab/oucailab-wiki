@@ -686,30 +686,3 @@ tensor(2, device='cuda:0')
 
 <br>
 
-查看分类模型的形状，并思考。
-
-```Python
-# Plot trained model
-print(model)
-plot_model(X, Y, model)
-```
-
-Sequential(
-
-  (0): Linear(in_features=2, out_features=100, bias=True)
-
-  (1): Linear(in_features=100, out_features=3, bias=True)
-
-)
-
-<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-11-30_194501_564.jpg width=30%></p>
-
-上面使用 print(model) 把模型输出，可以看到有两层：
-
-- 第一层输入为 2（因为特征维度为主2），输出为 100；
-- 第二层输入为 100 （上一层的输出），输出为 3（类别数）
-
-从上面图示可以看出，线性模型的准确率最高只能达到 50% 左右，对于这样复杂的一个数据分布，线性模型难以实现准确分类。
-
-<br>
-
