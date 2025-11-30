@@ -678,9 +678,9 @@ print(predicted[10])
 
 torch.Size([3000, 3])
 
-tensor([0.1070, 0.1738, 0.1800], device='cuda:0', grad_fn=<SliceBackward>)
+tensor([0.1070, 0.1738, 0.1800], device='cuda:0', grad_fn=< SliceBackward >)
 
-tensor(0.1800, device='cuda:0', grad_fn=<SelectBackward>)
+tensor(0.1800, device='cuda:0', grad_fn=< SelectBackward >)
 
 tensor(2, device='cuda:0')
 
