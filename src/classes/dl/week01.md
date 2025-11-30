@@ -614,3 +614,54 @@ plot_data(X, Y)
 
 <p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-11-30_194146_014.jpg width=30%></p>
 
+#### 第一步：构建线性模型分类
+
+```Python
+learning_rate = 1e-3
+lambda_l2 = 1e-5
+# nn 包用来创建线性模型
+# 每一个线性模型都包含 weight 和 bias
+model = nn.Sequential(
+    nn.Linear(D, H),
+    nn.Linear(H, C)
+)
+# 把模型放到GPU上
+model.to(device) 
+# nn 包含多种不同的损失函数，这里使用的是交叉熵（cross entropy loss）损失函数
+criterion = torch.nn.CrossEntropyLoss()
+
+# 这里使用 optim 包进行随机梯度下降(stochastic gradient descent)优化
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, weight_decay=lambda_l2)
+
+# 开始训练
+for t in range(1000):
+    # 把数据输入模型，得到预测结果
+    y_pred = model(X)
+    # 计算损失和准确率
+    loss = criterion(y_pred, Y)
+    score, predicted = torch.max(y_pred, 1)
+    acc = (Y == predicted).sum().float() / len(Y)
+    print('[EPOCH]: %i, [LOSS]: %.6f, [ACCURACY]: %.3f' % (t, loss.item(), acc))
+    display.clear_output(wait=True)
+
+    # 反向传播前把梯度置 0 
+    optimizer.zero_grad()
+    # 反向传播优化 
+    loss.backward()
+    # 更新全部参数
+    optimizer.step()
+```
+
+[EPOCH]: 999, [LOSS]: 0.864019, [ACCURACY]: 0.500
+
+<br>
+
+这里对上面的一些关键函数进行说明:
+
+使用 print(y_pred.shape) 可以看到模型的预测结果，为[3000, 3]的矩阵。每个样本的预测结果为3个，保存在 y_pred 的一行里。值最大的一个，即为预测该样本属于的类别
+
+score, predicted = torch.max(y_pred, 1) 是沿着第二个方向（即X方向）提取最大值。最大的那个值存在 score 中，所在的位置（即第几列的最大）保存在 predicted 中。下面代码把第10行的情况输出，供解释说明
+
+此外，大家可以看到，每一次反向传播前，都要把梯度清零，这个在知乎上有一个回答，大家可以参考：[https://www.zhihu.com/question/303070254](https://gitee.com/link?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F303070254)
+
+<br>
