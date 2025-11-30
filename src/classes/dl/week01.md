@@ -665,3 +665,106 @@ score, predicted = torch.max(y_pred, 1) 是沿着第二个方向（即X方向）
 此外，大家可以看到，每一次反向传播前，都要把梯度清零，这个在知乎上有一个回答，大家可以参考：[https://www.zhihu.com/question/303070254](https://gitee.com/link?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F303070254)
 
 <br>
+
+#### 第二步：输出部分数据的预测结果，并观察
+
+```Python
+print(y_pred.shape)
+print(y_pred[10, :])
+print(score[10])
+print(predicted[10])
+```
+
+torch.Size([3000, 3])
+
+tensor([0.1070, 0.1738, 0.1800], device='cuda:0', grad_fn=<SliceBackward>)
+
+tensor(0.1800, device='cuda:0', grad_fn=<SelectBackward>)
+
+tensor(2, device='cuda:0')
+
+<br>
+
+查看分类模型的形状，并思考。
+
+```Python
+# Plot trained model
+print(model)
+plot_model(X, Y, model)
+```
+
+Sequential(
+
+  (0): Linear(in_features=2, out_features=100, bias=True)
+
+  (1): Linear(in_features=100, out_features=3, bias=True)
+
+)
+
+<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-11-30_194501_564.jpg width=30%></p>
+
+上面使用 print(model) 把模型输出，可以看到有两层：
+
+- 第一层输入为 2（因为特征维度为主2），输出为 100；
+- 第二层输入为 100 （上一层的输出），输出为 3（类别数）
+
+从上面图示可以看出，线性模型的准确率最高只能达到 50% 左右，对于这样复杂的一个数据分布，线性模型难以实现准确分类。
+
+<br>
+
+#### 第三步：构建两层神经网络分类
+
+```Python
+learning_rate = 1e-3
+lambda_l2 = 1e-5
+# 这里可以看到，和上面模型不同的是，在两层之间加入了一个 ReLU 激活函数
+model = nn.Sequential(
+    nn.Linear(D, H),
+    nn.ReLU(),
+    nn.Linear(H, C)
+)
+model.to(device)
+
+# 下面的代码和之前是完全一样的，这里不过多叙述
+criterion = torch.nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, weight_decay=lambda_l2) # built-in L2# 训练模型，和之前的代码是完全一样的
+for t in range(1000):
+    y_pred = model(X)
+    loss = criterion(y_pred, Y)
+    score, predicted = torch.max(y_pred, 1)
+    acc = ((Y == predicted).sum().float() / len(Y))
+    print("[EPOCH]: %i, [LOSS]: %.6f, [ACCURACY]: %.3f" % (t, loss.item(), acc))
+    display.clear_output(wait=True)
+    
+    # zero the gradients before running the backward pass.
+    optimizer.zero_grad()
+    # Backward pass to compute the gradient
+    loss.backward()
+    # Update params
+    optimizer.step()
+```
+
+[EPOCH]: 999, [LOSS]: 0.213117, [ACCURACY]: 0.926
+
+<br>
+
+```Plain
+# Plot trained modelprint(model)
+plot_model(X, Y, model)
+```
+
+Sequential(
+
+  (0): Linear(in_features=2, out_features=100, bias=True)
+
+  (1): ReLU()
+
+  (2): Linear(in_features=100, out_features=3, bias=True)
+
+)
+
+<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-11-30_194629_753.jpg width=30%></p>
+
+大家可以看到，在两层神经网络里加入 ReLU 激活函数以后，分类的准确率得到了显著提高。
+
+如果不明白为什么，讨论课老师会再次讲解。
