@@ -399,7 +399,7 @@ tensor([3.0000, 3.2632, 3.5263, 3.7895, 4.0526, 4.3158, 4.5789, 4.8421, 5.1053,
 
 <br>
 
-```Plain
+```python
 from matplotlib import pyplot as plt
 
 # matlabplotlib 只能显示numpy类型的数据，下面展示了转换数据类型，然后显示
