@@ -529,6 +529,7 @@ plot_data(X, Y)
 ```
 
 <br><br>
+
 本次的代码教程里解决 sprial classification 问题，教程有配套的文字版讲解理论，地址为：
 
 https://atcold.github.io/NYU-DLSP20/zh/week02/02-3/
@@ -712,59 +713,3 @@ Sequential(
 
 <br>
 
-#### 第三步：构建两层神经网络分类
-
-```Python
-learning_rate = 1e-3
-lambda_l2 = 1e-5
-# 这里可以看到，和上面模型不同的是，在两层之间加入了一个 ReLU 激活函数
-model = nn.Sequential(
-    nn.Linear(D, H),
-    nn.ReLU(),
-    nn.Linear(H, C)
-)
-model.to(device)
-
-# 下面的代码和之前是完全一样的，这里不过多叙述
-criterion = torch.nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, weight_decay=lambda_l2) # built-in L2# 训练模型，和之前的代码是完全一样的
-for t in range(1000):
-    y_pred = model(X)
-    loss = criterion(y_pred, Y)
-    score, predicted = torch.max(y_pred, 1)
-    acc = ((Y == predicted).sum().float() / len(Y))
-    print("[EPOCH]: %i, [LOSS]: %.6f, [ACCURACY]: %.3f" % (t, loss.item(), acc))
-    display.clear_output(wait=True)
-    
-    # zero the gradients before running the backward pass.
-    optimizer.zero_grad()
-    # Backward pass to compute the gradient
-    loss.backward()
-    # Update params
-    optimizer.step()
-```
-
-[EPOCH]: 999, [LOSS]: 0.213117, [ACCURACY]: 0.926
-
-<br>
-
-```Plain
-# Plot trained modelprint(model)
-plot_model(X, Y, model)
-```
-
-Sequential(
-
-  (0): Linear(in_features=2, out_features=100, bias=True)
-
-  (1): ReLU()
-
-  (2): Linear(in_features=100, out_features=3, bias=True)
-
-)
-
-<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-11-30_194629_753.jpg width=30%></p>
-
-大家可以看到，在两层神经网络里加入 ReLU 激活函数以后，分类的准确率得到了显著提高。
-
-如果不明白为什么，讨论课老师会再次讲解。
