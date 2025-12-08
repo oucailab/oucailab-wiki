@@ -40,10 +40,10 @@
 
 | 周次  | 教学内容                   | 资料                                              |
 | ----- | -------------------------- | ------------------------------------------------- |
-| 第一周 | 深度学习基础               | 【 [链接](https://oucai.club/classes/dl/week01) 】 |
-| 第二周 | 卷积神经网络               | 【 链接 】 |
-| 第三周 | MobileNet & ShuffleNet    | 【 链接 】 |
-| 第四周 | ViT & Swin Transformer    | 【 链接 】 |
+| 第一章 | 深度学习基础               | 【 [链接](https://oucai.club/classes/dl/week01) 】 |
+| 第二章 | 卷积神经网络               | 【 [链接](https://oucai.club/classes/dl/week02) 】 |
+| 第三章 | MobileNet & ShuffleNet    | 【 链接 】 |
+| 第四章 | ViT & Swin Transformer    | 【 链接 】 |
 
 <br>
 
