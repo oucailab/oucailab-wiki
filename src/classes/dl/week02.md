@@ -51,10 +51,7 @@
 - transform 里，取了不同值，这个有什么区别？
 - epoch 和 batch 的区别？
 - 1x1的卷积和 FC 有什么区别？主要起什么作⽤？
-- residual leanring 为什么能够提升准确率？
-- 代码练习二里，网络和1989年 Lecun 提出的 LeNet 有什么区别？
-- 代码练习二里，卷积以后feature map 尺寸会变⼩，如何应⽤ Residual Learning?
-- 有什么方法可以进⼀步提升准确率？
+
 如果还有其它问题，可以总结一下，写在博客里，下周一起讨论。
 
 <br>
