@@ -85,6 +85,15 @@
 |19| **蔡志恒** 张峻豪 许寒冰 许言磊 靳涵        | Multi-Modal Information Fusion and Intelligent Retrieval for Urban Geo-Localization |
 |20| **李嘉欣** 刘沛君 | Vision-Guided Obstacle Avoidance for Underwater Robots Using Deep Learning |
 
+## 🔥 6、最新通知
+
+**第12周** 提交学术英语小组综述论文初稿，提交链接如下：https://send2me.cn/rDyPx9mt/QzWeVX_L65KvvQ   截止时间为12月14日（周日） 22：00
+
+综述写作模板参考：https://www.overleaf.com/read/mjyvgyxphrpz#c1224a
+
+**第7周** 小组讨论通知：https://oucai.club/classes/ae/grouptask02  
+
+**课件下载链接：** https://www.jianguoyun.com/p/DbHSonwQrKKIBhj77YoGIAA （随时更新）
 
 
 
