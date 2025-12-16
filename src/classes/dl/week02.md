@@ -1176,6 +1176,121 @@ for i in range(10):
     print(f'Accuracy of {classes[i]} : {100 * class_correct[i] / class_total[i]:.2f}%')
 ```
 
+<br>
+<br>
+### 4.3 实验4：使用ResNet18对CIFAR10分类
+
+训练和数据集的代码不变，只是网络上的代码有变化。首先定义BasicBlock类，如下图所示。
+
+<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-12-16_223543_123.jpg width=50%></p>
+
+<br>
+
+```python
+class BasicBlock(nn.Module):
+    """ResNet的基本块（18/34层使用）"""
+    expansion = 1  # 通道扩展系数
+
+    def __init__(self, in_channels, out_channels, stride=1):
+        super(BasicBlock, self).__init__()
+        # 第一个卷积层
+        self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size=3, 
+                               stride=stride, padding=1, bias=False)
+        self.bn1 = nn.BatchNorm2d(out_channels)
+        # 第二个卷积层
+        self.conv2 = nn.Conv2d(out_channels, out_channels, kernel_size=3, 
+                               stride=1, padding=1, bias=False)
+        self.bn2 = nn.BatchNorm2d(out_channels)
+
+        # 捷径连接（shortcut）：处理通道数/尺寸不匹配的情况
+        self.shortcut = nn.Sequential()
+        if stride != 1 or in_channels != self.expansion * out_channels:
+            self.shortcut = nn.Sequential(
+                nn.Conv2d(in_channels, self.expansion * out_channels, 
+                          kernel_size=1, stride=stride, bias=False),
+                nn.BatchNorm2d(self.expansion * out_channels)
+            )
+
+    def forward(self, x):
+        out = F.relu(self.bn1(self.conv1(x)))
+        out = self.bn2(self.conv2(out))
+        out += self.shortcut(x)  # 残差连接
+        out = F.relu(out)
+        return out
+```
+
+ResNet 通过堆叠 “残差块” 构建网络，BasicBlock 是针对**浅层 ResNet（18/34 层）** 设计的基础残差块，特点是包含**2 个 3×3 卷积层**，且通道数扩展系数`expansion=1`（深层 ResNet 如 50/101 层用 Bottleneck 块，expansion=4）。
+
+其核心思想是**残差学习**：不再让网络直接学习目标映射 *H*(*x*)，而是学习残差映射 *F*(*x*)=*H*(*x*)−*x*，最终输出 *H*(*x*)=*F*(*x*)+*x*。这种设计解决了深层网络的梯度消失问题，让网络可以堆叠更多层。
+
+在 self.shortcut 里，条件判断`stride != 1 or in_channels != self.expansion * out_channels`：当**尺寸缩放**（stride=2）或**通道数不匹配**时，需要用 1×1 卷积调整 shortcut 的维度：
+
+- `kernel_size=1`：1×1 卷积仅调整通道数，不改变空间信息；
+- `stride=stride`：同步缩放尺寸（与 conv1 的 stride 一致）；
+- 输出通道数`self.expansion * out_channels`：匹配残差分支的输出通道数。
+
+
+
+<br>
+
+ResNet网络代码如下。`ResNet`类是通用的 ResNet 架构模板，支持传入不同的残差块（如`BasicBlock`）、不同数量的残差块堆叠数（`num_blocks`），从而灵活构建 ResNet18/34（用`BasicBlock`）、ResNet50/101（用`Bottleneck`）。
+
+`ResNet18`函数是封装后的快捷方法，固定使用`BasicBlock`且堆叠数为`[2,2,2,2]`，最终形成 18 层的 ResNet（1 个初始卷积 + 4 组残差层 ×2 个 BasicBlock + 1 个全连接层）。
+
+```python
+class ResNet(nn.Module):
+    def __init__(self, block, num_blocks, num_classes=10):
+        super(ResNet, self).__init__()
+        self.in_channels = 64
+
+        # 初始卷积层（适配CIFAR10的32x32输入）
+        self.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
+        self.bn1 = nn.BatchNorm2d(64)
+        self.layer1 = self._make_layer(block, 64, num_blocks[0], stride=1)
+        self.layer2 = self._make_layer(block, 128, num_blocks[1], stride=2)
+        self.layer3 = self._make_layer(block, 256, num_blocks[2], stride=2)
+        self.layer4 = self._make_layer(block, 512, num_blocks[3], stride=2)
+        self.avgpool = nn.AdaptiveAvgPool2d((1, 1))  # 自适应平均池化
+        self.fc = nn.Linear(512 * block.expansion, num_classes)
+
+    def _make_layer(self, block, out_channels, num_blocks, stride):
+        strides = [stride] + [1]*(num_blocks-1)
+        layers = []
+        for stride in strides:
+            layers.append(block(self.in_channels, out_channels, stride))
+            self.in_channels = out_channels * block.expansion
+        return nn.Sequential(*layers)
+
+    def forward(self, x):
+        out = F.relu(self.bn1(self.conv1(x)))
+        out = self.layer1(out)
+        out = self.layer2(out)
+        out = self.layer3(out)
+        out = self.layer4(out)
+        out = self.avgpool(out)
+        out = torch.flatten(out, 1)
+        out = self.fc(out)
+        return out
+
+def ResNet18(num_classes=10):
+    """构建ResNet18模型"""
+    return ResNet(BasicBlock, [2, 2, 2, 2], num_classes)
+```
+
+
+
+**数据维度变化（以 CIFAR10 32×32 输入为例）**：
+
+| 步骤                      | 输入维度      | 操作                                                         | 输出维度      |
+| ------------------------- | ------------- | ------------------------------------------------------------ | ------------- |
+| 初始卷积 + BN+ReLU        | (B,3,32,32)   | conv1(3→64) + BN1 + ReLU                                     | (B,64,32,32)  |
+| layer1（2 个 BasicBlock） | (B,64,32,32)  | 2×BasicBlock(64→64, stride=1)                                | (B,64,32,32)  |
+| layer2（2 个 BasicBlock） | (B,64,32,32)  | 1×BasicBlock(64→128, stride=2) + 1×BasicBlock(128→128, stride=1) | (B,128,16,16) |
+| layer3（2 个 BasicBlock） | (B,128,16,16) | 1×BasicBlock(128→256, stride=2) + 1×BasicBlock(256→256, stride=1) | (B,256,8,8)   |
+| layer4（2 个 BasicBlock） | (B,256,8,8)   | 1×BasicBlock(256→512, stride=2) + 1×BasicBlock(512→512, stride=1) | (B,512,4,4)   |
+| 自适应平均池化            | (B,512,4,4)   | AdaptiveAvgPool2d(1,1)                                       | (B,512,1,1)   |
+| 展平                      | (B,512,1,1)   | torch.flatten(out,1)                                         | (B,512)       |
+| 全连接层                  | (B,512)       | Linear(512→10)                                               |               |
 
 
 
