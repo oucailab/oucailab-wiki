@@ -912,6 +912,272 @@ Test set: Average loss: 0.6227, Accuracy: 8003/10000 (80%)
 
 这是因为对于卷积神经网络，会利用像素的局部关系，但是打乱顺序以后，这些像素间的关系将无法得到利用。
 
+### 4.3 实验3：使用VGG对CIFAR10分类
+
+VGG是由Simonyan 和Zisserman在文献《Very Deep Convolutional Networks for Large Scale Image Recognition》中提出卷积神经网络模型，其名称来源于作者所在的牛津大学视觉几何组(Visual Geometry Group)的缩写。该模型参加2014年的 ImageNet图像分类与定位挑战赛，取得了优异成绩：在分类任务上排名第二，在定位任务上排名第一。
+
+**CIFAR10**（Canadian Institute for Advanced Research）是深度学习领域**最经典的图像分类基准数据集之一**，由 Alex Krizhevsky、Vinod Nair 和 Geoffrey Hinton 整理发布，尤其适合入门级计算机视觉算法的训练与测试。CIFAR10 包含 60000 张 32×32 像素的彩色 RGB 图像，分为 50000 张训练集 + 10000 张测试集，图像分辨率较低，计算成本小，适合快速迭代模型。
+
+<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ScreenShot_2025-12-16_122851_008.jpg width=60%></p>
+
+### 第一步：定义 dataloader
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torchvision
+import torchvision.transforms as transforms
+import matplotlib.pyplot as plt
+import numpy as np
+from tqdm import tqdm
+import os
+
+# 使用GPU训练，可以在菜单 "代码执行工具" -> "更改运行时类型" 里进行设置
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+# CIFAR10数据增强和预处理
+transform_train = transforms.Compose([
+    transforms.RandomCrop(32, padding=4),
+    transforms.RandomHorizontalFlip(),
+    transforms.ToTensor(),
+    transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))])
+transform_test = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))])
+
+# 加载CIFAR10数据集
+trainset = torchvision.datasets.CIFAR10(root='./data', train=True,  download=True, transform=transform_train)
+testset  = torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform_test)
+
+trainloader = torch.utils.data.DataLoader(trainset, batch_size=128, shuffle=True, num_workers=2)
+testloader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False, num_workers=2)
+
+# CIFAR10类别名称
+classes = ('plane', 'car', 'bird', 'cat',
+           'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+```
+
+<br>
+
+#### 第二步：定义VGG网络
+
+输入为32x32，所以手动将网络改简单了些，现在网络结构为：
+
+```
+64 conv, maxpooling,
+128 conv, maxpooling,
+256 conv, 256 conv, maxpooling,
+512 conv, 512 conv, maxpooling,
+512 conv, 512 conv, maxpooling,
+softmax
+```
+
+下面是模型的实现代码：
+
+```pytho
+class VGG(nn.Module):
+    def __init__(self):
+        super(VGG, self).__init__()
+        self.cfg = [64, 'M', 128, 'M', 256, 256, 'M', 512, 512, 'M', 512, 512, 'M']
+        self.features = self._make_layers(self.cfg)  
+        self.classifier = nn.Linear(512, 10)
+
+    def forward(self, x):
+        out = self.features(x)
+        out = out.view(out.size(0), -1)  # 展平
+        out = self.classifier(out)
+        return out
+
+    def _make_layers(self, cfg):
+        layers = []
+        in_channels = 3  # 修复：原代码缺少换行，导致语法错误
+        for x in cfg:
+            if x == 'M':
+                layers += [nn.MaxPool2d(kernel_size=2, stride=2)]
+            else:
+                layers += [
+                    nn.Conv2d(in_channels, x, kernel_size=3, padding=1),
+                    nn.BatchNorm2d(x),
+                    nn.ReLU(inplace=True)
+                ]
+                in_channels = x
+        layers += [nn.AvgPool2d(kernel_size=1, stride=1)]
+        return nn.Sequential(*layers)
+```
+
+初始化模型，定义损失函数和优化器：
+
+```Python
+# 初始化模型并移至设备
+model = VGG().to(device)
+# 定义损失函数和优化器
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=0.001)
+```
+
+<br>
+
+#### 第三步：定义训练函数和测试函数
+
+```Python
+# 训练函数
+def train(model, trainloader, criterion, optimizer, epoch):
+    model.train()
+    running_loss = 0.0
+    correct = 0
+    total = 0
+    pbar = tqdm(enumerate(trainloader), total=len(trainloader), desc=f'Epoch {epoch}')
+    
+    for batch_idx, (inputs, targets) in pbar:
+        inputs, targets = inputs.to(device), targets.to(device)
+        
+        # 前向传播
+        outputs = model(inputs)
+        loss = criterion(outputs, targets)
+        
+        # 反向传播和优化
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        
+        # 统计
+        running_loss += loss.item()
+        _, predicted = outputs.max(1)
+        total += targets.size(0)
+        correct += predicted.eq(targets).sum().item()
+        
+        # 更新进度条
+        pbar.set_postfix({
+            'Loss': running_loss/(batch_idx+1),
+            'Acc': 100.*correct/total
+        })
+    
+    return running_loss/len(trainloader), 100.*correct/total
+
+# 测试函数
+def test(model, testloader, criterion):
+    model.eval()
+    running_loss = 0.0
+    correct = 0
+    total = 0
+    
+    with torch.no_grad():  # 禁用梯度计算
+        for inputs, targets in testloader:
+            inputs, targets = inputs.to(device), targets.to(device)
+            outputs = model(inputs)
+            loss = criterion(outputs, targets)
+            
+            running_loss += loss.item()
+            _, predicted = outputs.max(1)
+            total += targets.size(0)
+            correct += predicted.eq(targets).sum().item()
+    
+    test_loss = running_loss/len(testloader)
+    test_acc = 100.*correct/total
+    print(f'\nTest set: Average loss: {test_loss:.4f}, Accuracy: {correct}/{total} ({test_acc:.2f}%)\n')
+    return test_loss, test_acc
+```
+
+ <br>
+
+#### 第四步：主训练循环
+
+```python
+epochs = 10
+best_acc = 0.0
+train_losses = []
+train_accs = []
+test_losses = []
+test_accs = []
+
+# 创建保存模型的目录
+os.makedirs('./checkpoints', exist_ok=True)
+
+for epoch in range(1, epochs+1):
+    train_loss, train_acc = train(model, trainloader, criterion, optimizer, epoch)
+    test_loss, test_acc = test(model, testloader, criterion)
+    
+    # 记录指标
+    train_losses.append(train_loss)
+    train_accs.append(train_acc)
+    test_losses.append(test_loss)
+    test_accs.append(test_acc)
+    
+    # 保存最佳模型
+    if test_acc > best_acc:
+        best_acc = test_acc
+        torch.save(model.state_dict(), './checkpoints/vgg_cifar10_best.pth')
+        print(f"保存最佳模型，准确率: {best_acc:.2f}%")
+```
+
+#### 第五步：结果可视化
+
+```python
+plt.figure(figsize=(12, 4))
+
+# 损失曲线
+plt.subplot(1, 2, 1)
+plt.plot(train_losses, label='Train Loss')
+plt.plot(test_losses, label='Test Loss')
+plt.title('Loss Curve')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+
+# 准确率曲线
+plt.subplot(1, 2, 2)
+plt.plot(train_accs, label='Train Acc')
+plt.plot(test_accs, label='Test Acc')
+plt.title('Accuracy Curve')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy (%)')
+plt.legend()
+
+plt.tight_layout()
+plt.savefig('vgg_cifar10_results.png')
+plt.show()
+```
+
+<br>
+
+#### 第六步：加载最佳模型并测试
+
+```python
+print(f"\n最佳测试准确率: {best_acc:.2f}%")
+model.load_state_dict(torch.load('./checkpoints/vgg_cifar10_best.pth'))
+final_test_loss, final_test_acc = test(model, testloader, criterion)
+print(f"加载最佳模型后最终测试准确率: {final_test_acc:.2f}%")
+```
+
+<br>
+
+####  第七步：查看各类别准确率
+
+```python
+class_correct = list(0. for i in range(10))
+class_total = list(0. for i in range(10))
+model.eval()
+
+with torch.no_grad():
+    for inputs, targets in testloader:
+        inputs, targets = inputs.to(device), targets.to(device)
+        outputs = model(inputs)
+        _, predicted = torch.max(outputs, 1)
+        c = (predicted == targets).squeeze()
+        
+        for i in range(targets.size(0)):
+            label = targets[i]
+            class_correct[label] += c[i].item()
+            class_total[label] += 1
+
+# 打印各类别准确率
+for i in range(10):
+    print(f'Accuracy of {classes[i]} : {100 * class_correct[i] / class_total[i]:.2f}%')
+```
+
+
+
 
 
 
