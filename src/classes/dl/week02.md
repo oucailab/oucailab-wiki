@@ -1185,7 +1185,8 @@ for i in range(10):
 
 <br>
 <br>
-### 4.3 实验4：使用ResNet18对CIFAR10分类
+
+### 4.4 实验4：使用ResNet18对CIFAR10分类
 
 训练和数据集的代码不变，只是网络上的代码有变化。首先定义BasicBlock类，如下图所示。
 
