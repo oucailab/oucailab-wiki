@@ -40,7 +40,7 @@
 | ----- | -------------------------- | ------------------------------------------------- |
 | 第一章 | 深度学习基础               | 【 [链接](https://oucai.club/classes/dl/week01) 】 |
 | 第二章 | 卷积神经网络               | 【 [链接](https://oucai.club/classes/dl/week02) 】 |
-| 第三章 | MobileNet & ShuffleNet    | 【 链接 】 |
+| 第三章 | MobileNet & ShuffleNet    | 【 [链接](https://oucai.club/classes/dl/week03) 】 |
 | 第四章 | ViT & Swin Transformer    | 【 链接 】 |
 
 <br>
