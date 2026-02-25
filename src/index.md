@@ -2,7 +2,7 @@
 
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ouc_campus.jpg)
 
-### Updated by 202508 
+### Updated by 202602
 
 🎯 OUC AI Lab 隶属于中国海洋大学海洋动力-物理环境与智能感知全国重点实验室，计算机学院 和 人工智能学院，是一个跨学科研究团队，由 董军宇教授 担任主任。🚀 研究团队主要聚焦于海洋大数据、人工智能海洋学、多源数据融合，致力于实现对海洋多源数据的高精度、高效率解译与分析。近年来，研究小组在国内外期刊及国际会议上已发表学术论文100余篇，主持了多项国家级项目，获得多项专利授权和省部级科研奖项，在国内外具有一定的影响力。
 
@@ -14,15 +14,13 @@
 
 
 ## 🚩 小组新闻
+* 2026.02 北极海冰预测方法 FH-Mamba 被 IEEE TGRS 录用
+* 2026.02 SUCode 被 IEEE TGRS 录用
 * 2025.09 陈万坤的SST超分辨率的工作被 IEEE TGRS 录用
 * 2025.06 本科生赵一伉的工作被 IEEE GRSL 录用
 * 2025.06 ADR-MVS 被IEEE TGRS录用
 * 2025.05 多源分类方法 PICNet 被 IEEE TGRS 录用
 * 2025.04 北极海冰预测方法 FCNet 被 IEEE TGRS 录用
-* 2025.03 遥感图像分割方法 AFENet 被 IEEE TGRS 录用
-* 2025.03 多源分类方法 DCMNet 被 IEEE TGRS 录用
-* 2025.01 多源分类方法 MSFMamba 被 IEEE TGRS 录用
-
 
 
 
