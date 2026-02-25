@@ -9,13 +9,16 @@ E-mail: <gaofeng@ouc.edu.cn>
 [Weibo](https://www.weibo.com/summitgao) / [Google Scholar](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/gaofront) / [Zhihu](https://www.zhihu.com/people/gaopursuit) / [中文主页](http://it.ouc.edu.cn/gf) / 
 
 
-***[Updated by 2026/01]***
+***[Updated by 2026/02]***
 
 🎈 欢迎优秀的同学加入 [AI前沿理论研究小组](https://oucai.club) 😁 课题组长期招收学有余力的本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复。 🚀 其它快速联系方式：📩微博私信（[ 高峰是我啦 ](https://weibo.com/summitgao)） 🐶知乎私信（[ 高峰OUC ](http://zhihu.com/people/gaopursuit)） 欢迎随时交流
 
 
 ## 🎯 Selected Publications 【[More](https://scholar.google.com.hk/citations?user=k91CLXQAAAAJ)】
 
+### **2026**
+1. B. Lin, **F. Gao***, Y. Yu, J. Dong and Q. Du, "Enhancing Underwater Images via Adaptive Semantic-aware Codebook Learning," *IEEE Transactions on Geoscience and Remote Sensing*, 2026.  [[PDF](https://ieeexplore.ieee.org/document/11395318)] [[Code@Github](https://github.com/oucailab/ SUCode)]
+1. **F. Gao***, Z. Gong, W. Liu, Y. Gan, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
 
 ### **2025**
 1. W. Chen, F. Gao*, Y. Gan, J. Cao, J. Dong* and Q. Du, "Wavelet-Assisted Mamba for Satellite-Derived Sea Surface Temperature Super-Resolution," IEEE Transactions on Geoscience and Remote Sensing, 2025.  [[PDF](https://ieeexplore.ieee.org/document/11187314)] [[Code@Github](https://github.com/oucailab/WMSR)]
