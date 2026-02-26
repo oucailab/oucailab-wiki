@@ -6,7 +6,7 @@
 E-mail: <gaofeng@ouc.edu.cn>
 
 
-[Weibo](https://www.weibo.com/summitgao) / [Google Scholar](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/gaofront) / [Zhihu](https://www.zhihu.com/people/gaopursuit) / [中文主页](http://it.ouc.edu.cn/gf) / 
+[Weibo](https://www.weibo.com/summitgao) / [Google Scholar](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/gaofront) / [Zhihu](https://www.zhihu.com/people/gaopursuit) / [海大主页](http://it.ouc.edu.cn/gf) / 
 
 
 ***[Updated by 2026/02]***
