@@ -14,6 +14,7 @@
 
 
 ## 🚩 小组新闻
+* 2026.02 HLT-UIE 被 IEEE TIP 录用
 * 2026.02 北极海冰预测方法 FH-Mamba 被 IEEE TGRS 录用
 * 2026.02 SUCode 被 IEEE TGRS 录用
 * 2025.09 陈万坤的SST超分辨率的工作被 IEEE TGRS 录用
