@@ -3,7 +3,7 @@
 ## 📚 代表性学术论文
 
 ### 2026
-1. B. Lin, F. Gao*, Y. Yu, J. Dong and Q. Du, "Enhancing Underwater Images via Adaptive Semantic-aware Codebook Learning," *IEEE Transactions on Geoscience and Remote Sensing*, 2026.  [[PDF](https://ieeexplore.ieee.org/document/11395318)] [[Code@Github](https://github.com/oucailab/SUCode)]
+
 1. F. Gao*, Z. Gong, W. Liu, Y. Gan, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
 
 ###   2025  
