@@ -4,7 +4,7 @@
 
 ### 2026
 
-1. F. Gao*, Z. Gong, W. Liu, Y. Gan, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
+1. F. Gao, Z. Gong, W. Liu, Y. Gan*, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
 2. B. Lin, F. Gao*, Y. Yu, J. Dong and Q. Du, "Downstream Task-Inspired Underwater Image Enhancement: A Perception-Aware Study From Dataset Construction to Network Design," *IEEE Transactions on Image Processing*, vol. 35, pp. 2873-2888, 2026. [[PDF](https://ieeexplore.ieee.org/document/11433506)][[Code@Github](https://github.com/oucailab/DTIUIE)]
 3. B. Lin, F. Gao*, Y. Yu, J. Dong and Q. Du, "Enhancing Underwater Images via Adaptive Semantic-Aware Codebook Learning," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11395318)][[Code@Github](https://github.com/oucailab/SUCode)]
 4. L. Qi, Y. Wu, F. Gao*, J. Dong*, Q. Du and X. Gao, "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11427018)]
