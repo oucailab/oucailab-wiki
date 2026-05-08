@@ -25,6 +25,8 @@ E-mail: <gaofeng@ouc.edu.cn>
 1. J. Cao, G. An, F. Gao, K. Gu, Y. Liu, "UQ-Bench: A Benchmark for Evaluating Multimodal LLMs on Underwater Image Quality Assessment," *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37246)]
 1. J. Wang, H. Bi, J. Cao, F. Gao, J. Dong, "SEA-PACE: Semi-Supervised Underwater Image Enhancement via Gaussian Process–Assisted Self-Paced Learning", *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37958)]
 1. J. Lu, S. Sun, P. Wang, C. Wu, F. Gao, L. Gong, D. Lu, G. Zhang, Z. Zheng, "DCA-LUT: Deep Chromatic Alignment with 5D LUT for Purple Fringing Removal", *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37696)]
+1. 弓政，张家亮，**高峰***，甘言海，董军宇，小波多尺度残差聚合北极海冰预测网络WRANet，中国图象图形学报，2026. [[PDF](https://cjig.cn/zh/article/doi/10.11834/jig.250318/)]
+1. 潘子哲，**高峰***，宫传政，甘言海，董军宇，选择注意力与方向特征增强的遥感图像语义分割，中国图象图形学报，2026. [[PDF](https://cjig.cn/zh/article/doi/10.11834/jig.250317/)]
 
 ### **2025**
 1. W. Chen, **F. Gao***, Y. Gan, J. Cao, J. Dong* and Q. Du, "Wavelet-Assisted Mamba for Satellite-Derived Sea Surface Temperature Super-Resolution," IEEE Transactions on Geoscience and Remote Sensing, 2025.  [[PDF](https://ieeexplore.ieee.org/document/11187314)] [[Code@Github](https://github.com/oucailab/WMSR)]
