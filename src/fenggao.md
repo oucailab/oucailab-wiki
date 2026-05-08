@@ -18,16 +18,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 
 ### **2026**
 
-1. C. Gong, **F. Gao***, J. Lin, J. Dong and Q. Du, "Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11483234)][[Code@Github](https://github.com/oucailab/RSCNet)]
-1. **F. Gao**, Z. Gong, W. Liu, Y. Gan*, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
-1. B. Lin, **F. Gao***, Y. Yu, J. Dong and Q. Du, "Downstream Task-Inspired Underwater Image Enhancement: A Perception-Aware Study From Dataset Construction to Network Design," *IEEE Transactions on Image Processing*, vol. 35, pp. 2873-2888, 2026. [[PDF](https://ieeexplore.ieee.org/document/11433506)][[Code@Github](https://github.com/oucailab/DTIUIE)]
-1. B. Lin, **F. Gao***, Y. Yu, J. Dong and Q. Du, "Enhancing Underwater Images via Adaptive Semantic-Aware Codebook Learning," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11395318)][[Code@Github](https://github.com/oucailab/SUCode)]
-1. L. Qi, Y. Wu, **F. Gao***, J. Dong*, Q. Du and X. Gao, "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11427018)]
-1. J. Cao, G. An, F. Gao, K. Gu, Y. Liu, "UQ-Bench: A Benchmark for Evaluating Multimodal LLMs on Underwater Image Quality Assessment," *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37246)]
-1. J. Wang, H. Bi, J. Cao, F. Gao, J. Dong, "SEA-PACE: Semi-Supervised Underwater Image Enhancement via Gaussian Process–Assisted Self-Paced Learning", *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37958)]
-1. J. Lu, S. Sun, P. Wang, C. Wu, F. Gao, L. Gong, D. Lu, G. Zhang, Z. Zheng, "DCA-LUT: Deep Chromatic Alignment with 5D LUT for Purple Fringing Removal", *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37696)]
-1. 弓政，张家亮，**高峰***，甘言海，董军宇，小波多尺度残差聚合北极海冰预测网络WRANet，中国图象图形学报，2026. 
-1. 潘子哲，**高峰***，宫传政，甘言海，董军宇，选择注意力与方向特征增强的遥感图像语义分割，中国图象图形学报，2026.
+
 
 ### **2025**
 
