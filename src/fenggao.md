@@ -41,10 +41,10 @@ E-mail: <gaofeng@ouc.edu.cn>
 1. Y. Zhao, F. Gao*, X. Jin, J. Dong, and Q. Du, "Dynamic Frequency Feature Fusion Network for Multi-Source Remote Sensing Data Classification," IEEE Geoscience and Remote Sensing Letters, 2025. [[PDF](https://ieeexplore.ieee.org/document/11075707)] [[Code@Github](https://github.com/oucailab/DFFNet)]
 1. Z. Wang, **F. Gao***, J. Dong and Q. Du, "Global and Local Attention-Based Transformer for Hyperspectral Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10766648>)][[Code@Github](<https://github.com/summitgao/GLAFormer>)]
 1. H. Dong, X. Du, Z. Li, X. Li, Z. Ma, **F. Gao**, "Dynamic Bilinear Fusion Network for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10848167>)]
-1. 刘文力, **高峰\***, 张浩鹏, 董军宇, 吴淳桐，"基于通道变换和Transformer的高光谱图像变化检测方法", 计算机学报，2025. 
-1. 金学鹏, **高峰\***, 石晓晨, 董军宇，"针对多源遥感图像分类的门控跨模态聚合网络", 中国图象图形学报，2025. 
-1. 李相潭, **高峰\***, 孙悦, 董军宇, "针对高光谱遥感图像变化检测的混合注意力和双向门控网络"， 中国图象图形学报，2025. 
-1. 王嘉毅，**高峰**，张天戈，甘言海，"基于小波变换平行注意力的多源遥感图像分类"，北京航空航天大学学报，2025. 
+1. 刘文力, **高峰\***, 张浩鹏, 董军宇, 吴淳桐，基于通道变换和Transformer的高光谱图像变化检测方法, 计算机学报，2025. 
+1. 金学鹏, **高峰\***, 石晓晨, 董军宇，针对多源遥感图像分类的门控跨模态聚合网络, 中国图象图形学报，2025. 
+1. 李相潭, **高峰\***, 孙悦, 董军宇, 针对高光谱遥感图像变化检测的混合注意力和双向门控网络， 中国图象图形学报，2025. 
+1. 王嘉毅，**高峰**，张天戈，甘言海，基于小波变换平行注意力的多源遥感图像分类，北京航空航天大学学报，2025. 
 
 
 ### **2024**
