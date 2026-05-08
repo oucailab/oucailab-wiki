@@ -27,9 +27,9 @@
 1. Z. Wang,   F. Gao, J. Dong and Q. Du, "Global and Local Attention-Based Transformer for Hyperspectral Image Change Detection,"  IEEE Geoscience and Remote Sensing Letters, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10766648>)][[Code@Github](<https://github.com/summitgao/GLAFormer>)]
 1. H. Dong, X. Du, Z. Li, X. Li, Z. Ma,   Feng Gao, "Dynamic Bilinear Fusion Network for Synthetic Aperture Radar Image Change Detection,"  IEEE Geoscience and Remote Sensing Letters, 2025. [[PDF](<https://ieeexplore.ieee.org/document/10848167>)]
 1. 刘文力,   高峰, 张浩鹏, 董军宇, 吴淳桐，"基于通道变换和Transformer的高光谱图像变化检测方法",  计算机学报,2025.
-1. 金学鹏,   高峰, 石晓晨, 董军宇，"针对多源遥感图像分类的门控跨模态聚合网络",  中国图象图形学报,2024. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240359/>)]
-1. 李相潭,   高峰, 孙悦, 董军宇, "针对高光谱遥感图像变化检测的混合注意力和双向门控网络"，  中国图象图形学报,2024. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.240360/>)]
-1. 王嘉毅，高峰，张天戈，甘言海，"基于小波变换平行注意力的多源遥感图像分类"，北京航空航天大学学报，2025. [[Code@Github](<https://github.com/summitgao/WPANet>)]
+1. 金学鹏,   高峰, 石晓晨, 董军宇，"针对多源遥感图像分类的门控跨模态聚合网络",  中国图象图形学报,2024. 
+1. 李相潭,   高峰, 孙悦, 董军宇, "针对高光谱遥感图像变化检测的混合注意力和双向门控网络"，  中国图象图形学报,2024. 
+1. 王嘉毅，高峰，张天戈，甘言海，"基于小波变换平行注意力的多源遥感图像分类"，北京航空航天大学学报，2025.
 
 ###   2024  
 1. Y. Zhao, T. Celik, N. Liu,   F. Gao   and H. -C. Li, "SSLChange: A Self-supervised Change Detection Framework Based on Domain Adaptation,"  IEEE Transactions on Geoscience and Remote Sensing, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10741199>)][[Code@Github](https://github.com/MarsZhaoYT/SSLChange)]
@@ -41,10 +41,10 @@
 1. S. Hu,   F. Gao, X. Zhou, J. Dong, Q. Du, "Hybrid Convolutional and Attention Network for Hyperspectral Image Denoising,"  IEEE Geoscience and Remote Sensing Letters, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10445289>)] [[Code@Github](<https://github.com/summitgao/HCANet>)]
 1. S. Tao, Y. Li,   F. Gao, H. Fan, J. Dong, Y. Gan, "Multi-Scale Spatial Features and Temporal Attention Mechanisms: Advancing the Accuracy of ENSO Prediction,"  Intelligent Marine Technology and Systems, 2024. [[PDF](<https://link.springer.com/article/10.1007/s44295-023-00017-w>)]
 1. L. Qi, M. Yue,   F. Gao, B. Cao, J. Dong and X. Gao, "Deep Attention-Guided Spatial–Spectral Network for Hyperspectral Image Unmixing",  IEEE Geoscience and Remote Sensing Letters, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10371391>)]
-1. 胡帅，  高峰,龚卓然，陶盛恩，上官心语，董军宇，"基于Transformer和通道混合并行卷积的高光谱图像去噪"， 中国图象图形学报,2024. [[PDF](<https://cjig.cn/zh/article/doi/10.11834/jig.230381/>)]
-1.   高峰,孟德森，解正源，亓林，董军宇,"基于Transformer和动态3D卷积的多源遥感图像分类"，  北京航空航天大学学报,2024.  [[PDF](<https://bhxb.buaa.edu.cn/bhzk/cn/article/doi/10.13700/j.bh.1001-5965.2022.0397>)]
-1. 刘晟, 金学鹏,   高峰, 甘言海，"基于稀疏注意力和可变形融合的多源遥感图像分类方法",  北京航空航天大学学报, 2024. [[PDF](<https://bhxb.buaa.edu.cn/bhzk/cn/article/doi/10.13700/j.bh.1001-5965.2024.0480>)]
-1. 程陆瑶, 林俊彦,   高峰, 周小伟, "基于双分支Transformer的高光谱和LiDAR数据分类方法"， 北京航空航天大学学报,2024. [[PDF](<https://bhxb.buaa.edu.cn/bhzk/cn/article/doi/10.13700/j.bh.1001-5965.2024.0479>)]
+1. 胡帅，  高峰,龚卓然，陶盛恩，上官心语，董军宇，"基于Transformer和通道混合并行卷积的高光谱图像去噪"， 中国图象图形学报,2024.
+1.   高峰,孟德森，解正源，亓林，董军宇,"基于Transformer和动态3D卷积的多源遥感图像分类"，  北京航空航天大学学报,2024.  
+1. 刘晟, 金学鹏,   高峰, 甘言海，"基于稀疏注意力和可变形融合的多源遥感图像分类方法",  北京航空航天大学学报, 2024.
+1. 程陆瑶, 林俊彦,   高峰, 周小伟, "基于双分支Transformer的高光谱和LiDAR数据分类方法"， 北京航空航天大学学报,2024.
 
 
 ###   2023  
