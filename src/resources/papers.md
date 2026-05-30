@@ -18,7 +18,10 @@
 
 1. F. Gao, Z. Jin, Y. Gan, J. Dong, Q. Du, "Axial-Relation-Guided Fusion State-Space Model for Optical-Elevation Sensing Image Segmentation", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523510)][[Code@Github](https://github.com/oucailab/ARG-Mamba)]
 
+1. B. Huan, C. Gong, D. Chen, F. Gao, J. Dong, Q. Du, "Synthetic Aperture Radar Image Change Detection Based on Global Dynamic Context-Aware Network", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523468)][[Code@Github](https://github.com/oucailab/GDNet)]
+
 1. J. Li, Y. Li, F. Gao, Y. Gan, J. Dong, "OceanGraph: Adaptive Mesh-Grid Coupling for Multiscale Ocean State Prediction", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11538329)]
+
 
 1. J. Cao, G. An, F. Gao, K. Gu, Y. Liu, "UQ-Bench: A Benchmark for Evaluating Multimodal LLMs on Underwater Image Quality Assessment," *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37246)]
 
