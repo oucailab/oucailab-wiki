@@ -14,7 +14,9 @@
 
 1. L. Qi, Y. Wu, F. Gao*, J. Dong*, Q. Du and X. Gao, "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11427018)]
 
-1. T. Zhang, F. Gao*, L. Qi, J. Dong, Q. Du, "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF]()][[Code@Github](https://github.com/oucailab/SDANet)]
+1. T. Zhang, F. Gao*, L. Qi, J. Dong, Q. Du, "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11505914)][[Code@Github](https://github.com/oucailab/SDANet)]
+
+1. F. Gao, Z. Jin, Y. Gan, J. Dong, Q. Du, "Axial-Relation-Guided Fusion State-Space Model for Optical-Elevation Sensing Image Segmentation", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523510)][[Code@Github](https://github.com/oucailab/ARG-Mamba)]
 
 1. J. Li, Y. Li, F. Gao, Y. Gan, J. Dong, "OceanGraph: Adaptive Mesh-Grid Coupling for Multiscale Ocean State Prediction", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11538329)]
 
