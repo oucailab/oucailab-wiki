@@ -16,6 +16,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 ***[Updated by 2026/06]***
 
 🎈 Outstanding students are welcome to join our team 😁 We do not enforce daily attendance check-ins, and the lab boasts a vibrant academic atmosphere. We fully support students to participate in academic events and science & innovation competitions. The preferred contact method is via 📧 Email: gaofeng@ouc.edu.cn, and I will normally reply within 12 hours.
+
 🚀 Alternative quick contact channels: 📩 Weibo ([高峰是我啦](https://weibo.com/summitgao))  🐶 Zhihu ([高峰OUC](https://www.zhihu.com/people/gaopursuit))
 
 Feel free to get in touch anytime for discussions.
