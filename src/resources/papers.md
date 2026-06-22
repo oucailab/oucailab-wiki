@@ -93,20 +93,6 @@
 1. Y. Gao,   F. Gao, J. Dong and H. -C. Li, "SAR Image Change Detection Based on Multiscale Capsule Network,"  IEEE Geoscience and Remote Sensing Letters, vol. 18, no. 3, pp. 484-488, March 2021.  [[PDF](https://gaopursuit.oss-cn-beijing.aliyuncs.com/pub/grsl20%5C_SAR%5C_change%5C_detection%5C_capusule%5C_network.pdf)]  [[Code@github](https://github.com/summitgao/SAR%5C_CD%5C_MS%5C_CapsNet)] 
 1. Y. Gao,   F. Gao, J. Dong, Q. Du and H. -C. Li, "Synthetic Aperture Radar Image Change Detection via Siamese Adaptive Fusion Network,"  IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 14, pp. 10748-10760, 2021.  [[PDF](https://ieeexplore.ieee.org/document/9576639)] [[Code@Github](https://github.com/summitgao/SAR%5C_CD%5C_SAFNet)]
 
-## 🖼️ 代表性专利
-
-- ZL 202411424937.1 一种可用于海洋目标分析的多视角高光谱图像处理方法，亓林  吴文敏  高峰  董军宇 `【审中】`
-- ZL 202411124234.7 基于全局注意力生成对抗网络的海洋数据扩充方法，甘言海  刘兴国  陶盛恩  董军宇  高峰  周小伟  `【审中】`
-- ZL 202410976951.6 基于内容引导注意力的ENSO预测方法和模型，刘兴国  甘言海  陶盛恩  董军宇  高峰  周小伟 `【授权】`
-- ZL 202410719179.X 一种基于Mamba的北极海冰密集度预测方法，高峰  刘文力  董军宇  甘言海  `【授权】`
-- ZL 202410704941.7 一种基于图神经网络的多源船舶轨迹匹配方法，苏伟  张江南  董军宇  李江涛  刘永硕 `【审中】`
-- ZL 202210564263.X 基于全局动态卷积神经网络的SAR图像变化检测方法，高峰  徐云哲  董军宇 `【审中】`
-- ZL 202111524515.8 基于深度学习的高频区域增强的光度立体三维重建方法，举雅琨  董军宇  高峰 `【授权】`
-- ZL 202111120666.7 基于动态神经网络的多种类农作物叶病识别方法，张江南  董军宇  高峰  王海  李文博  刘永朔   `【授权】`
-- ZL 202011541881.X 基于区域增强卷积神经网络的SAR图像变化检测方法，高峰  曲晓帆  董军宇  赵政达  高琰   `【授权】`
-- ZL 202011541883.9 基于盲噪声估计的高光谱图像去噪方法，高峰  高琰  董军宇  王会金  曲晓帆    `【授权】`
-- ZL 202010056677.2 基于Gabor卷积网络的SAR图像变化检测方法，高峰  张珊  董军宇  吕越  王俊杰   `【授权】`
-- ZL 201910845085.6 基于孪生网络的SAR图像变化检测方法，高峰  高云浩  董军宇  王群   `【授权】`
 
 
 
