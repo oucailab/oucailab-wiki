@@ -61,7 +61,7 @@ export default defineConfig({
         ]
       },
       { 
-        text: "❇️ 其他资料",  
+        text: "❇️ Others",  
         items: [  
           {text:"How to Research", link: "/classes/paperwriting"},
           {text:"Guidance on Scientific Plotting", link:"/research/picture"},
