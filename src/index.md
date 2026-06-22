@@ -4,24 +4,24 @@
 
 ### Updated by 202605
 
-🎯 OUC AI Lab 隶属于中国海洋大学海洋动力-物理环境与智能感知全国重点实验室，计算机学院 和 人工智能学院，是一个跨学科研究团队，由 董军宇教授 担任主任。🚀 研究团队主要聚焦于海洋大数据、人工智能海洋学、多源数据融合，致力于实现对海洋多源数据的高精度、高效率解译与分析。近年来，研究小组在国内外期刊及国际会议上已发表学术论文100余篇，主持了多项国家级项目，获得多项专利授权和省部级科研奖项，在国内外具有一定的影响力。
+🎯 OUC AI Lab is affiliated with the State Key Laboratory of Physical Oceanography, Ocean University of China. It is an interdisciplinary research team headed by Professor Dong Junyu.
+🚀 The research team mainly focuses on marine big data, artificial intelligence oceanography and multi-source data fusion, and is committed to high-precision and high-efficiency interpretation and analysis of multi-source marine data. 
 
-🌈 课题组长期招收学有余力的本科生提前进入实验室开展学术研究工作。🙋 本团队不考勤打卡，氛围活跃，支持同学们参加学术和科创竞赛，欢迎各位优秀的同学咨询，联系的最佳方式是 📧 EMAIL（<gaofeng@ouc.edu.cn>），通常会在12小时内回复⏰
+🌈 Our team consistently recruits highly-motivated undergraduates to join the lab for academic research.
+
+🙋 Our team enforces no clock-in attendance rules and maintains a lively academic atmosphere. We fully support students to participate in academic events and science & innovation competitions. Outstanding students are welcome to reach out for inquiries. Please contact us via email 📧 gaofeng@ouc.edu.cn, and replies will be sent within 12 hours ⏰
 
 
 
 
 
 
-## 🚩 小组新闻
-* 2026.04 高光谱图像修复方法 SDANet 被 IEEE GRSL 录用
-* 2026.04 多源遥感数据分类方法 RSCNet 被 IEEE TGRS 录用
-* 2026.02 北极海冰预测方法 FH-Mamba 被 IEEE TGRS 录用
-* 2025.09 陈万坤的SST超分辨率的工作被 IEEE TGRS 录用
-* 2025.06 本科生赵一伉的工作被 IEEE GRSL 录用
-* 2025.06 ADR-MVS 被IEEE TGRS录用
-* 2025.05 多源分类方法 PICNet 被 IEEE TGRS 录用
-* 2025.04 北极海冰预测方法 FCNet 被 IEEE TGRS 录用
+## 🚩 NEWS
+
+* 2026.04 The hyperspectral image restoration method SDANet was accepted by IEEE GRSL.
+* 2026.04 The multi-source data classification method RSCNet was accepted by IEEE TGRS.
+* 2026.02 The Arctic sea ice prediction method FH-Mamba was accepted by IEEE TGRS.
+
 
 
 
