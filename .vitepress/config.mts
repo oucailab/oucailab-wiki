@@ -50,25 +50,23 @@ export default defineConfig({
     sidebarMenuLabel: "Menu",
     sidebar: [
       { text: "Welcome", link: "/index"},
-      { text: "🧑‍💻 小组成员", link: "/member"},
-      { text: "📚 论文发表", link: "/resources/papers"},
-      { text: "🏆 荣誉奖励", link: "/awards"},
+      { text: "🧑‍💻 Members", link: "/member"},
+      { text: "📚 Publications", link: "/resources/papers"},
+      { text: "🏆 Awards", link: "/awards"},
       { 
-        text: "🎁 课程学习",  
+        text: "🎁 Courses",  
         items: [  
-          {text:"25夏移动软件开发", link: "/classes/MobileDev"},
-          {text:"25秋计算机学术英语", link:"/classes/AcademicEnglish"},
-          {text:"25秋软件工程原理与实践", link:"/classes/Software"},
-          {text:"25秋深度学习训练营", link:"/classes/DeepLearning"},
+          {text:"Mobile Development", link: "/classes/MobileDev"},
+          {text:"Software Engineering", link:"/classes/Software"},
         ]
       },
       { 
         text: "❇️ 其他资料",  
         items: [  
-          {text:"如何动手科研", link: "/classes/paperwriting"},
-          {text:"科研作图指导", link:"/research/picture"},
-          {text:"准备开题报告", link:"/research/proposal"},
-          {text:"学位论文写作指导", link:"/research/thesis_writing"},
+          {text:"How to Research", link: "/classes/paperwriting"},
+          {text:"Guidance on Scientific Plotting", link:"/research/picture"},
+          {text:"Thesis Proposal", link:"/research/proposal"},
+          {text:"Dissertation Writing", link:"/research/thesis_writing"},
         ]
       },
     ],
@@ -80,7 +78,7 @@ export default defineConfig({
 
     // Footer
     footer: {
-      copyright: "Copyright © 2025  OUC AI Lab",
+      copyright: "Copyright © 2026  OUC AI Lab",
     },
 
     // Last updated
