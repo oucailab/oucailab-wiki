@@ -1,21 +1,14 @@
 
 # 🏆 Awards
 
-- 2025年，中国高校计算机大赛-移动应用创新赛，华东赛区二等奖
-- 2025年，第六届CCF中国计算机应用技术大赛，山东省一等奖
-- 2024年，大湾区杯粤港澳AI4Science竞赛二等奖
-- 2024年，全国成像光谱对地观测学术研讨会优秀论文奖
-- 2024年，全国成像光谱对地观测学术研讨会优秀报告奖
-- 2024年，遥感青年科学家沙龙优秀报告奖
-- 2024年，中国多媒体大会（ChinaMM）最佳学生论文奖
-- 2024年，中国海洋大学本科毕设优秀指导教师
-- 2023年，硕士生林俊彦获得第七届全国成像光谱对地观测学术研讨会优秀报告奖
-- 2023年，硕士生林俊彦获得第三届中国图象图形学报研究生学术论坛突出报告奖
-- 2023年，硕士生曲晓帆获得山东省计算机学会优秀硕士学位论文奖
-- 2021年，中国海洋大学本科毕设优秀指导教师
-- 2021年，第十六届图像图形技术与应用学术会议（IGTA）论文竞赛二等奖
-- 2021年，全国水下机器人大赛（线上赛）水下光学目标智能检测赛题TOP8\% （39/500）
-- 2020年，全国人工智能大赛“华为昇腾杯”AI+遥感影像赛题TOP4\% （88/1732）
-- 2020年，高分遥感图像解译软件大赛“全极化SAR图像中地物要素自动分类”赛题第6名（TOP 6 / 100）
-- 2019年，ChinaMM2019“水下图像增强”技术竞赛三等奖
-- 2019年，第五届百度\&西安交大大数据竞赛“遥感影像区域功能分类”赛题三等奖2项（TOP 11 / 2312）
+- 2025, Second Prize in the East China Regional Contest of the China Collegiate Computing Contest – Mobile Application Innovation Competition
+- 2025, First Prize (Shandong Province) in the 6th CCF China Computer Application Technology Competition
+- 2024, Second Prize in the Guangdong–Hong Kong–Macao Greater Bay Area Cup AI4Science Competition
+- 2024, Outstanding Paper Award, National Symposium on Imaging Spectroscopy for Earth Observation
+- 2024, Outstanding Presentation Award, National Symposium on Imaging Spectroscopy for Earth Observation
+- 2024, Outstanding Presentation Award, Remote Sensing Young Scientists Salon
+- 2024, Best Student Paper Award, ChinaMM (China Multimedia Conference)
+- 2024, Outstanding Supervisor of Undergraduate Thesis, Ocean University of China
+- 2023, Outstanding Presentation Award, 7th National Symposium on Imaging Spectroscopy for Earth Observation (Junyan Lin)
+- 2023, Distinguished Presentation Award, 3rd Graduate Academic Forum of Journal of Image and Graphics (Junyan Lin)
+- 2023, Outstanding Master’s Thesis Award, Shandong Computer Federation (Xiaofan Qu)
