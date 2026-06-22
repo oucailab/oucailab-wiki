@@ -33,7 +33,7 @@ function getMarkdownFiles(dirPath: string): { text: string; link: string }[] {
 export default defineConfig({
   title: "OUC AI Lab",
   description: "MAKE OUCAILAB GREAT AGAIN",
-  lang: "zh-CN",
+  lang: "en-US",
   srcDir: "src",
   lastUpdated: true,
   ignoreDeadLinks: true,
