@@ -11,7 +11,7 @@
 
 🙋 Our team enforces no clock-in attendance rules and maintains a lively academic atmosphere. We fully support students to participate in academic events and science & innovation competitions. Outstanding students are welcome to reach out for inquiries. Please contact us via email 📧 gaofeng@ouc.edu.cn, and replies will be sent within 12 hours ⏰
 
-
+ 
 
 
 
