@@ -2,7 +2,7 @@
 
 ![](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2025/ouc_campus.jpg)
 
-### Updated by 202605
+### Updated by 202606
 
 🎯 OUC AI Lab is affiliated with the State Key Laboratory of Physical Oceanography, Ocean University of China. It is an interdisciplinary research team headed by Professor Dong Junyu.
 🚀 The research team mainly focuses on marine big data, artificial intelligence oceanography and multi-source data fusion, and is committed to high-precision and high-efficiency interpretation and analysis of multi-source marine data. 
