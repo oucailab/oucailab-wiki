@@ -35,14 +35,13 @@ XXXXXXXXXX
 ## 1、官方开发者工具下载地址
 
 https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
-
 建议大家下载最新的稳定版本
 
-![ScreenShot_2026-08-17_073109_738](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_073109_738.jpg)
+<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_073109_738.jpg" width=500px></p>
 
 然后点击自己电脑对应系统的版本下载即可。至于安装很方便，只需要双击安装包，不停的点下一步即可，安装完成以后的官方开发者工具长这样。
 
-![image-20260817073433106](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/image-20260817073433106.png)
+<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/image-20260817073433106.png" width=150px></p>
 
 
 
