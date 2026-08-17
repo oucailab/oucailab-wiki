@@ -32,7 +32,7 @@
 
 ## 🧩 4、实验任务
 
-### 🚩实验1：第一个微信小程序 【[实验文档](https://gitee.com/gaopursuit/mobile_software/raw/master/lab/lab1.pdf)】【[学习视频](https://www.bilibili.com/video/BV1i4411c7dU?p=2)】
+### 🚩实验1：第一个微信小程序 【[实验文档](https://oucai.club/classes/Mobile/lab01)】
 
 **截止时间：**  8月25日（周一）22:00 
 
