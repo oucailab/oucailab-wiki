@@ -51,13 +51,11 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 名字可以随便取，我这里习惯取小石头
 
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_131959_131.jpg"  width=150px /></p>
+<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_131959_131.jpg"  width=150px></p>
 
 ### 2-2 创建小程序
 
 <p align=center><img src=https://img-blog.csdnimg.cn/20200724143133917.png  width=500px></p>
-
-
 
  配置小程序项目，这里需要注意下，小程序官方最新的开发者工具有了变化，所以你创建项目时如果不长下面这样。可以跳过这个图片，看下面新版的
 
