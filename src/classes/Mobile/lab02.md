@@ -32,58 +32,11 @@ XXXXXXXXXX
 
 <br>
 
-## 1，官方开发者工具下载地址
+## 一、任务介绍
 
-https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
-建议大家下载最新的稳定版本
+本实验将以制作一个名片小程序为案例，快速学习了解小程序前端开发。
 
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_073109_738.jpg" width=500px></p>
 
-然后点击自己电脑对应系统的版本下载即可。至于安装很方便，只需要双击安装包，不停的点下一步即可，安装完成以后的官方开发者工具长这样。
-
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/image-20260817073433106.png" width=150px></p>
-
-## 2，创建属于自己的第一个小程序
-
-上面第二步已经安装好开发者工具了，接下来就来教大家如何创建一个最简单的小程序
-
-### 2-1 在桌面创建一个空白文件夹
-
-名字可以随便取，我这里习惯取小石头
-
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_131959_131.jpg"  width=150px></p>
-
-### 2-2 创建小程序
-
-<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_170602_031.jpg  width=500px></p>
-
- 配置小程序项目，这里需要注意下，小程序官方最新的开发者工具有了变化，所以你创建项目时如果不长下面这样。可以跳过这个图片，看下面新版的
-
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_170532_759.jpg" width=500px></p>
-
-下面这个是微信小程序23年的创建方式，也不是最新的。最新的可以跳过这个去看下一个图片
-
-<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_170621_733.jpg  width=500px></p>
-
-小程序最新版创建项目示例图。第五步很重要，一定要记得选择不使用模板。
-
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_170638_347.jpg" width=500px></p>
-
-配置好以后，点新建，即可创建属于自己的第一个小程序，然后创建会有一个过程，耐心等待即可。
-
-<p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_170654_193.jpg" width=500px></p>
-
-### 2-3 创建 hello world 小程序
-
-这个 hello world 小程序来自官方视频教程：
-
-https://developers.weixin.qq.com/community/business/doc/0008ae90008ff80bd48838c5e5600d
-
-点击按钮，可以改变页面里的文字。大家请自主看视频，完成这个小程序。
-
-<p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-08-17_165749_884.jpg width=500px></p>
-
-希望大家能够自己手打一下代码，实现这个小程序，体会下 wxml, wxss, js 三种文件各自有什么作用。
 
 ## 三、实验总结
 
