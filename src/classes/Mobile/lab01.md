@@ -32,7 +32,7 @@ XXXXXXXXXX
 
 <br>
 
-## 1，官方开发者工具下载地址
+一、官方开发者工具
 
 https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 建议大家下载最新的稳定版本
@@ -43,7 +43,7 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 <p align=center><img src="https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/image-20260817073433106.png" width=150px></p>
 
-## 2，创建属于自己的第一个小程序
+## 二、创建属于自己的第一个小程序
 
 上面第二步已经安装好开发者工具了，接下来就来教大家如何创建一个最简单的小程序
 
