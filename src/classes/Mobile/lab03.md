@@ -200,7 +200,7 @@ swiper image{
 
 这段代码是一个微信小程序的页面布局，包含登录页面和收藏列表。以下是详细描述：
 
-1. **登录页面 (myLogin)**:
+1. 登录页面 (myLogin):
 ```
 - 使用 `<view class="myLogin">` 创建一个登录页面的容器。
 - 使用 `<block wx:if="{{isLogin}}">`判断用户是否已登录。
@@ -208,7 +208,8 @@ swiper image{
 - 如果未登录，显示登录按钮，并绑定点击事件 `bindtap="getUserInfo"`，点击时会调用 `getUserInfo` 方法。
 ```
 <br>
-2. **收藏列表 (myFavorite)**:
+
+2. 收藏列表 (myFavorite):
 ```
 - 使用 `<view class="myFavorite">` 创建一个收藏列表的容器。
 - `<text>我的收藏（{{number}}）</text>` 显示收藏的数量。
@@ -220,54 +221,6 @@ swiper image{
 
 注意，`isLogin`、`src`、`nickName`、`number` 和 `newsList` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。                        
 
-**my.wxml**文件代码：
 
-```html
-<!-- 登陆页面 -->
-<view class="myLogin">
-  <block wx:if="{{isLogin}}">
-    <image src="{{src}}"></image>
-    <text>{{nickName}}</text>
-  </block>
-  <button wx:else bindtap="getUserInfo" >未登录，点此登录</button>
-</view>
-<!-- 收藏列表 -->
-<view class="myFavorite"> 
-  <text>我的收藏（{{number}}）</text>
-  <view class="news-list">
-    <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">
-      <image src="{{item.poster}}"></image>
-      <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
-    </view>
-  </view>
-</view>
-```
-
-**my.wxss**文件代码：
-
-```css
-/* 登陆页面 */
-.myLogin{
-  height: 400rpx;
-  background-color: #328EEB;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-.myLogin image{
-  height: 200rpx;
-  width:200rpx;
-  border-radius: 50%;
-}
-.myLogin text{
-  color: white;
-}
-/* 收藏列表 */
-.myFavorite{
-  padding: 20rpx;
-}
-```
-<br>
 
 
