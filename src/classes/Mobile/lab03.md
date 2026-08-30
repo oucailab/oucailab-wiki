@@ -198,27 +198,25 @@ swiper image{
 
 个人中心页包含两部分，登录页面和收藏列表，使用<view>容器。
 
-
-
 这段代码是一个微信小程序的页面布局，包含登录页面和收藏列表。以下是详细描述：
 
 1. **登录页面 (myLogin)**:
-
-   - 使用 `<view class="myLogin">` 创建一个登录页面的容器。
-
-   - 使用 `<block wx:if="{{isLogin}}">`判断用户是否已登录。
-   - 如果已登录，显示用户头像和昵称。
-   - 如果未登录，显示登录按钮，并绑定点击事件 `bindtap="getUserInfo"`，点击时会调用 `getUserInfo` 方法。
-
+```
+- 使用 `<view class="myLogin">` 创建一个登录页面的容器。
+- 使用 `<block wx:if="{{isLogin}}">`判断用户是否已登录。
+- 如果已登录，显示用户头像和昵称。
+- 如果未登录，显示登录按钮，并绑定点击事件 `bindtap="getUserInfo"`，点击时会调用 `getUserInfo` 方法。
+```
+<br>
 2. **收藏列表 (myFavorite)**:
-
-   - 使用 `<view class="myFavorite">` 创建一个收藏列表的容器。
-
-   - `<text>我的收藏（{{number}}）</text>` 显示收藏的数量。
-   - 使用` <view class="news-list">`创建一个新闻列表的容器。
-   - 使用 for循环`newsList` 数组，生成多个新闻项。
-   - 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
-   - 每个新闻项还包含一个 `<text>` 标签，显示新闻标题和添加日期，并绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+```
+- 使用 `<view class="myFavorite">` 创建一个收藏列表的容器。
+- `<text>我的收藏（{{number}}）</text>` 显示收藏的数量。
+- 使用` <view class="news-list">`创建一个新闻列表的容器。
+- 使用 for循环`newsList` 数组，生成多个新闻项。
+- 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
+- 每个新闻项还包含一个 `<text>` 标签，显示新闻标题和添加日期，并绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+```
 
 注意，`isLogin`、`src`、`nickName`、`number` 和 `newsList` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。                        
 
