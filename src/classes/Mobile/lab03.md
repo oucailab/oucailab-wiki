@@ -271,5 +271,25 @@ swiper image{
 ```
 <br>
 
+###  3.5 新闻页设计
 
+新闻页用于显示文章的详细信息，并提供收藏和取消收藏的功能。
+
+1. **容器 (container)**:
+   - 使用 `<view class="container">` 创建一个容器，包含文章的所有内容。
+2. **标题 (title)**:
+   - 使用 `<view class="title">{{article.title}}</view>` 显示文章的标题，`{{article.title}}` 是数据绑定，显示 `article` 对象中的 `title` 属性。
+3. **海报 (poster)**:
+   - 使用 `<view class="poster">` 创建一个容器，包含文章的海报图片。
+   - `<image src="{{article.poster}}"></image>` 显示文章的海报图片，`{{article.poster}}` 是数据绑定，显示 `article` 对象中的 `poster` 属性。
+4. **内容 (content)**:
+   - 使用 `<view class="content">` 创建一个容器，包含文章的内容。
+   - `<text>{{article.content}}</text>` 显示文章的内容，`{{article.content}}` 是数据绑定，显示 `article` 对象中的 `content` 属性。
+5. **添加日期 (add_date)**:
+   - 使用 `<view class="add_date">{{article.add_date}}</view>` 显示文章的添加日期，`{{article.add_date}}` 是数据绑定，显示 `article` 对象中的 `add_date` 属性。
+6. **收藏按钮**:
+   - 使用 `<button wx:if='{{isAdd}}' plain bindtap="cancelFavorites">❤️已收藏</button>` 判断是否已收藏，如果已收藏，显示“已收藏”按钮，并绑定点击事件 `bindtap="cancelFavorites"`，点击时会调用 `cancelFavorites` 方法。
+   - 使用 `<button wx:else plain bindtap="addFavorites">❤️未收藏</button>` 如果未收藏，显示“未收藏”按钮，并绑定点击事件 `bindtap="addFavorites"`，点击时会调用 `addFavorites` 方法。
+
+注意，`article` 和 `isAdd` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。
 
