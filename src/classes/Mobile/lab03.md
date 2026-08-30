@@ -56,7 +56,8 @@
 - 删除index.js中全部代码，输入关键词page，找到Page选项回车自动补全函数。
 - 删除app.wxss中全部代码。
 - 删除app.js中全部代码，输入关键词app，找到App选项回车自动补全函数。
-- 下载压缩包https://gaopursuit.oss-cn-beijing.aliyuncs.com/2022/demo4_file.zip，解压，将images和utils文件夹放在根目录下，分别用于存储图片素材和JS工具文件。
+- 下载压缩包https://gaopursuit.oss-cn-beijing.aliyuncs.com/2022/demo4_file.zip
+- 解压，将images和utils文件夹放在根目录下，分别用于存储图片素材和JS工具文件。
 
 <br>
 
