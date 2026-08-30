@@ -81,7 +81,7 @@
 
 在**app.json**中启用`tabBar`，同时引用`images`文件夹中的图片素材，在`tabBar`可以点击`首页`和`我的`图标，切换至对应的页面，同时改变显示的图标。
 
-```css
+```
  "tabBar": {
     "color": "#000000",
     "selectedColor": "#328EEB",
@@ -118,7 +118,6 @@
    - 每个 `<swiper-item>` 包含一个 `<image>` 标签，用于显示图片。
 
 2. **新闻列表 (news-list)**:
-
    - 使用 `<view class="news-list">` 创建一个新闻列表的容器。
    - 使用 `<view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">` 循环遍历 `newsList` 数组，生成多个新闻项。
    - 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
@@ -128,7 +127,7 @@
 
  **index.wxml**文件代码： 
 
-```html
+```
 <!-- 幻灯片 -->
 <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
   <view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
