@@ -453,3 +453,169 @@ var common = require('../../utils/common.js')
     
     },
 ```
+
+#### (2) 添加/取消新闻收藏
+
+在**detail.wxml**文件中的两个`<button>`组件作为添加/取消新闻收藏按钮，根据文章是否已被收藏，动态显示“已收藏”或“点击收藏”按钮，并处理相应的点击事件。
+
+```html
+  <button wx:if = '{{isAdd}}' plain bindtap="cancelFavorites">❤️已收藏</button>
+  <button wx:else plain bindtap = "addFavorites">❤️未收藏</button>
+```
+
+在**detail.js**中添加addFavorites和cancleFavorites事件函数，通过本地存储来保存和移除收藏的文章数据，并更新页面的收藏状态。用`wx.getStorageSync(id)`返回值判断是否已经收藏当前新闻。
+
+```javascript
+  //添加收藏
+  addFavorites:function(){
+    let article = this.data.article
+    wx.setStorageSync(article.id, article)
+    this.setData({
+      isAdd:true
+    })
+  },
+  //取消收藏
+  cancelFavorites:function(){
+    let article = this.data.article
+    wx.removeStorageSync(article.id)
+    this.setData({
+      isAdd:false
+    })
+  },
+ 
+```
+
+<br>
+
+###  4.3个人主页逻辑
+
+#### (1) 获取微信用户信息
+
+根据用户的登录状态动态显示用户信息或登录按钮。在**my.wxml**文件中，添加组件作为登录按钮，并使用wx:if和wx:else属性让未登录时只显示按钮，登陆后只显示头像和昵称。
+
+```
+<!-- 登陆页面 -->
+<view class="myLogin">
+  <block wx:if="{{isLogin}}">
+    <image src="{{src}}"></image>
+    <text>{{nickName}}</text>
+  </block>
+  <button wx:else bindtap="getUserInfo" >未登录，点此登录</button>
+</view>
+```
+
+在**my.js**文件中，通过调用微信小程序的 `getUserProfile` 方法获取用户的个人信息，并更新页面的数据属性以显示用户的头像和昵称。
+
+```javascript
+// 获取个人信息
+  getUserInfo(){
+    let that = this
+    wx.getUserProfile({
+      desc: 'desc',
+      success(res){
+          console.log(res.userInfo)//这里可以在控制台输出用户信息
+          res = res.userInfo
+            that.setData({
+                isLogin : true,
+                src : res.avatarUrl,//设置用户头像
+                nickName : res.nickName//设置用户昵称
+            })
+      }
+    })
+  },
+```
+
+
+#### (2) 获取收藏列表
+
+需要获取用户的收藏新闻列表并更新页面的数据属性，以便在页面上显示收藏的新闻和数量。
+
+在**my.js**中添加getMyFavorites函数，用于展示真正的新闻收藏列表。
+```
+1. **获取本地缓存信息**:
+   - `let info = wx.getStorageInfoSync()` 读取本地缓存信息。
+   - `let keys = info.keys` 获取所有缓存的键。
+   - `let num = keys.length` 获取收藏新闻的数量。
+2. **获取收藏的新闻列表**:
+   - 创建一个空数组 `let myList = []` 用于存储收藏的新闻。
+   - 使用for循环遍历所有键，获取对应的缓存数据并添加到myList数组中：
+     - `let obj = wx.getStorageSync(keys[i])` 获取每个键对应的缓存数据。
+     - `myList.push(obj)` 将数据添加到 `myList` 数组中。
+3. **更新页面数据**:
+   - 更新页面的数据属性：
+   - `newsList` 设置为收藏的新闻列表 `myList`。
+   - `number` 设置为收藏的新闻数量 `num`。
+```
+
+<br>
+
+**my.js**部分代码：
+
+```javascript
+  //更新number
+  getMyFavorites:function(){
+    let info = wx.getStorageInfoSync()  //读取本地缓存信息
+    let keys = info.keys    //获取全部key信息 
+    let num = keys.length   //获取收藏新闻数量
+    
+    let myList = [];
+    for( var i = 0; i < num; i++ ){
+      let obj = wx.getStorageSync(keys[i])
+      myList.push(obj)
+    }
+    //更新收藏列表
+    this.setData({
+      newsList:myList,
+      number:num
+    })
+  },
+```
+
+**my.js**文件中的onShow函数在页面显示时检查用户的登录状态，并在已登录的情况下获取用户的收藏列表。
+
+```javascript
+  onShow: function () {
+    if( this.data.isLogin ){
+      this.getMyFavorites()
+    }
+  },
+```
+
+
+#### (3) 浏览收藏的新闻
+
+在**my.wxml**文件中绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+
+```html
+<!-- 收藏列表 -->
+<view class="myFavorite"> 
+  <text>我的收藏（{{number}}）</text>
+  <view class="news-list">
+    <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">
+      <image src="{{item.poster}}"></image>
+      <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
+    </view>
+  </view>
+</view>
+```
+
+在**my.js**中编写gotoDetail函数实现页面跳转，使用 `wx.navigateTo` 方法进行页面跳转，并将新闻项的 `id` 作为参数传递给目标页面 `../detail/detail`。
+
+```javascript
+  goToDetail: function (e) {
+    //获取携带data-id的数据
+    let id = e.currentTarget.dataset.id
+    //console.log(e)
+    //携带新闻ID进行页面跳转
+    wx.navigateTo({
+      url: '../detail/detail?id=' + id,
+    })
+  },
+```
+
+
+
+
+
+
+
