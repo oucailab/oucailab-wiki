@@ -401,5 +401,55 @@ var common = require('../../utils/common.js')
 
   },
 ```
+<br>
 
+### 4.2新闻页逻辑
 
+#### (1) 显示对应新闻
+
+在新闻页加载时检查新闻是否已被收藏，并根据检查结果更新页面的数据属性，以便在页面上显示相应id的新闻内容和收藏状态。
+```
+- `onLoad: function (options)` 定义了页面加载时的回调函数。`options` 参数包含打开当前页面路径中的参数。
+- `let id = options.id` 获取传递过来的新闻 `id`。
+
+- `var newarticle = wx.getStorageSync(id)` 从本地存储中获取对应 `id` 的新闻数据。
+- 如果新闻已存在于收藏夹中 (newarticle != '')，则更新页面数据：`this.setData({ isAdd: true, article: newarticle })` 设置 `isAdd` 为 `true`，并将新闻数据 `newarticle` 设置到页面的数据属性 `article` 中。
+- 如果新闻不存在于收藏夹中，则从服务器获取新闻详情。
+- `let result = common.getNewsDetail(id)` 调用 `common` 模块中的 `getNewsDetail` 方法获取新闻详情。
+- 如果获取成功 (result.code == '200')，则更新页面数据：`this.setData({ article: result.news, isAdd: false })` 设置 `isAdd` 为 `false`，并将新闻数据 `result.news` 设置到页面的数据属性 `article` 中。
+```
+
+<br>
+
+**detail.js**文件部分代码：
+
+```javascript
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    let id = options.id
+
+    //检查当前新闻是否在收藏夹中
+    var newarticle = wx.getStorageSync(id)
+    //已存在
+    if( newarticle != '' ){
+      this.setData({
+        isAdd:true,
+        article:newarticle
+      })
+    }
+    //不存在
+    else{
+      let result = common.getNewsDetail(id)
+      //获取新闻内容
+      if( result.code == '200' ){
+        this.setData({
+          article:result.news,
+          isAdd:false
+        })
+      }
+    }
+    
+    },
+```
