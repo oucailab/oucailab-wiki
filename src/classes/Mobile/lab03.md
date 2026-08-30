@@ -119,8 +119,6 @@
 
 2. 新闻列表 (news-list):
    - 使用 `<view class="news-list">` 创建一个新闻列表的容器。
-   - 使用 `<view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">` 循环遍历 `newsList` 数组，生成多个新闻项。
-   - 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
-   - 每个新闻项还包含一个 `<text>` 标签，显示新闻标题和添加日期，并绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+
 
 
