@@ -101,5 +101,48 @@
     ]
   }
 ```
+<br>
 
+### 3.3首页设计
+
+首页包含两部分内容，分别是幻灯片滚动和新闻列表，使用<swiper>组件和<view>容器。
+
+1. **轮播组件 (swiper)**:
+
+   - 使用 `<swiper>` 标签创建一个轮播组件。
+   - `indicator-dots="true"` 表示显示轮播指示点。
+   - `autoplay="true"` 表示自动播放。
+   - `interval="5000"` 设置自动播放的间隔时间为 5000 毫秒（5 秒）。
+   - `duration="500"` 设置滑动动画的持续时间为 500 毫秒。
+   - 使用 `<view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">` 循环遍历 `swiperImg` 数组，生成多个 `<swiper-item>`。
+   - 每个 `<swiper-item>` 包含一个 `<image>` 标签，用于显示图片。
+
+2. **新闻列表 (news-list)**:
+
+   - 使用 `<view class="news-list">` 创建一个新闻列表的容器。
+   - 使用 `<view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">` 循环遍历 `newsList` 数组，生成多个新闻项。
+   - 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
+   - 每个新闻项还包含一个 `<text>` 标签，显示新闻标题和添加日期，并绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+
+注意，`swiperImg` 和 `newsList` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。
+
+ **index.wxml**文件代码： 
+
+```html
+<!-- 幻灯片 -->
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+  <view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </view>
+</swiper>
+<!-- 新闻列表 -->
+<view class="news-list">
+  <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}" >
+    <image src="{{item.poster}}" ></image>
+    <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
+  </view>
+</view>
+```
 
