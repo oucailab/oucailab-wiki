@@ -9,6 +9,7 @@
 > 1、提供 common.js、图片文件、以及 index 页面的代码，其它部分的代码大家自己完成，下载地址：https://gaopursuit.oss-cn-beijing.aliyuncs.com/2022/demo4_file.zip
 > 
 > 2、detail 页面的 wxss 文件中， .poster image 中的 width 设置为 100% 的话，图片总是无法显示。修改为 700rpx 就可以显示，我不清楚什么原因，大家如果知道为什么可以告诉我。
+> <br>
 > 
 >  **截止时间：9月1日（星期二） 22:00** 
 >
