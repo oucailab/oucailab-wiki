@@ -108,17 +108,23 @@
 首页包含两部分内容，分别是幻灯片滚动和新闻列表，使用`<swiper>`组件和`<view>`容器。
 
 1. 轮播组件 (swiper):
-
-   - 使用 `<swiper>` 标签创建一个轮播组件。
-   - `indicator-dots="true"` 表示显示轮播指示点。
-   - `autoplay="true"` 表示自动播放。
-   - `interval="5000"` 设置自动播放的间隔时间为 5000 毫秒（5 秒）。
-   - `duration="500"` 设置滑动动画的持续时间为 500 毫秒。
-   - 使用 `<view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">` 循环遍历 `swiperImg` 数组，生成多个 `<swiper-item>`。
-   - 每个 `<swiper-item>` 包含一个 `<image>` 标签，用于显示图片。
+```
+- 使用 `<swiper>` 标签创建一个轮播组件。
+- `indicator-dots="true"` 表示显示轮播指示点。
+- `autoplay="true"` 表示自动播放。
+- `interval="5000"` 设置自动播放的间隔时间为 5000 毫秒（5 秒）。
+- `duration="500"` 设置滑动动画的持续时间为 500 毫秒。
+- 使用 `<view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">` 循环遍历 `swiperImg` 数组，生成多个 `<swiper-item>`。
+- 每个 `<swiper-item>` 包含一个 `<image>` 标签，用于显示图片。
+```
+<br>
 
 2. 新闻列表 (news-list):
-   - 使用 `<view class="news-list">` 创建一个新闻列表的容器。
-
-
+```
+- 使用 `<view class="news-list">` 创建一个新闻列表的容器。
+- 使用 `<view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">` 循环遍历 `newsList` 数组，生成多个新闻项。
+- 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
+- 每个新闻项还包含一个 `<text>` 标签，显示新闻标题和添加日期，并绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+```
+<br>
 
