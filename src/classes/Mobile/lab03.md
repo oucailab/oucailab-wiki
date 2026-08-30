@@ -294,3 +294,54 @@ swiper image{
 
 注意，`article` 和 `isAdd` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。
 
+**detail.wxml**文件代码：
+
+```html
+<view class="container">
+  <view class="title">{{article.title}}</view>
+  <view class="poster">
+    <image src="{{article.poster}}"></image>
+  </view>
+  <view class="content">
+    <text>{{article.content}}</text>
+  </view>
+  <view class="add_date">{{article.add_date}}</view>
+  <button wx:if = '{{isAdd}}' plain bindtap="cancelFavorites">❤️已收藏</button>
+  <button wx:else plain bindtap = "addFavorites">❤️未收藏</button>
+</view>
+```
+
+**detail.wxss**文件代码：
+
+```css
+.container{
+  padding:15rpx;
+  /* text-align: center; */
+}
+.title{
+  font-size: 35rpx;
+  line-height: 35rpx;
+  text-align: center;
+}
+.poster image{
+  width: 100%;
+}
+.content text{
+  text-align: left;
+  font-size: 30rpx;
+  line-height: 35rpx;
+}
+.add_date{
+  font-size: 30rpx;
+  text-align: right;
+  line-height: 30rpx;
+  margin-right: 25rpx;
+  margin-top:20rpx;
+}
+button{
+  width: 250rpx;
+  height:100rpx;
+  margin:20rpx auto;
+}
+```
+
