@@ -345,3 +345,61 @@ button{
 }
 ```
 
+## 4. 逻辑实现
+
+在各个页面的js文件顶端引用js文件，作用为使用**common.js**文件
+
+```javascript
+var common = require('../../utils/common.js')
+```
+
+### 4.1 首页逻辑
+
+#### (1)新闻列表获取
+
+在首页加载时获取新闻列表数据，并将其设置到页面的数据属性中，以便在页面上显示新闻列表。新闻存储在newList变量中，因此在加载首页时（即启动onLoad函数）获取新闻，并赋值给newList。
+
+**index.js**文件部分代码：
+
+```javascript
+ /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    let list = common.getNewList()
+    this.setData({
+      newsList:list
+    })
+  },
+```
+
+#### (2)点击新闻跳转详情
+
+在**index.wxml**中绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
+
+```html
+<!-- 新闻列表 -->
+<view class="news-list">
+  <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}" >
+    <image src="{{item.poster}}" ></image>
+    <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
+  </view>
+</view>
+```
+
+在**index.js**中定义goToDetail点击事件函数：
+
+```javascript
+  goToDetail:function(e){
+    //获取携带data-id的数据
+    let id = e.currentTarget.dataset.id
+    //console.log(e)
+    //携带新闻ID进行页面跳转
+    wx.navigateTo({
+      url: '../detail/detail?id=' + id,
+    })
+
+  },
+```
+
+
