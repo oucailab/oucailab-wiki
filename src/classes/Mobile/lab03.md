@@ -117,13 +117,7 @@
    - 使用 `<view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">` 循环遍历 `swiperImg` 数组，生成多个 `<swiper-item>`。
    - 每个 `<swiper-item>` 包含一个 `<image>` 标签，用于显示图片。
 
-2. **新闻列表 (news-list)**:
-   - 使用 `<view class="news-list">` 创建一个新闻列表的容器。
-   - 使用 `<view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">` 循环遍历 `newsList` 数组，生成多个新闻项。
-   - 每个新闻项包含一个 `<image>` 标签，用于显示新闻的海报图片。
-   - 每个新闻项还包含一个 `<text>` 标签，显示新闻标题和添加日期，并绑定点击事件 `bindtap='goToDetail'`，点击时会调用 `goToDetail` 方法，并传递新闻项的 `id`。
 
-注意，`swiperImg` 和 `newsList` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。
 
 
 
