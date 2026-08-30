@@ -128,3 +128,67 @@
 ```
 <br>
 
+注意，`swiperImg` 和 `newsList` 是数据源，应该在页面的 JavaScript 文件中定义和赋值。
+
+**index.wxml**文件代码： 
+
+```
+<!-- 幻灯片 -->
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+  <view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </view>
+</swiper>
+<!-- 新闻列表 -->
+<view class="news-list">
+  <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}" >
+    <image src="{{item.poster}}" ></image>
+    <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
+  </view>
+</view>
+```
+
+
+
+     **index.wxss**文件代码：
+
+```css
+/* 幻灯片部分 */
+swiper{
+  height: 400rpx;
+  width:100%;
+}
+swiper image{
+  height: 100%;
+  width:100%;
+}
+```
+
+后续在个人中心页也会用到新闻列表，所以将这部分样式写在公共样式表**app.wxss**中重复利用，作为全局样式。
+
+**app.wxss**文件代码：
+
+```css
+/* 新闻列表 */
+.news-list{
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+.news-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom:1rpx solid black;
+}
+.news-item image{
+  height: 150rpx;
+  width: 230rpx;
+  margin: 10rpx;
+}
+.news-item text{
+  width:100%;
+  line-height: 60rpx;
+  font-size:40rpx;
+}
+```
