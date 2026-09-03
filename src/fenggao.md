@@ -28,7 +28,7 @@ Feel free to get in touch anytime for discussions.
 
 1. F. Gao, Z. Pan, H. Wang, R. Hua, J. Cao*, J. Dong, Q. Du, "Frequency and Edge-Guided Segment Anything Model for Remote Sensing Image Semantic Segmentation," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11658770)][[Code@Github](https://github.com/oucailab/FE-SAM)]
 
-1. C. Gong, F. Gao, J. Lin, J. Dong and Q. Du, "Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11483234)][[Code@Github](https://github.com/oucailab/RSCNet)]
+1. C. Gong, F. Gao*, J. Lin, J. Dong and Q. Du, "Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11483234)][[Code@Github](https://github.com/oucailab/RSCNet)]
 
 1. F. Gao, Z. Gong, W. Liu, Y. Gan*, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
 
@@ -38,20 +38,20 @@ Feel free to get in touch anytime for discussions.
 
 1. L. Qi, Y. Wu, F. Gao*, J. Dong*, Q. Du and X. Gao, "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11427018)]
 
-1. M. Wang, Y. Gan, F. Gao, J. Dong, "TPFMNet: A Probabilistic U-Net With Triple-Path Fusion Module for Spatially Adaptive Uncertainty in Year-Round Arctic Sea Ice Forecasting," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11586096)][[Code@Github](https://github.com/wmingqiang01/TPFMNet)]
+1. M. Wang, Y. Gan*, F. Gao, J. Dong*, "TPFMNet: A Probabilistic U-Net With Triple-Path Fusion Module for Spatially Adaptive Uncertainty in Year-Round Arctic Sea Ice Forecasting," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11586096)][[Code@Github](https://github.com/wmingqiang01/TPFMNet)]
 
-1. Y. Zhao, C. Gong, B. Huan, F. Gao, J. Dong, Q. Du, "Semantic-Guided Fusion Network for Multi-source Remote Sensing Image Classification," *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11664081)][[Code@Github](https://github.com/oucailab/SGFNet)]
+1. Y. Zhao, C. Gong, B. Huan, F. Gao*, J. Dong, Q. Du, "Semantic-Guided Fusion Network for Multi-source Remote Sensing Image Classification," *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11664081)][[Code@Github](https://github.com/oucailab/SGFNet)]
 
 1. T. Zhang, F. Gao*, L. Qi, J. Dong, Q. Du, "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11505914)][[Code@Github](https://github.com/oucailab/SDANet)]
 
-1. F. Gao, Z. Jin, Y. Gan, J. Dong, Q. Du, "Axial-Relation-Guided Fusion State-Space Model for Optical-Elevation Sensing Image Segmentation", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523510)][[Code@Github](https://github.com/oucailab/ARG-Mamba)]
+1. F. Gao, Z. Jin, Y. Gan*, J. Dong, Q. Du, "Axial-Relation-Guided Fusion State-Space Model for Optical-Elevation Sensing Image Segmentation", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523510)][[Code@Github](https://github.com/oucailab/ARG-Mamba)]
 
-1. L. Qi, X. Shi, Y. Sun, F. Gao, J. Dong, X. Gao, "DDM-Net: Dual-Domain Mamba Network for Hyperspectral Unmixing via Wavelet Transform", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11603392)]
+1. L. Qi, X. Shi, Y. Sun, F. Gao*, J. Dong*, X. Gao, "DDM-Net: Dual-Domain Mamba Network for Hyperspectral Unmixing via Wavelet Transform", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11603392)]
 
 
-1. B. Huan, C. Gong, D. Chen, F. Gao, J. Dong, Q. Du, "Synthetic Aperture Radar Image Change Detection Based on Global Dynamic Context-Aware Network", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523468)][[Code@Github](https://github.com/oucailab/GDNet)]
+1. B. Huan, C. Gong, D. Chen, F. Gao*, J. Dong, Q. Du, "Synthetic Aperture Radar Image Change Detection Based on Global Dynamic Context-Aware Network", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11523468)][[Code@Github](https://github.com/oucailab/GDNet)]
 
-1. J. Li, Y. Li, F. Gao, Y. Gan, J. Dong, "OceanGraph: Adaptive Mesh-Grid Coupling for Multiscale Ocean State Prediction", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11538329)]
+1. J. Li, Y. Li, F. Gao*, Y. Gan, J. Dong, "OceanGraph: Adaptive Mesh-Grid Coupling for Multiscale Ocean State Prediction", *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11538329)]
 
 1. J. Cao, G. An, F. Gao, K. Gu, Y. Liu, "UQ-Bench: A Benchmark for Evaluating Multimodal LLMs on Underwater Image Quality Assessment," *AAAI* 2026. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/37246)]
 
