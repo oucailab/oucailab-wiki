@@ -16,6 +16,8 @@
 
 1. L. Qi, Y. Wu, F. Gao*, J. Dong*, Q. Du and X. Gao, "MCDB-Net: Multiview Collaborative Dual-Branch Unmixing Network for Hyperspectral Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11427018)]
 
+1. M. Wang, Y. Gan, F. Gao, J. Dong, "TPFMNet: A Probabilistic U-Net With Triple-Path Fusion Module for Spatially Adaptive Uncertainty in Year-Round Arctic Sea Ice Forecasting," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11586096)][[Code@Github](https://github.com/wmingqiang01/TPFMNet)]
+
 1. Y. Zhao, C. Gong, B. Huan, F. Gao, J. Dong, Q. Du, "Semantic-Guided Fusion Network for Multi-source Remote Sensing Image Classification," *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11664081)][[Code@Github](https://github.com/oucailab/SGFNet)]
 
 1. T. Zhang, F. Gao*, L. Qi, J. Dong, Q. Du, "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution", *IEEE Geoscience and Remote Sensing Letters*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11505914)][[Code@Github](https://github.com/oucailab/SDANet)]
