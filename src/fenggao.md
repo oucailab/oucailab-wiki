@@ -24,8 +24,6 @@ Feel free to get in touch anytime for discussions.
 
 ## 🎯 Selected Publications 【[More](https://scholar.google.com.hk/citations?user=k91CLXQAAAAJ)】
 
-### **2026**
-
 ### 2026
 
 1. F. Gao, Z. Pan, H. Wang, R. Hua, J. Cao*, J. Dong, Q. Du, "Frequency and Edge-Guided Segment Anything Model for Remote Sensing Image Semantic Segmentation," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11658770)][[Code@Github](https://github.com/oucailab/FE-SAM)]
@@ -65,7 +63,7 @@ Feel free to get in touch anytime for discussions.
 
 1. 潘子哲，高峰*，宫传政，甘言海，董军宇，选择注意力与方向特征增强的遥感图像语义分割，中国图象图形学报，2026.
 
-### **2025**
+### 2025
 
 1. W. Chen, **F. Gao***, Y. Gan, J. Cao, J. Dong* and Q. Du, "Wavelet-Assisted Mamba for Satellite-Derived Sea Surface Temperature Super-Resolution," IEEE Transactions on Geoscience and Remote Sensing, 2025.  [[PDF](https://ieeexplore.ieee.org/document/11187314)] [[Code@Github](https://github.com/oucailab/WMSR)]
 1. Y. Liu, Y. Ju, Y. Rao, H. Fan, J. Dong*, **F. Gao***, Q. Du, "Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues," *IEEE Transactions on Geoscience and Remote Sensing*, 2025. [[PDF](https://ieeexplore.ieee.org/document/11029045)]
@@ -83,7 +81,7 @@ Feel free to get in touch anytime for discussions.
 1. 王嘉毅，**高峰**，张天戈，甘言海，基于小波变换平行注意力的多源遥感图像分类，北京航空航天大学学报，2025. 
 
 
-### **2024**
+### 2024
 1. Y. Zhao, T. Celik, N. Liu, **F. Gao** and H. -C. Li*, "SSLChange: A Self-supervised Change Detection Framework Based on Domain Adaptation," *IEEE Transactions on Geoscience and Remote Sensing*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10741199>)][[Code@Github](https://github.com/MarsZhaoYT/SSLChange)]
 1. Y. Meng, **F. Gao\***, E. Rigall, J. Dong* and Q. Du, "Physical Knowledge Analytic Framework for Sea Surface Temperature Prediction,"  *IEEE Transactions on Geoscience and Remote Sensing*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10699380>)]
 1. L. Hu, S. Li, J. Ruan, **F. Gao\***, "SemiPSENet: A Novel Semi-supervised Change Detection Network for Remote Sensing Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2024. [[PDF](<https://ieeexplore.ieee.org/document/10613832>)]
@@ -99,7 +97,7 @@ Feel free to get in touch anytime for discussions.
 1. 程陆瑶, 林俊彦, **高峰\***, 周小伟, "基于双分支Transformer的高光谱和LiDAR数据分类方法"，北京航空航天大学学报，2024.
 
 
-### **2023**
+### Former
 1. J. Lin, **F. Gao***, X. Shi, J. Dong, Q. Du, "SS-MAE: Spatial-Spectral Masked Auto-Encoder for Multi-Source Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2023. [[PDF](<https://arxiv.org/abs/2311.04442>)][[Code@Github](<https://github.com/summitgao/SS-MAE>)]
 1. Y. Meng, E. Rigall, X. Chen, **F. Gao***, J. Dong* and S. Chen, "Physics-Guided Generative Adversarial Networks for Sea Subsurface Temperature Prediction," *IEEE Transactions on Neural Networks and Learning Systems*, 2023. [[PDF](<https://arxiv.org/abs/2111.03064>)]
 1. Y. Meng, **F. Gao\***, E. Rigall, R. Dong, J. Dong\* and Q. Du, "Physical Knowledge-Enhanced Deep Neural Network for Sea Surface Temperature Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2023. [[PDF](<https://ieeexplore.ieee.org/document/10068549>)]
@@ -110,7 +108,6 @@ Feel free to get in touch anytime for discussions.
 1. H. Zhang, Z. Lin, **F. Gao***, J. Dong, Q. Du, H. -C. Li, "Convolution and Attention Mixer for Synthetic Aperture Radar Image Change Detection," *IEEE Geoscience and Remote Sensing Letters*, vol. 20, pp. 1-5, 2023. [[PDF](<https://ieeexplore.ieee.org/document/10262014>)] [[Code@Github](<https://github.com/summitgao/CAMixer>)]
 1. 王梓懿，尹嘉豪，黄博斌，**高峰**，"基于旋转目标感知网络的SAR船舶检测方法"，北京航空航天大学学报，2023. 
 
-### **Former**
 1. Y. Gan, **F. Gao**, J. Dong* and S. Chen, "Arbitrary-Scale Texture Generation From Coarse-Grained Control," *IEEE Transactions on Image Processing*, 2022. \[[PDF](https://ieeexplore.ieee.org/document/9875113)] 
 1. L. Qi, **F. Gao\***, J. Dong\*, X. Gao and Q. Du, "SSCU-Net: Spatial–Spectral Collaborative Unmixing Network for Hyperspectral Images," *IEEE Transactions on Geoscience and Remote Sensing*, 2022. \[[PDF](https://arxiv.org/abs/2203.06375)] 
 1. D. Meng, **F. Gao\***, J. Dong, Q. Du and H. -C. Li, "Synthetic Aperture Radar Image Change Detection via Layer Attention-Based Noise-Tolerant Network," *IEEE Geoscience and Remote Sensing Letters*, 2022. \[[PDF](https://ieeexplore.ieee.org/document/9868351)]\[[Code@Github](https://github.com/summitgao/LANTNet)] 
