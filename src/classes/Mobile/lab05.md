@@ -16,7 +16,7 @@
 
 
 
-### 2、开发环境搭建
+### 二、开发环境搭建
 
 #### 2.1 安装DevEco Studio
 
@@ -95,9 +95,16 @@ DevEco Studio安装完成并创建模拟器后，可以通过运行Hello World�
 <p align=center><img src=https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-09-06_234406_965.jpg width=300px></p>
 
 
-### 五、实验总结
+### 三、实现简易计算器
 
-期待看到大家完成海大主题的新闻网，期待大家发挥创意，做出带有个人想法与风格的作品。
+教程链接：https://developer.huawei.com/consumer/cn/doc/architecture-guides/calculator-0000002298744774
+
+按照步骤实现简易计算器，并进行个性化创新开发。
+
+
+### 四、实验总结
+
+期待大家发挥创意，做出带有个人想法与风格的计算器作品。
 
 
 
