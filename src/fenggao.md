@@ -13,7 +13,7 @@ E-mail: <gaofeng@ouc.edu.cn>
 [Weibo](https://www.weibo.com/summitgao) / [Google Scholar](https://scholar.google.com/citations?user=k91CLXQAAAAJ) / [Github](https://github.com/gaofront) / [Zhihu](https://www.zhihu.com/people/gaopursuit) / [海大主页](https://it.ouc.edu.cn/gf)
 
 
-***[Updated by 2026/06]***
+***[Updated by 2026/10]***
 
 🎈 Outstanding students are welcome to join our team 😁 We do not enforce daily attendance check-ins, and the lab boasts a vibrant academic atmosphere. We fully support students to participate in academic events and science & innovation competitions. The preferred contact method is via 📧 Email: gaofeng@ouc.edu.cn, and I will normally reply within 12 hours.
 
@@ -28,9 +28,9 @@ Feel free to get in touch anytime for discussions.
 
 1. F. Gao, Z. Pan, H. Wang, R. Hua, J. Cao*, J. Dong, Q. Du, "Frequency and Edge-Guided Segment Anything Model for Remote Sensing Image Semantic Segmentation," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11658770)][[Code@Github](https://github.com/oucailab/FE-SAM)]
 
-1. C. Gong, F. Gao*, J. Lin, J. Dong and Q. Du, "Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11483234)][[Code@Github](https://github.com/oucailab/RSCNet)]
-
 1. F. Gao, Z. Gong, W. Liu, Y. Gan*, Z. Zheng, J. Dong, Q. Du, "Frequency-Enhanced Hilbert Scanning Mamba for Short-Term Arctic Sea Ice Concentration Prediction," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11397070)][[Code@Github](https://github.com/oucailab/FH-Mamba)]
+
+1. C. Gong, F. Gao*, J. Lin, J. Dong and Q. Du, "Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification," *IEEE Transactions on Geoscience and Remote Sensing*, 2026. [[PDF](https://ieeexplore.ieee.org/document/11483234)][[Code@Github](https://github.com/oucailab/RSCNet)]
 
 1. B. Lin, F. Gao*, Y. Yu, J. Dong and Q. Du, "Downstream Task-Inspired Underwater Image Enhancement: A Perception-Aware Study From Dataset Construction to Network Design," *IEEE Transactions on Image Processing*, vol. 35, pp. 2873-2888, 2026. [[PDF](https://ieeexplore.ieee.org/document/11433506)][[Code@Github](https://github.com/oucailab/DTIUIE)]
 
