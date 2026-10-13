@@ -1,6 +1,4 @@
-# 学术论文与专利
-
-## 📚 代表性学术论文
+# 📚 Representative Publication
 
 ### 2026
 
