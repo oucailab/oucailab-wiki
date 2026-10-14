@@ -15,7 +15,7 @@
 
 我们会有4~5周的时间学习深度学习的入门知识，为后面的小组项目打好基础。
 
-本周视频为“深度学习概述”，下载链接为：https://www.jianguoyun.com/p/Da26fK0QrKKIBhi_0okGIAA
+本周视频为“深度学习概述”，下载链接为：https://pan.quark.cn/s/cf12d9b2533a
 
 
 
