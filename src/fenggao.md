@@ -1,6 +1,10 @@
 
 # Feng Gao (高峰)
 
+😊 中国海洋大学副教授，主要研究领域为遥感图像智能处理与人工智能海洋学。在 IEEE TIP、TNNLS、TCYB、TGRS、TIM等期刊和会议发表学术论文100余篇（其中10篇论文入选ESI高引论文），谷歌学术论文引用4000余次，入选斯坦福大学全球前2%顶尖科学家榜单（年度）。主持国家自然科学基金面上基金、青年基金，新一代人工智能国家科技重大专项子课题，山东省重点研发计划，中国博士后科学基金特别资助等项目。担任Journal of Applied Remote Sensing 期刊编委，成果获得山东省教学成果一等奖、山东省自然科学二等奖、青岛市科技进步二等奖。欢迎优秀的同学加入 AI前沿理论组 。课题组长期招收学有余力的一、二年级本科生提前进入实验室开展学术研究工作。本团队不打卡，弹性出勤，氛围活跃，结果导向。完成科研任务的学生可实习，欢迎各位优秀的同学咨询，联系的最佳方式是 EMAIL（gaofeng@ouc.edu.cn），通常会在12小时内回复。
+
+📜 I have published more than 100 academic papers in journals and conferences including IEEE TIP, TNNLS, TCYB, TGRS, TIM, GRSL, JSTARS and JARS. I also serve as an Editorial Board Member of the Journal of Applied Remote Sensing.
+
 😊 Hi, I'm Gao Feng, an Associate Professor at Ocean University of China. I am a Senior Member of the China Computer Federation (CCF), an Outstanding AC of CCF YOCSEF Qingdao, and the Faculty Advisor of the CCF Student Branch at Ocean University of China.
 
 🎯 My primary research interests lie in hyperspectral image processing and artificial intelligence oceanography. My research covers theories and technologies in artificial intelligence, deep learning, computer vision and related fields, with a particular focus on efficient intelligent interpretation of hyperspectral imagery and marine remote sensing data.
