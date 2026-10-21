@@ -30,11 +30,11 @@
 
 ## 1.4 SENet & CBAM
 
-阅读Momenta公司的《ImageNet2017冠军模型-SENet详解》（[访问链接](https://cloud.tencent.com/developer/article/1052599)），掌握SENet的基本原理。同时，学习SENet的示例代码（[实验指导链接](https://gitee.com/gaopursuit/ouc-dl/blob/master/lab/week04_SENet_CIFAR10.ipynb)），数据加载和训练的代码可以参考ResNet（[访问链接](https://gitee.com/gaopursuit/ouc-dl/blob/master/lab/week04_Resnet_CIFAR10.ipynb)）
+阅读Momenta公司的《ImageNet2017冠军模型-SENet详解》（[访问链接](https://cloud.tencent.com/developer/article/1052599)），掌握SENet的基本原理。同时，阅读使用ResNet进行CIFAR10分类的代码（[访问链接](https://oucaigroup.feishu.cn/wiki/G6KdwS2hnixvXUkaIHgcucbsn3b)），将SE模块加入到这个代码中，观察分类性能会不会提升。
 
 # 2、代码作业
 
-阅读论⽂《HybridSN: Exploring 3-D–2-DCNN Feature Hierarchy for Hyperspectral Image Classification》，思考3D卷积和2D卷积的区别。并阅读HybridSN的代码 ([实验指导链接](https://gitee.com/gaopursuit/ouc-dl/blob/master/lab/week04_HybridSN_GRSL2021.ipynb)) 
+阅读论⽂《HybridSN: Exploring 3-D–2-DCNN Feature Hierarchy for Hyperspectral Image Classification》，思考3D卷积和2D卷积的区别。并阅读HybridSN的代码 ([实验指导链接](https://oucaigroup.feishu.cn/wiki/T1aGwZI78i5zugkzkBVccveYnLc)) 
 
 把代码敲⼊ Colab 运⾏，⽹络部分需要⾃⼰完成。 
 
