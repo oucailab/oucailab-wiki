@@ -1,11 +1,11 @@
 # 实验4：MobileNet & ShuffleNet
 
 > 学习要求：
+> 
+> - 轻量化卷积网络
+> - 典型的轻量化⽹络结构：MobileNet and ShuffleNet
 >
-> - CNN的基本结构：卷积、池化、全连接
-> - 典型的⽹络结构：AlexNet、VGG、GoogleNet、ResNet
->
-> **截止时间：11月2日（星期六） 22:00** 
+> **截止时间：10月27日（星期二） 22:00** 
 >
 > 大家务必注意时间，超出时间要扣分！
 
