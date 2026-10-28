@@ -25,7 +25,7 @@
 
 ### 1.3 视觉Transformer综述
 
-华为韩凯的综述，内容非常好，了解即可【[视频链接](https://www.bilibili.com/video/BV1cr4y1m7tS)】
+华为韩凯的综述，内容非常好，简单看看，了解即可【[视频链接](https://www.bilibili.com/video/BV1cr4y1m7tS)】
 
 ## 2、思考题
 
