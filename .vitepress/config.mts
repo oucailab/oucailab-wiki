@@ -63,7 +63,7 @@ export default defineConfig({
       { 
         text: "❇️ Others",  
         items: [  
-          {text:"How to Research", link: "/classes/paperwriting"},
+          {text:"Sprouts", link: "/classes/sprouts"},
           {text:"Guidance on Scientific Plotting", link:"/research/picture"},
           {text:"Thesis Proposal", link:"/research/proposal"},
           {text:"Dissertation Writing", link:"/research/thesis_writing"},
