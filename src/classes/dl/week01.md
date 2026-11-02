@@ -10,9 +10,9 @@
 
 ## 引言
 
-本周学习视频为“01-深度学习概述”，下载链接为：https://www.jianguoyun.com/p/Dde3HS8QrKKIBhi2xpEGIAA
+视频资料：在 **网易云课堂** ，深度学习：算法到实战。访问链接：https://study.163.com/course/courseMain.htm?courseId=1006498024 ，目前价格只要 0.1 元，非常划算。
 
-
+本周学习视频为章节1里的“绪论”与“神经网络基础”， 不过 “外一章：问题回答和beyond深度学习”不需要看。
 
 <br>
 
