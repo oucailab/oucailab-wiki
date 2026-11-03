@@ -774,9 +774,11 @@ Sequential(
 
 如果不明白为什么，讨论课老师会再次讲解。
 
-<br><br><br>
+<br><br><br><br>
 
-## 5、理论讲解
+## 5、理论讲解PPT （老师强化讲解时使用）
+
+### 5.1 人工智能基础
 
 ![ScreenShot_2026-11-03_071053_034](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-11-03_071053_034.jpg)
 
