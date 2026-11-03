@@ -863,6 +863,7 @@ Sequential(
 
 ![ScreenShot_2026-11-03_200830_383](https://gaopursuit.oss-cn-beijing.aliyuncs.com/img/2026/ScreenShot_2026-11-03_200830_383.jpg)
 
+通过螺旋分类，展示激活函数，Softmax等。
 
 
 
