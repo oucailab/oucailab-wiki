@@ -58,8 +58,8 @@
 | 实验3  | 卷积神经网络               | 【 [链接](https://oucai.club/classes/se/lab03) 】|
 | 实验4  | MobileNet & ShuffleNet    | 【 [链接](https://oucai.club/classes/se/lab04) 】|
 | 实验5  | ViT & Swin Transformer | 【 [链接](https://oucai.club/classes/se/lab05) 】|
-| 实验6  |【Alpha 1/3】项目Alpha冲刺  | 【 [链接](https://oucai.club/classes/se/lab06) 】|
-| 实验7  | 【Alpha 2/3】项目Alpha冲刺 | 要求同上，第12周课上汇报                          |
+| 实验6  |【Alpha 1/3】项目Alpha冲刺  | |
+| 实验7  | 【Alpha 2/3】项目Alpha冲刺 | |
 
 <br>
 
