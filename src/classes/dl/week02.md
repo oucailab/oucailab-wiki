@@ -4,7 +4,7 @@
 
 ## 引言
 
-本周学习视频为“02-卷积神经网络”，下载链接为：https://www.jianguoyun.com/p/Dde3HS8QrKKIBhi2xpEGIAA
+本周学习视频为“02-卷积神经网络”
 
 
 <br>
